@@ -1,0 +1,1 @@
+function doActionsForSingle_echangeapplicatif() {}

@@ -1,0 +1,10 @@
+/*
+echangeapplicatif
+ .echangeapplicatif : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .acteurexterne_echangeapplicatiftoassociationacteurexterneechangeapplicatifemettoacteurexterne : name,  object_id, link_id, uuid
+  .acteurexterne_echangeapplicatiftoassociationacteurexterneechangeapplicatifreçoittoacteurexterne : name,  object_id, link_id, uuid
+  .composantapplicatif_echangeapplicatiftoassociation_application_a_echangeapplicatif_emettocomposantapplicatif : name,  object_id, link_id, uuid
+  .composantapplicatif_echangeapplicatiftoassociation_application_a_echangeapplicatif_reçoittocomposantapplicatif : name,  object_id, link_id, uuid
+  .familledinformations_echangeapplicatiftoassociation_echangeapplicatif_to_familledinformationtofamilledinformations : name,  object_id, link_id, uuid
+*/

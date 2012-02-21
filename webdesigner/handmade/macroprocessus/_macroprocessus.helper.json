@@ -1,0 +1,6 @@
+/*
+macroprocessus
+ .macroprocessus : type, description, name, nomderemplacement, whoowns,  object_id, link_id, uuid
+  .entreprise : type, description, name,  object_id, link_id, uuid
+  .processus : type, description, name, nomderemplacement,  object_id, link_id, uuid
+*/

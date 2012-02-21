@@ -1,0 +1,5 @@
+/*
+activité
+ .activité : type, description, name, nomderemplacement,  object_id, link_id, uuid
+  .fonction_activitétoassociationactivitéfonctionordonnetofonction : name,  object_id, link_id, uuid
+*/

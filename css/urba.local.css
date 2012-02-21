@@ -1,0 +1,31 @@
+#global_header #header {
+
+
+	background: #f2c077 url('http://www.siege.courrier.intra.laposte.fr/site/dsi_c/files/dsi_c/bandeau_dsi.jpg') no-repeat 0 0 !important;
+}
+#global_header #navigation li {
+	background: transparent url('http://www.siege.courrier.intra.laposte.fr/sites/all/themes/theme_dsi/images/bg_bouton_menu_5.gif') no-repeat top left;
+}
+#global_header #navigation li a {
+	background: transparent url('http://www.siege.courrier.intra.laposte.fr//sites/all/themes/theme_dsi/images/bg_bouton_menu_5.gif') no-repeat top right;
+}
+#global_header #navigation li a {
+	color: #ffffff;
+}
+/*
+.main_container_frame{
+width:95%;
+}
+
+#sidebar-left{
+width:15%;
+}
+
+body.sidebar-left #center{
+width:78%;
+}
+
+#sidebar-left .block-menu_block{
+width:165px;
+}*/
+

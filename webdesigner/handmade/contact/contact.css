@@ -1,0 +1,28 @@
+li.acteur{
+	color:#0F5390 !important;
+}
+
+li.autre{
+	display:none;
+}
+
+p {
+	color: #000000;
+    font-weight:lighter;
+    line-height:0em;
+    margin: 0;
+    padding: 15px 0;
+   	font-family: 'Trebuchet MS';    
+}
+
+p.bold{
+	font-weight:bold;
+}
+
+li.contact{
+	
+list-style-image: url("../../../images/level1_list.png")!important;
+background:none;
+}
+
+

@@ -1,0 +1,22 @@
+
+
+.node li.domaine_fonctionnel{
+         
+
+    padding:0px !important;
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+    width:100%;
+    height:100%;    
+    margin:8px;
+    font-size:0.9em;
+   
+    background:none;
+
+}
+
+
+ul.domaine_fonctionnel1{
+	border:1px solid rgb(183,223,45); 
+}

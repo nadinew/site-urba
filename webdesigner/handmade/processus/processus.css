@@ -1,0 +1,71 @@
+.description {
+	color:black!important;
+}
+
+li.activ{
+	list-style-image:url('../../../images/level1_list.png');
+	background : none;
+	margin:5px;
+	padding:5px;
+	
+}
+
+ul.activ{
+	list-style-image:url('../../../images/level1_list.png');
+	background :none;
+	margin:5px;
+	padding:5px;
+}
+
+
+div.app{	
+	cursor:default!important;
+}
+
+
+ul.title-h3{
+	color: #034695;
+    font-size: 1.1667em;
+    line-height: 1.1em;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold;
+	font-family: 'Trebuchet MS';    
+}
+
+
+
+li.pos2,ul.pos2{
+    text-align:left;
+    display:inline-block;
+     overflow:hidde;
+     list-style:none!important;
+    vertical-align:top;
+    width:80%;
+    margin:5px;
+    border:1px solid rgb(183,223,45); 
+    padding:20px;
+    background:none;
+
+}
+
+.box-title{
+/*
+	text-align:center;
+	margin:-5px;
+	margin-bottom:20px;
+	padding:5px;	
+*/
+	text-align:left;
+	margin:0px;
+	border-bottom:1px dotted #EEE;
+	color:black;
+
+}
+div.titleHelp{
+	float:right;
+	font-size:10px;
+	right:0px;
+/* 	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);	 */
+}

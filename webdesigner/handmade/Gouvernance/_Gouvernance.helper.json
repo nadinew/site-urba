@@ -1,0 +1,6 @@
+/*
+Gouvernance
+ .gouvernance : type, description, gouvernance, name, nomderemplacement,  object_id, link_id, uuid
+  .macroprocessus : type, description, name, nomderemplacement,  object_id, link_id, uuid
+   .processus : type, description, name, nomderemplacement,  object_id, link_id, uuid
+*/

@@ -1,0 +1,6 @@
+/*
+rôle
+ .rôle : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .tâches_rôletoassociationrôletâchesexécutetotâches : name,  object_id, link_id, uuid
+*/

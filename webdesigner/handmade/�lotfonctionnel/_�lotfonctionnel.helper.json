@@ -1,0 +1,8 @@
+/*
+îlotfonctionnel
+ .îlotfonctionnel : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .quartierfonctionnel_îlotfonctionneltoassociationquartierfonctionnelîlotfonctionnelsecomposedetoquartierfonctionnel : name,  object_id, link_id, uuid
+  .composantapplicatif_îlotfonctionneltoassociation_application_a_ilotfonctionnel_automatiquetocomposantapplicatif : name,  object_id, link_id, uuid
+  .fonction_îlotfonctionneltoassociationîlotfonctionnelfonctionsecomposedetofonction : name,  object_id, link_id, uuid
+*/

@@ -1,0 +1,7 @@
+/*
+Vision_appli-process
+ .activites : type, description, name, nomderemplacement,  object_id, link_id, uuid
+  .fonction : description, name, nomderemplacement,  object_id, link_id, uuid
+   .appli : type, code, description, horsdsi, name,  object_id, link_id, uuid
+    .quartier : name, nomderemplacement,  object_id, link_id, uuid
+*/

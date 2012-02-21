@@ -1,0 +1,7 @@
+/*
+systèmeinformatique
+ .systèmeinformatique : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .fonction_systèmeinformatiquetoassociationfonctionsystèmeinformatiqueestmiseenoeuvrepartofonction : name,  object_id, link_id, uuid
+  .systèmeapplicatif_systèmeinformatiquetoassociationsystèmeinformatiquesystèmeapplicatifsecomposedetosystèmeapplicatif : name,  object_id, link_id, uuid
+*/

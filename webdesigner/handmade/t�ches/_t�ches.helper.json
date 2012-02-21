@@ -1,0 +1,10 @@
+/*
+tâches
+ .tâches : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .procédure_tâchestoassociationprocéduretâcheordonnetoprocédure : name,  object_id, link_id, uuid
+  .rôle_tâchestoassociationrôletâchesexécutetorôle : name,  object_id, link_id, uuid
+  .evènementrésultat_tâchestoassociationtâchesevènementdéclenchetoevènementrésultat : name,  object_id, link_id, uuid
+  .evènementrésultat_tâchestoassociationtâchesevênementrésultatreçoittoevènementrésultat : name,  object_id, link_id, uuid
+  .ressource_tâchestoassociationtâchesressourcesutilisetoressource : name,  object_id, link_id, uuid
+*/

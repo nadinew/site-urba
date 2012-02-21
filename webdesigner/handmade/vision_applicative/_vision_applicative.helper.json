@@ -1,0 +1,5 @@
+/*
+vision_applicative
+ .sa : name,  object_id, link_id, uuid
+  .app : type, description, horsdsi, name,  object_id, link_id, uuid
+*/

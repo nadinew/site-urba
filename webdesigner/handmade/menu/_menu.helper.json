@@ -1,0 +1,5 @@
+/*
+menu
+ .domaine_metier : gouvernance, name, nomderemplacement,  object_id, link_id, uuid
+ .domaine_fonctionnel : name, nomderemplacement,  object_id, link_id, uuid
+*/

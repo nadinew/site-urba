@@ -1,0 +1,8 @@
+/*
+domainefonctionnel
+ .domainefonctionnel : name,  object_id, link_id, uuid
+  .zone : name, nomderemplacement,  object_id, link_id, uuid
+   .quartier : name, nomderemplacement,  object_id, link_id, uuid
+    .ilot : name, nomderemplacement,  object_id, link_id, uuid
+     .fonction : name, nomderemplacement,  object_id, link_id, uuid
+*/

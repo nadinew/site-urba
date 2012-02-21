@@ -1,0 +1,6 @@
+/*
+zonefonctionnelle
+ .zonefonctionnelle : name, nomderemplacement,  object_id, link_id, uuid
+  .quartierfonctionnel_zonefonctionnelletoassociationzonefonctionnellequartierfonctionnelsecomposedetoquartierfonctionnel : name, nomderemplacement,  object_id, link_id, uuid
+   .ilot : name, nomderemplacement,  object_id, link_id, uuid
+*/

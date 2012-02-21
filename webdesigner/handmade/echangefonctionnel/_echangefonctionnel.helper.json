@@ -1,0 +1,8 @@
+/*
+echangefonctionnel
+ .echangefonctionnel : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .familledinformations_echangefonctionneltoassociationechangefonctionnelfamilledinformationvéhiculetofamilledinformations : name,  object_id, link_id, uuid
+  .fonction_echangefonctionneltoassociationechangefonctionnelfonctionestreçupartofonction : name,  object_id, link_id, uuid
+  .fonction_echangefonctionneltoassociationfonctionechangefonctionnelemettofonction : name,  object_id, link_id, uuid
+*/

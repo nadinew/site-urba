@@ -1,0 +1,5 @@
+/*
+contact
+ .contact : type, courriel, name, périmètre, téléphone,  object_id, link_id, uuid
+  .dom : name,  object_id, link_id, uuid
+*/

@@ -1,0 +1,5 @@
+/*
+vision_metier
+ .domaine_metier : gouvernance, name, nomderemplacement,  object_id, link_id, uuid
+  .macroprocessus : type, description, name, nomderemplacement,  object_id, link_id, uuid
+*/

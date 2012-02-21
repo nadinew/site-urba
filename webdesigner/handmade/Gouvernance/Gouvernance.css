@@ -1,0 +1,23 @@
+li.macroprocessus{
+	padding:20px;
+	margin-bottom:10px;
+}
+
+div.macroprocessus{
+	text-align: center;
+
+}
+
+
+li.processus{
+	display:inline-block;
+	vertical-align:top;
+	width:140px;
+	text-align:center;
+/*	border:1px solid blue;*/
+	margin:4px;
+	height:72px;
+	font-size:0.9em;
+	background-size:140px 66px;	
+	padding:0px;	
+}

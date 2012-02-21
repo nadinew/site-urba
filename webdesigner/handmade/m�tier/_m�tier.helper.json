@@ -1,0 +1,9 @@
+/*
+métier
+ .métier : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .activité_métiertoassociationactivitémétierestsouslaresponsabilitédetoactivité : name,  object_id, link_id, uuid
+  .composantapplicatif_métiertoassociation_metier_a_applicationtocomposantapplicatif : name,  object_id, link_id, uuid
+  .métier_métiertoassociation_metier_a_metierforwardtométier : name,  object_id, link_id, uuid
+  .métier_métiertoassociation_metier_a_metierreversetométier : name,  object_id, link_id, uuid
+*/

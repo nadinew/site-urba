@@ -1,0 +1,78 @@
+
+searchEngine.searchItemsRequirements =  [
+   {'id':'domaine_fonctionnel', 'properties' : ['type', 'name', 'nomderemplacement'], children:[
+      {'id':'sa', 'properties' : ['type', 'name'], children:[
+         {'id':'app', 'properties' : ['type', 'horsdsi', 'name'], children:[]}      
+      ]}   
+   ]}];
+searchEngine.searchFunction = search_drawItems_vision_applicative;  
+
+function drawItems_vision_applicative(all_items, searching){
+  
+
+  var pageName = "Vision Applicative" ;
+  document.title = pageName;
+  
+
+
+  createPage('../', pageName, function(){
+    
+    var menu = 'menu_vision_applicative';
+    openMenu(menu);
+    activeSubMenu(menu + "_vision_applicative" );
+         var bc = "<a href='" + SITE_HOST + "main/home.html'>Le référentiel du SI</a>";
+        bc += ' > ' + "Vision Applicative";
+    updateBreadCrumbPage(bc); });
+var output = Array();
+    output.push('toto');
+ 
+  //appendSearchEngineInput('Rechercher : ', 'vision_applicative', $('#top_of_page'), vision_applicative, searchEngine, '#zone_vision_applicative');
+  
+ 
+   drawItem_vision_applicative_domaine_fonctionnel(output, all_items.domaine_fonctionnel);
+    $(SITE_CONTENT_SELECTOR).html(output.join(''));
+    var acc_active = false;
+    if (searching) acc_active = 0;
+    $('a').tooltip({showURL: false, fade:250});
+    setToolTipsOnTitles();
+    doLayoutsSpecialActions();
+}
+
+
+function drawItem_vision_applicative_domaine_fonctionnel(output, domaine_fonctionnel){
+   output.push("<ul class='domaine_fonctionnel'>");
+    _.each(domaine_fonctionnel, function(one_domaine_fonctionnel){
+      output.push('toto');
+      output.push("<li class='domaine_fonctionnel'><div class='domaine_fonctionnel'>");
+      output.push("<a href='",one_domaine_fonctionnel.unique_page_link_id,"'>",one_domaine_fonctionnel.name,"</a>");
+      output.push("</div>");
+      output.push("<ul class='sa'>");
+        _.each(one_domaine_fonctionnel.sa, function(one_sa){
+          output.push("<li class='sa'><div class='sa'>");
+          output.push("<a href='",one_sa.unique_page_link_id,"'>",one_sa.name,"</a>");
+          output.push("</div>");
+          output.push("<ul class='app'>");
+            _.each(one_sa.app, function(one_app){
+              output.push("<li class='app'><div class='app'>");
+              output.push("<a href='",one_app.unique_page_link_id,"'>",one_app.name,"</a>");
+              output.push("</div>");
+              output.push("</li>");
+            });
+          output.push("</ul>");
+          output.push("</li>");
+        });
+      output.push("</ul>");
+      output.push("</li>");
+    });
+  output.push("</ul>");
+}
+
+
+
+function search_drawItems_vision_applicative(all_items, searching){  
+  var output = Array();
+  drawItem_vision_applicative_domaine_fonctionnel(output, all_items.domaine_fonctionnel);
+  $('#container #center .content').html(output.join(''));
+}
+  
+

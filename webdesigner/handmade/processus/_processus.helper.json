@@ -1,0 +1,10 @@
+/*
+processus
+ .processus : type, description, name, nomderemplacement,  object_id, link_id, uuid
+  .macroprocessus : type, name, nomderemplacement,  object_id, link_id, uuid
+   .entreprise : name,  object_id, link_id, uuid
+  .activite : type, description, name, nomderemplacement,  object_id, link_id, uuid
+   .fonction : type, description, name, nomderemplacement,  object_id, link_id, uuid
+    .appli : type, code, description, horsdsi, name,  object_id, link_id, uuid
+     .quartier : type, description, name, nomderemplacement,  object_id, link_id, uuid
+*/

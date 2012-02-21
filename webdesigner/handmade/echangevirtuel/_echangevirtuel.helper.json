@@ -1,0 +1,10 @@
+/*
+echangevirtuel
+ .echangevirtuel : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .acteurexterne_echangevirtueltoassociation_acteurexterne_a_echangevirtuel_emettoacteurexterne : name,  object_id, link_id, uuid
+  .acteurexterne_echangevirtueltoassociation_acteurexterne_a_echangevirtuel_recoittoacteurexterne : name,  object_id, link_id, uuid
+  .familledinformations_echangevirtueltoassociation_echangevirtuel_a_familledinformationstofamilledinformations : name,  object_id, link_id, uuid
+  .systèmeapplicatif_echangevirtueltoassociation_systemapplicatif_a_echangevirtuel_emettosystèmeapplicatif : name,  object_id, link_id, uuid
+  .systèmeapplicatif_echangevirtueltoassociation_systemapplicatif_a_echangevirtuel_recoittosystèmeapplicatif : name,  object_id, link_id, uuid
+*/

@@ -1,0 +1,10 @@
+/*
+familledinformations
+ .familledinformations : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .echangefonctionnel_familledinformationstoassociationechangefonctionnelfamilledinformationvéhiculetoechangefonctionnel : name,  object_id, link_id, uuid
+  .objetmétier_familledinformationstoassociationobjetmétierfamilledinformationsecomposedetoobjetmétier : name,  object_id, link_id, uuid
+  .echangeapplicatif_familledinformationstoassociation_echangeapplicatif_to_familledinformationtoechangeapplicatif : name,  object_id, link_id, uuid
+  .echangevirtuel_familledinformationstoassociation_echangevirtuel_a_familledinformationstoechangevirtuel : name,  object_id, link_id, uuid
+  .zonefonctionnelle_familledinformationstoassociation_zonefonctionnelle_a_familledinformationtozonefonctionnelle : name,  object_id, link_id, uuid
+*/

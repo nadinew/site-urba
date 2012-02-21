@@ -1,0 +1,11 @@
+/*
+acteurexterne
+ .acteurexterne : name,  object_id, link_id, uuid
+  .echangeapplicatif_acteurexternetoassociationacteurexterneechangeapplicatifemettoechangeapplicatif : name,  object_id, link_id, uuid
+  .echangeapplicatif_acteurexternetoassociationacteurexterneechangeapplicatifreçoittoechangeapplicatif : name,  object_id, link_id, uuid
+  .evènementrésultat_acteurexternetoassociationacteurexterneevènementemettoevènementrésultat : name,  object_id, link_id, uuid
+  .evènementrésultat_acteurexternetoassociationrésultatacteurexterneestreçupartoevènementrésultat : name,  object_id, link_id, uuid
+  .echangevirtuel_acteurexternetoassociation_acteurexterne_a_echangevirtuel_emettoechangevirtuel : name,  object_id, link_id, uuid
+  .echangevirtuel_acteurexternetoassociation_acteurexterne_a_echangevirtuel_recoittoechangevirtuel : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+*/

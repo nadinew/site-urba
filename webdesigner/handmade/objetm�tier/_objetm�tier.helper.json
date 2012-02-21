@@ -1,0 +1,11 @@
+/*
+objetmétier
+ .objetmétier : name,  object_id, link_id, uuid
+  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
+  .familledinformations_objetmétiertoassociationobjetmétierfamilledinformationsecomposedetofamilledinformations : name,  object_id, link_id, uuid
+  .objetmétier_objetmétiertoassociationobjetmétierobjetmétierestenrelationavecforwardtoobjetmétier : name,  object_id, link_id, uuid
+  .objetmétier_objetmétiertoassociationobjetmétierobjetmétierestenrelationavecreversetoobjetmétier : name,  object_id, link_id, uuid
+  .fonction_objetmétiertoassociation_fonction_a_objetmetiertofonction : name,  object_id, link_id, uuid
+  .objetmétier_objetmétiertoestenrelationavecforwardtoobjetmétier : name,  object_id, link_id, uuid
+  .objetmétier_objetmétiertoestenrelationavecreversetoobjetmétier : name,  object_id, link_id, uuid
+*/

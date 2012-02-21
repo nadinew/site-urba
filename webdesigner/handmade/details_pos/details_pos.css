@@ -1,0 +1,24 @@
+li.quart{
+    text-align:left;
+    display:inline-block;
+     overflow:hidde;
+     list-style:none!important;
+    vertical-align:top;
+    width:80%;
+    margin:5px;
+    border:1px solid rgb(183,223,45); 
+    padding:5px;
+    background:none;
+}
+
+
+li.pos2{
+    background:none;
+}
+
+ul.quart {
+    
+  border:1px solid rgb(183,223,45)!important; 
+  min-height:10px;
+
+}

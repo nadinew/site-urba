@@ -1,0 +1,38 @@
+li.domaine_metier{
+	list-style-image:url('../../../images/level1_list.png');
+	background : none;
+	margin:5px;
+	padding:5px;
+}
+
+li.macroprocessus{
+	display:inline-block;
+	vertical-align:top;
+	width:140px;
+	text-align:center;
+	margin:8px;
+	height:72px;
+	font-size:0.9em;
+	padding:0px !important;
+}
+
+
+
+div.macroprocessus{
+	margin:10px;
+}
+
+
+li.O{
+	color:#0F5390 !important;
+}
+
+li.N{
+	display:none;
+}
+
+
+li.menu-1
+{
+	display:none;
+}

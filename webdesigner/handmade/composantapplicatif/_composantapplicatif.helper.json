@@ -1,0 +1,19 @@
+/*
+composantapplicatif
+ .application : type, code, dateprévisionnelledemiseenproduction, dateprévisionnellederetraitdeproduction, description, horsdsi, intitule, name, version,  object_id, link_id, uuid
+  .fonctions : description, name, nomderemplacement,  object_id, link_id, uuid
+   .activites : description, name, nomderemplacement,  object_id, link_id, uuid
+    .processus_app : description, name, nomderemplacement,  object_id, link_id, uuid
+     .macroprocessus : description, name, nomderemplacement,  object_id, link_id, uuid
+      .domainemetier : description, name, nomderemplacement,  object_id, link_id, uuid
+   .ilots : description, name, nomderemplacement,  object_id, link_id, uuid
+    .quartiers : description, name, nomderemplacement,  object_id, link_id, uuid
+     .zones : description, name, nomderemplacement,  object_id, link_id, uuid
+      .domainefonc : description, name, nomderemplacement,  object_id, link_id, uuid
+  .gouvernance : courriel, name, périmètre, téléphone,  object_id, link_id, uuid
+  .sa : name,  object_id, link_id, uuid
+   .role : courriel, name, périmètre, téléphone,  object_id, link_id, uuid
+   .domainef : name,  object_id, link_id, uuid
+  .fluxs : name,  object_id, link_id, uuid
+  .fluxe : name,  object_id, link_id, uuid
+*/
