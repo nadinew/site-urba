@@ -204,22 +204,22 @@ function doActionsForSingle()
 }
 
 
+function afficherContacts(output, listContacts, fonctionFiltre){
+    output.push("<ul class='contact'>");
+    _.each(listContacts, function(one_role){
 
-/*function setSAAndAppInOutput(output, listeSA){
-  output.push("<ul class='sa'>");
-    _.each(listeSA, function(one_sa){
-      output.push('<li class="sa ui-corner-allui-icon-info indexIcon" title="Détails"><div class="sa">');
-      output.push("<a href='",one_sa.unique_page_link_id,"'>",one_sa.name,"</a>");
-      output.push("</div>");
-      output.push("<ul class='app'>");
-        _.each(one_sa.app, function(one_app){
-          output.push("<li class='app'><div class='app'>");
-          output.push("<a href='",one_app.unique_page_link_id,"'>",one_app.name,"</a>");
-          output.push("</div>");
-          output.push("</li>");
-        });
-      output.push("</ul>");
-      output.push("</li>");
-    });
-  output.push("</ul>");
-}*/
+        if (!_.isUndefined(fonctionFiltre)){
+          if (fonctionFiltre(one_role.type) == "autre"){
+            return;
+          }
+        }        
+        addTitle(output,one_role.name);
+        //console.log(one_role);
+        if (!(one_role.téléphone == "" && one_role.courriel == "" && one_role.périmètre == "")){
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'>" + one_role.téléphone,"</span>","</li>");
+          output.push("<li><span  class='title-h3'>","<a href='mailto:" + one_role.courriel +"'>Mail: " + one_role.courriel,"</a>","</span>","</li>");
+          output.push("<li><span  class='title-h3'>",'Périmètre: ',"</span>","<span class ='text'>" + one_role.périmètre,"</span>","</li>");              
+        }    
+    }); 
+    output.push("</ul>");
+}
