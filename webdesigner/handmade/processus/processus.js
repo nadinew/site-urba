@@ -26,6 +26,9 @@ function draw_processus(processus){
 
     var output = [];
     var savedDiagrams = {};
+
+
+
     output.push('<div id="detailsTabs">');  
       // création des titres
       output.push('<ul>');   
@@ -33,6 +36,7 @@ function draw_processus(processus){
         //"ACTIVITÉ"
         createDiagramTab(output, processus, "M3.1", savedDiagrams, "Décomposition en activités", []);
         createTextTab(output, 'tabs-vision', 'Vision applicative des processus', 'info');
+         createTextTab(output, 'tab-contact', "Contact", 'pencil');
       output.push('</ul>');
 
       createTextTabContent(output, 'tabs-details', function(output){
@@ -41,7 +45,61 @@ function draw_processus(processus){
       createDiagramTabContent(output, processus, "M3.1");
       createTextTabContent(output, 'tabs-vision', function(output){
         createProcessusVisionContent(output, processus)
-      }, null);
+         }, null);
+      
+        createTextTabContent(output, 'tab-contact', function(output){
+        var domaine = processus.name;
+        var perimetre = domaine.substring (0,3);
+        if ( perimetre == 'MAC' ){
+          
+          output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Annie Delbet</span>","</li>"); 
+          output.push("<li><span  class='title-h3'>",'Courriel',"<a href='mailto:annie.delbet@laposte.fr'>annie.delbet@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'>01 34 52 80 03</span>","</li>");           
+        }   
+        if ( perimetre == 'IND' ){
+          
+          output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Anne Sandrine Lapointe</span>","</li>"); 
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:annie-sandrine.lapointe@laposte.fr'>annie-sandrine.lapointe@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
+        } 
+        if ( perimetre == 'FIN' ){
+          
+          output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Bernard Baudin</span>","</li>"); 
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
+        }
+        if ( perimetre == 'REF' ){
+          
+          output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Mireille Deligne</span>","</li>"); 
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:mireille.deligne@laposte.fr'>mireille.deligne@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
+        }
+        if ( perimetre == 'GOU' ){
+          
+          output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Dominique Giordan</span>","</li>"); 
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:dominique.giordan@laposte.fr'>dominique.giordan@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
+        }
+        if ( perimetre == 'RH-' ){
+          
+          output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Sebastien Lepage</span>","</li>"); 
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:sebastien.lepage@laposte.fr'>sebastien.lepage@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'>01 34 52 81 46</span>","</li>");           
+        }
+        if ( perimetre == 'GDM' ){
+          
+          output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Bernard Baudin</span>","</li>"); 
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
+        }
+        else
+        {
+          output.push('non renseigné');
+        }
+         
+    });
+ 
+ 
 
     output.push('</div>');
      

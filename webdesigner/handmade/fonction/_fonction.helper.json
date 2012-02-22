@@ -1,12 +1,7 @@
 /*
 fonction
- .fonction : name,  object_id, link_id, uuid
-  .roledegouvernance_anyobjecttoassociation_roledegouvernance_a_touslesobjets_raci_dqmtoroledegouvernance : name,  object_id, link_id, uuid
-  .activité_fonctiontoassociationactivitéfonctionordonnetoactivité : name,  object_id, link_id, uuid
-  .echangefonctionnel_fonctiontoassociationechangefonctionnelfonctionestreçupartoechangefonctionnel : name,  object_id, link_id, uuid
-  .composantapplicatif_fonctiontoassociationfonctioncomposantapplicatifestmiseenoeuvretocomposantapplicatif : name,  object_id, link_id, uuid
-  .echangefonctionnel_fonctiontoassociationfonctionechangefonctionnelemettoechangefonctionnel : name,  object_id, link_id, uuid
-  .systèmeinformatique_fonctiontoassociationfonctionsystèmeinformatiqueestmiseenoeuvrepartosystèmeinformatique : name,  object_id, link_id, uuid
-  .objetmétier_fonctiontoassociation_fonction_a_objetmetiertoobjetmétier : name,  object_id, link_id, uuid
-  .îlotfonctionnel_fonctiontoassociationîlotfonctionnelfonctionsecomposedetoîlotfonctionnel : name,  object_id, link_id, uuid
+ .fonction : description, name, nomderemplacement,  object_id, link_id, uuid
+  .activite : description, name, nomderemplacement,  object_id, link_id, uuid
+  .ilot : description, name, nomderemplacement,  object_id, link_id, uuid
+  .app : description, name,  object_id, link_id, uuid
 */

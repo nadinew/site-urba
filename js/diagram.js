@@ -36,7 +36,7 @@ $(function(){
 
 			}, "error" : function(){
 				alert('impossible de charger le fichier :' + jsonFile + ", le fichier n'existe pas");
-			}, dataType: "text"}});
+			}, dataType: "text"});
 
 
 

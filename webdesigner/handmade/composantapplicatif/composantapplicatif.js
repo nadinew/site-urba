@@ -112,8 +112,8 @@ function createContent(output, composantapplicatif, savedDiagrams){
 
 
 		output.push('<ul class="border">');
-		drawFluxBox(output, composantapplicatif.fluxe, 'name', 'Flux entrants');
-		drawFluxBox(output, composantapplicatif.fluxs, 'name', 'Flux sortants');
+		drawFluxBox1(output, composantapplicatif.fluxe, 'name', 'Flux entrants');
+		drawFluxBox1(output, composantapplicatif.fluxs, 'name', 'Flux sortants');
 		drawFluxBox(output, composantapplicatif.fonctions, 'nomderemplacement', 'Fonctions');
 		output.push('</ul>');
 
@@ -173,7 +173,21 @@ function drawFluxBox(output, list, displayName, name){
 	if (list.length > 0){       
 		output.push("<ul class='fluxList'>");
 		_.each(list, function(e){
-			output.push("<li class='fluxList'>", e[displayName],"</li>");  
+			output.push("<li class='fluxList'>", "<a href='",e.unique_page_link_id,"'>",e[displayName],"</a>","</li>"); 
+		});
+		output.push("</ul>");
+	}
+	output.push("</li>");
+}
+
+function drawFluxBox1(output, list, displayName, name){
+	output.push('<li class="fluxbox">');
+	output.push("<span class='title-h3'>",name ,"</span>  ");
+
+	if (list.length > 0){       
+		output.push("<ul class='fluxList'>");
+		_.each(list, function(e){
+			output.push("<li class='fluxList'>",e[displayName],"</li>"); 
 		});
 		output.push("</ul>");
 	}
