@@ -53,7 +53,8 @@ output.push('</li>');
 	output.push('</ul>');
 
 output.push('<p style="padding-left:60px;width: 50px; height: 50px" ><a href="mailto:nadine.weiss@laposte.fr" target="_blank"><img src="../images/email.gif" title="Nous contacter"></a></p>');
-	
+
+output.push('<p style="padding-left:40px;width: 50px; height: 50px" ><img src="../images/logo_dum1.png" title=""></p>');	
 
 
 

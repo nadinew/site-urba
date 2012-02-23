@@ -23,6 +23,9 @@ document.title = pageName;
 
 function drawItem_fonction(output, fonction){
   
+        output.push ("<ul class=''>");
+        output.push("<li class='icone'><span  class='title-h3'>",'Description',"</span></li>","<li><span class ='text'>" + fonction.description,"</span>","</li>");
+         output.push("</ul>");
 	
 
         output.push ("<ul class=''>");
