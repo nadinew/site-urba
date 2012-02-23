@@ -53,13 +53,13 @@ function draw_processus(processus){
         if ( perimetre == 'MAC' ){
           
           output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Annie Delbet</span>","</li>"); 
-          output.push("<li><span  class='title-h3'>",'Courriel',"<a href='mailto:annie.delbet@laposte.fr'>annie.delbet@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:annie.delbet@laposte.fr'>annie.delbet@laposte.fr</a>","</span>","</li>");  
           output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'>01 34 52 80 03</span>","</li>");           
         }   
         if ( perimetre == 'IND' ){
           
           output.push("<li><span  class='title-h3'>",'Nom: ',"</span>","<span class ='text'> Anne Sandrine Lapointe</span>","</li>"); 
-          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:annie-sandrine.lapointe@laposte.fr'>annie-sandrine.lapointe@laposte.fr</a>","</span>","</li>");  
+          output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:anne-sandrine.lapointe@laposte.fr'>anne-sandrine.lapointe@laposte.fr</a>","</span>","</li>");  
           output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
         } 
         if ( perimetre == 'FIN' ){
@@ -149,7 +149,9 @@ function createProcessusVisionContent(output, processus){
       output.push("</ul></li>");
       output.push("</ul>");
        }
-
+   if (processus.activite.length <= 0) {
+    output.push('non renseigné');
+  }
 }
 
 function createProcessusDetailsContent(output, processus){

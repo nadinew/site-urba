@@ -9,16 +9,24 @@
     <script type='text/javascript' src='../../Lib/external/underscore.js'></script> 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
-<script src="http://html5media.googlecode.com/svn/trunk/src/jquery.html5media.min.js"></script>   
+<script type='text/javascript' src='../js/video.js'></script>   
+ <link href='../css/video-js.css' rel='stylesheet' type='text/css'>
 	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />
+ 
 	<title>Accueil / Le Référentiel du Système d'Information</title>
 </head>
 <body>
 
- 
 
-
-<video src="../media/site.ogv" width="320" height="240" controls autobuffer poster="../images/tv.gif"></video>
+<object data="../media/site.avi" type="video/x-msvideo" width="320" height="255" ">
+  <param name="src" value="../media/site.avi">
+  <param name="autoStart" value="0">
+  <a href="../media/site.avi" title="Voir la vidéo de présentation en plein écran" ><img src="../images/tv.gif" align="right"></a>
+</object>
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="320" height="2400">
+<param name="movie" value="../swf/site.swf">
+<param name="quality" value="high">
+<embed src="../swf/site.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="320" height="240"></embed></object>
 
 
 
@@ -43,5 +51,6 @@
 <p><center><img src="../images/bg/intro1.png"></center></p>
 
 </ul>
+
 </body>
 </html>
