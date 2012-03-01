@@ -11,7 +11,7 @@ $(function(){
 		openMenu(menu);
 		activeSubMenu(menu + "_aide" );
 
-		var bc = "<a href='" + SITE_HOST + "main/aide.html'>En savoir plus</a>";		
+		var bc = "<a href='aide.html'>En savoir plus</a>";		
         bc += ' > ' +"Aide";
    		updateBreadCrumbPage(bc);
 		$(SITE_CONTENT_SELECTOR).html(content);		

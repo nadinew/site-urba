@@ -12,14 +12,14 @@ function draw_entreprise(entreprise){
 			var menu = 'menu_vision_metier';
 			openMenu(menu);
 			activeSubMenu(menu + "_" + entreprise.object_id);			
-			var bc = "<a href='" + SITE_HOST + "main/vision_metier.html'>Vision Métier</a>";
+			var bc = "<a href='vision_metier.html'>Vision Métier</a>";
 			bc += ' > ' + entreprise.nomderemplacement;
 
 		}else{
 			var menu = 'menu_savoir_plus';
 			openMenu(menu);
 			activeSubMenu('menu_savoir_plus_Gouvernance');			
-			var bc = "<a href='" + SITE_HOST + "main/aide.html'>En savoir plus</a>";
+			var bc = "<a href='aide.html'>En savoir plus</a>";
 			bc += ' > ' + entreprise.nomderemplacement;
 			
 		}

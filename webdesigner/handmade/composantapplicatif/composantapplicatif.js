@@ -7,7 +7,7 @@ function draw_composantapplicatif(composantapplicatif){
 		var menu = "menu_vision_applicative";
 		openMenu(menu);
 		activeSubMenu(menu + "_" + composantapplicatif.object_id);
-		var bc = "<a href='" + SITE_HOST + "main/vision_applicative.html'>Vision Applicative</a>";
+		var bc = "<a href='vision_applicative.html'>Vision Applicative</a>";
 		bc += ' > Application:' + composantapplicatif.name;
 		updateBreadCrumbPage(bc);     
 
@@ -33,6 +33,7 @@ function draw_composantapplicatif(composantapplicatif){
 		$('li.processus_app').addClass("pos2");
 		$('li.activites').addClass("pos2");		
 		$("li.fonctions li.application").hide();
+		$("ul.border").addClass("ui-corner-all");
 	});
 }
 
@@ -65,7 +66,7 @@ function createContent(output, composantapplicatif, savedDiagrams){
 	// création des titres
 	output.push('<ul>');      
 	createTextTab(output, 'tabs-app', 'Fiche applicative', 'info');
-	createDiagramTab(output, composantapplicatif, "A3", savedDiagrams, "Echange Inter-Applicatif", ["SYSTÈMEAPPLICATIF", "COMPOSANTAPPLICATIF"]);
+	createDiagramTab(output, composantapplicatif, "A3", savedDiagrams, "Echange Inter-Applicatif", ["COMPOSANTAPPLICATIF"]);
 
 	createTextTab(output, "tabs-fonctions" , 'Vision Fonctionnelle', 'gear');
 	
@@ -86,6 +87,9 @@ function createContent(output, composantapplicatif, savedDiagrams){
 		output.push('<li class="icone2">');  
 		output.push("<span class='title-h3'>",'Intitulé:   ',"</span>","<span class='text'>" + composantapplicatif.intitule ,"</span>");
 		output.push('</li>'); 
+		output.push('<li class="icone2">');  
+		output.push("<span class='title-h3'>",'Modifié le:   ',"</span>","<span class='text'>" + composantapplicatif.whenupdated ,"</span>");
+		output.push('</li>');  
 		output.push('<li class="icone2">');  
 		output.push("<span class='title-h3'>",'Version:   ',"</span>","<span class='text'>" + composantapplicatif.version ,"</span>","<span class='title-h3'>",'    Code d\'exploitation:    ',"</span>","<span class='text'>" + composantapplicatif.code,"</span>" );
 		output.push('</li>');  

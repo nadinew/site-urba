@@ -8,7 +8,7 @@ document.title = pageName;
   	var menu = 'menu_vision_applicative';
   	openMenu('menu_vision_applicative');
 
-     var bc = "<a href='" + SITE_HOST + "main/vision_applicative.html'>Vision Applicative</a>";
+     var bc = "<a href='vision_applicative.html'>Vision Applicative</a>";
 		bc += ' > Fonction:' + fonction.nomderemplacement;
     updateBreadCrumbPage(bc);    
   	var output = [];
@@ -37,16 +37,15 @@ function drawItem_fonction(output, fonction){
          output.push ("<ul class=''>");
         output.push ("<li class='icone'><span  class='title-h3'>",'Activités',"</span></li>");
         _.each(fonction.activite, function(activite){
-         output.push("<li><span class ='text'>"+activite.nomderemplacement,"</span>","</li>");
+         output.push("<li class='act ui-corner-all'><span class ='text'>"+activite.nomderemplacement,"</span>","</li>");
        });
          output.push("</ul>");
 
 
 	output.push("<ul class=''>");
 	output.push ("<li class='icone'><span  class='title-h3'>",'Applications',"</span></li>");      			
-		_.each(fonction.app, function(app){
-		
-        output.push("<li><span class ='text'>"+app.name,"</span>","</li>");
+		_.each(fonction.app, function(app){		
+        output.push("<li class='app ui-corner-all'><span class='text'>"+app.name,"</span>","</li>");
 	});
 	output.push("</ul>");
     

@@ -1,7 +1,7 @@
 ﻿var MAIL_ADDRESS_FOR_DIAGRAM_FEEDBACK = "ld-dum-pam@laposte.fr";
-var SITE_HOST = "http://cenvw010/lpc_dev/Site/";
+var SITE_HOST = "http://carto-si.courrier.intra.laposte.fr/lpc_dev/Site/";
 var HTTP_SERVER= SITE_HOST;
- var LIB_SERVER = HTTP_SERVER + "../Lib/";
+var LIB_SERVER = HTTP_SERVER + "../Lib/";
 
 var SITE_CONTENT_SELECTOR = '#container #center .content';
 
@@ -19,12 +19,13 @@ function createTextTab2(output, selector, name, icon){
 }
      
 
+function addHelpForPage(image){
+  $('#block-menu_block-3 div.content').append('<div class="helpForPage tooltip-me" title="<img src=\'../images/aide/' +image + '.png\'/>">Aide sur cette page</div>');  
+}
+
+
 // met plein ecran
 function setFullScreen(){
-
-
-    
-
     $('.main_container_frame').animate({"width": '100%'});
     var width = $(window).width() - 250;        
     $('.main_container_frame #center').width(width + "px");
@@ -36,13 +37,13 @@ function addDiagramBox(output, title, dID , domaine){
 
   output.push("<li class='pos ui-corner-all'>");
     output.push("<ul class='diagram-box '>");
-    output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-image'></span></li><li class='diagram-box'><a href='diagram.html?",dID,"'>", title, "</a></li>");
-     output.push("</ul>");
-     output.push("</li>");
-       output.push("<li class='pos ui-corner-all'>");
- output.push("<ul class='diagram-box '>");
-        output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-info'></span></li><li class='diagram-box'><a href='domainefonctionnel.html?",domaine,"'>", 'Détails Plan d\'occupation des sols', "</a></li>");
-             output.push("</ul>");
+      output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-image'></span></li><li class='diagram-box'><a href='diagram.html?",dID,"'>", title, "</a></li>");
+    output.push("</ul>");
+  output.push("</li>");
+  output.push("<li class='pos ui-corner-all'>");
+    output.push("<ul class='diagram-box '>");
+      output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-info'></span></li><li class='diagram-box'><a href='domainefonctionnel.html?",domaine,"'>", 'Détails Plan d\'occupation des sols', "</a></li>");
+    output.push("</ul>");
   output.push("</li>");
 }
  
@@ -50,13 +51,13 @@ function addDiagramBox1(output, title, dID,domaine){
   
   output.push("<li class='pos ui-corner-all'>");
     output.push("<ul class='diagram-box '>");
-    output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-image'></span></li><li class='diagram-box'><a href='diagram.html?",dID,"'>", title, "</a></li>");
-     output.push("</ul>");
-     output.push("</li>");
-       output.push("<li class='pos ui-corner-all'>");
- output.push("<ul class='diagram-box '>");
-        output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-info'></span></li><li class='diagram-box'><a href='details_pos.html?",domaine,"'>", 'Détails Couverture Applicative', "</a></li>");
-             output.push("</ul>");
+      output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-image'></span></li><li class='diagram-box'><a href='diagram.html?",dID,"'>", title, "</a></li>");
+    output.push("</ul>");
+  output.push("</li>");
+  output.push("<li class='pos ui-corner-all'>");
+    output.push("<ul class='diagram-box '>");
+     output.push("<li class='diagram-box'><span class='ui-icon1 ui-icon-info'></span></li><li class='diagram-box'><a href='details_pos.html?",domaine,"'>", 'Détails Couverture Applicative', "</a></li>");
+    output.push("</ul>");
   output.push("</li>");
 }
  
@@ -97,7 +98,7 @@ function createPage(_path, _title, callback){
 	$('body').html('');
 
 	$('head').append('<link rel="stylesheet" type="text/css" href="http://www.siege.courrier.intra.laposte.fr/site/dsi_c/sites/all/themes/theme_dsi/style.css"/>');
-	$('head').append('<link rel="stylesheet" type="text/css" href="' + SITE_HOST + 'css/urba.local.css"/>');	
+	$('head').append('<link rel="stylesheet" type="text/css" href="../css/urba.local.css"/>');	
     
 
 	$('body').addClass('sidebar-left');

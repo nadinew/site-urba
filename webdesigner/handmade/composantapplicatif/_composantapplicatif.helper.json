@@ -1,6 +1,6 @@
 /*
 composantapplicatif
- .application : type, code, dateprévisionnelledemiseenproduction, dateprévisionnellederetraitdeproduction, description, horsdsi, intitule, name, version,  object_id, link_id, uuid
+ .application : type, code, whenupdated, dateprévisionnelledemiseenproduction, dateprévisionnellederetraitdeproduction, description, horsdsi, intitule, name, version,  object_id, link_id, uuid
   .fonctions : description, name, nomderemplacement,  object_id, link_id, uuid
    .activites : description, name, nomderemplacement,  object_id, link_id, uuid
     .processus_app : description, name, nomderemplacement,  object_id, link_id, uuid

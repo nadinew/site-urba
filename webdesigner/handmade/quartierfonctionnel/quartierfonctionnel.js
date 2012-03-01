@@ -7,7 +7,7 @@ createPage('../', "Domaine Fonctionnel : " + domainefonctionnel.name + " (Applic
     openMenu(menu);
     activeSubMenu(menu + "_" + domainefonctionnel.object_id);
 
-    var bc = "<a href='" + SITE_HOST + "main/vision_fonctionnelle.html'>Vision Fonctionnel</a>";
+    var bc = "<a href='vision_fonctionnelle.html'>Vision Fonctionnel</a>";
     bc += ' > ' + domainefonctionnel.name;
     updateBreadCrumbPage(bc);     
 

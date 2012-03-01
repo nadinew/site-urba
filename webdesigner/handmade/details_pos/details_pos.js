@@ -7,7 +7,7 @@ createPage('../', "" + details_pos.name + " (Applications par Zone)", function()
     openMenu(menu);
     activeSubMenu(menu + "_" + details_pos.object_id);
 
-    var bc = "<a href='" + SITE_HOST + "main/vision_fonctionnelle.html'>Vision Fonctionnelle</a>";
+    var bc = "<a href='vision_fonctionnelle.html'>Vision Fonctionnelle</a>";
     bc += ' > ' + details_pos.name +'(Details couverture applicative)';
     updateBreadCrumbPage(bc);     
 

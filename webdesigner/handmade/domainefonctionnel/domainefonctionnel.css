@@ -26,9 +26,9 @@ div.sa{
     font-size: 10px;
     }
 
-li.pos2{
+/*li.pos2{
     background:none;
-}
+}*/
 
 /*
 li.pos2{
@@ -57,12 +57,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', end
 
 }*/
 
-li.quart{
+/*li.quart{
     margin:0px;
     
-}
+}*/
 
-li.quart, li.ilot , li.pos2{
+/*li.quart, li.ilot , li.pos2{
     text-align:left;
     display:inline-block;
      overflow:hidde;
@@ -74,7 +74,7 @@ li.quart, li.ilot , li.pos2{
     padding:5px;
     background:none;
 
-}
+}*/
 
 /*li.quart{
     

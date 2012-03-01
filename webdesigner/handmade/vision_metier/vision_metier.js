@@ -41,12 +41,10 @@ function drawItems_vision_metier(all_items, searching) {
   createPage('../', 'La vision Métier (Macro Processus par Domaine Métier) ', function(){
 
     openMenu('menu_vision_metier');
-     var bc = "<a href='" + SITE_HOST + "main/home.html'>Le référentiel du SI</a>";
+     var bc = "<a href='home.html'>Le référentiel du SI</a>";
         bc += ' > ' + "Vision Métier";
     updateBreadCrumbPage(bc);    
   
-
-
     appendSearchEngineInput('Rechercher : ', 'vision_metier', $('#top_of_page'), vision_metier, searchEngine, '#zone_vision_metier');
     var output = Array();
     drawItem_vision_metier_domaine_metier(output, all_items.domaine_metier);
@@ -54,8 +52,15 @@ function drawItems_vision_metier(all_items, searching) {
     $(SITE_CONTENT_SELECTOR).html(output.join(''));
     var acc_active = false;
     if (searching) acc_active = 0;
+
+    
     $('a').tooltip({showURL: false, fade:250});
+    
+    addHelpForPage("vision_metier");
+    
     setToolTipsOnTitles();
     doLayoutsSpecialActions();
+
+
   });
 }

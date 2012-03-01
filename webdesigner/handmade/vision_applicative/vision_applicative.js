@@ -44,7 +44,7 @@ function drawItems_vision_applicative(all_items, searching) {
   createPage('../', 'Applications par Systèmes Applicatifs', function(){
     openMenu('menu_vision_applicative');
 
-     var bc = "<a href='" + SITE_HOST + "main/home.html'>Le référentiel du SI</a>";
+     var bc = "<a href='home.html'>Le référentiel du SI</a>";
         bc += ' > ' + "Vision Applicative";
     updateBreadCrumbPage(bc);    
   

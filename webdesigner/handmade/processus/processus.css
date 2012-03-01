@@ -34,21 +34,6 @@ ul.title-h3{
 }
 
 
-
-li.pos2,ul.pos2{
-    text-align:left;
-    display:inline-block;
-     overflow:hidde;
-     list-style:none!important;
-    vertical-align:top;
-    width:80%;
-    margin:5px;
-    border:1px solid rgb(183,223,45); 
-    padding:20px;
-    background:none;
-
-}
-
 .box-title{
 /*
 	text-align:center;
@@ -69,3 +54,4 @@ div.titleHelp{
 /* 	-webkit-transform: rotate(90deg); 
 	-moz-transform: rotate(90deg);	 */
 }
+

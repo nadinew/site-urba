@@ -10,13 +10,13 @@ function draw_processus(processus){
     var menu = 'menu_vision_metier';
     if (entreprise.object_id != '21'){
       openMenu(menu);
-      var bc = "<a href='" + SITE_HOST + "main/vision_metier.html'>Vision Metier</a>";
+      var bc = "<a href='vision_metier.html'>Vision Metier</a>";
       activeSubMenu(menu + '_' + entreprise.object_id);      
     } else {
       openMenu('menu_savoir_plus');
       activeSubMenu('menu_savoir_plus_Gouvernance');
-      var bc = "<a href='" + SITE_HOST + "main/aide.html'>En savoir plus</a>";
-      bc += ' > ' + "<a href='" + SITE_HOST + "main/entreprise.html?21'>Gouvernance</a>";
+      var bc = "<a href='aide.html'>En savoir plus</a>";
+      bc += ' > ' + "<a href='entreprise.html?21'>Gouvernance</a>";
       
     }
 

@@ -36,19 +36,6 @@ div.role{
     font-family: 'Trebuchet MS';    
 }
 
-li.pos2,ul.pos2{
-    text-align:left;
-    display:inline-block;
-     overflow:hidde;
-     list-style:none!important;
-    vertical-align:top;
-    width:80%;
-    margin:5px;
-    border:1px solid rgb(183,223,45); 
-    padding:20px;
-    background:none;
-
-}
 
 
 
@@ -116,8 +103,10 @@ li.sysapp{
 ul.border{
     background:none;
     border:1px solid  rgb(144,238,144)!important;
-    margin:8px;
-    width:98%;
+ /*   margin:8px;*/
+ margin-bottom:8px;
+    width:100%;
+    padding-left:0px;
 
 }
 

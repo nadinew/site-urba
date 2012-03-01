@@ -19,7 +19,7 @@ function drawItems_contact(all_items, searching)
   	openMenu(menu);
   	activeSubMenu(menu + "_contact" );
 
-    var bc = "<a href='" + SITE_HOST + "main/aide.html'>En savoir plus</a>";
+    var bc = "<a href='aide.html'>En savoir plus</a>";
     bc += ' > ' + "Nous contacter";
     updateBreadCrumbPage(bc);     
 

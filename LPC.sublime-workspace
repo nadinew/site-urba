@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"doma",
+				"domainefonctionnel"
+			],
+			[
+				"con",
+				"contactTypeToCSS"
+			],
+			[
+				"jso",
+				"jsonFile"
+			],
+			[
+				"dis",
+				"display: display: block"
+			],
+			[
+				"pro",
+				"processus"
+			],
+			[
+				"mac",
+				"macroprocessus"
+			],
+			[
+				"en",
+				"entreprise"
+			],
+			[
+				"dia",
+				"diagramsExploded"
+			],
+			[
+				"processu",
+				"processus"
+			],
+			[
+				"compo",
+				"composantapplicatif"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"cre",
+				"createContent"
+			],
+			[
+				"back",
+				"background: background-color: name"
+			],
+			[
+				"pos",
+				"position: position: type"
+			],
+			[
+				"background",
+				"background: background-attachment: scroll/fixed"
+			],
+			[
+				"one",
+				"one_macroprocessus"
+			],
+			[
+				"text",
+				"text: text-align: left/center/right"
+			],
+			[
+				"sear",
+				"searchEngine"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+			"settings":
+			{
+				"buffer_size": 3576,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 6014 files for \"createDiagramTabContent\"\n\nT:\\Lib\\templates\\tab_manager.js:\n   68  \n   69  // create the diagram tab content\n   70: function createDiagramTabContent(output, mainItem, diagramCategory){\n   71  	$.each(mainItem.diagramsExploded, function (abbr, diagrams){\n   72  		$.each(diagrams, function (dKey, d){								\n\nT:\\Site\\LPC.sublime-workspace:\n  449  			\"ui-button\",\n  450  			\"ui-button-text\",\n  451: 			\"createDiagramTabContent\",\n  452  			\"gouvernance\",\n  453  			\"createDiagramShare\",\n\nT:\\Site\\webdesigner\\handmade\\composantapplicatif\\composantapplicatif.js:\n   79  \n   80  	// contenus\n   81: 	createDiagramTabContent(output, composantapplicatif, \"A3\");    \n   82  \n   83  	createTextTabContent(output, 'tabs-app', function(output){\n   ..\n  155  \n  156  	$.each(composantapplicatif.sa, function(i, sa){      \n  157: 		createDiagramTabContent(output, sa, \"A1\");\n  158  	});\n  159  	\n\nT:\\Site\\webdesigner\\handmade\\domainefonctionnel\\domainefonctionnel.js:\n   43    \n   44    \n   45:   createDiagramTabContent(output, domainefonctionnel, \"F3\"); \n   46    createTextTabContent(output, 'tabs-couverture', function(output){\n   47      drawCouvertureApplicativeContent(output, domainefonctionnel);\n   48    }, null);  \n   49:   createDiagramTabContent(output, domainefonctionnel, \"F2.1\"); \n   50    createTextTabContent(output, 'tabs-pos', function(output){\n   51        drawPOSContent(output, domainefonctionnel);\n\nT:\\Site\\webdesigner\\handmade\\processus\\processus.js:\n   43          createProcessusDetailsContent(output, processus)\n   44        }, null);\n   45:       createDiagramTabContent(output, processus, \"M3.1\");\n   46        createTextTabContent(output, 'tabs-vision', function(output){\n   47          createProcessusVisionContent(output, processus)\n\nT:\\Site\\webdesigner\\handmade\\systèmeapplicatif\\systèmeapplicatif.js:\n   25  \n   26  \n   27: createDiagramTabContent(output, systèmeapplicatif, \"A1\");    \n   28: createDiagramTabContent(output, systèmeapplicatif, \"F2.2\");   \n   29     createTextTabContent(output, 'tabs-details', function(output){\n   30          createSADetailsContent(output, systèmeapplicatif)\n\n9 matches across 6 files\n",
+			"settings":
+			{
+				"buffer_size": 2167,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js",
+		"/T/Site/js/main.js",
+		"/T/Site/webdesigner/handmade/menu/menu.js",
+		"/T/Site/css/main.css",
+		"/T/Site/webdesigner/handmade/menu/menu.css",
+		"/T/Site/webdesigner/handmade/details_pos/details_pos.js",
+		"/T/Site/webdesigner/handmade/entreprise/entreprise.js",
+		"/T/Lib/canvas/camera.js",
+		"/T/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
+		"/T/Site/main/home.html",
+		"/T/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.css",
+		"/T/Site/webdesigner/handmade/processus/processus.css",
+		"/T/Site/webdesigner/handmade/fonction/fonction.js",
+		"/T/Site/webdesigner/handmade/processus/processus.js",
+		"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
+		"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.css",
+		"/T/Site/js/aide.js",
+		"/T/Site/js/articles.js",
+		"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js",
+		"/T/Site/js/diagram.js",
+		"/T/Site/js/guide/guide.js",
+		"/T/Site/webdesigner/handmade/vision_metier/vision_metier.js",
+		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.js",
+		"/T/Site/webdesigner/handmade/quartierfonctionnel/quartierfonctionnel.js",
+		"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.js",
+		"/T/Site/webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.jsold",
+		"/T/Site/webdesigner/handmade/contact/contact.js",
+		"/T/Site/LPC.sublime-project",
+		"/T/Site/js/presentation",
+		"/T/Site/index.html",
+		"/T/Lib/templates/tab_manager.js",
+		"/T/Site/webdesigner/handmade/processus/_processus.helper.json",
+		"/T/Site/webdesigner/handmade/fonction/fonction.css",
+		"/T/Site/js/presentation.js",
+		"/T/Site/main/presentation.html",
+		"/T/Site/css/video-js.css",
+		"/T/Site/main/aide.html",
+		"/T/Site/css/theme_lpc/jquery-ui.custom.css",
+		"/T/Site/css/theme/jquery-ui.custom.css",
+		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/T/Site/structure/inc.top_header.html",
+		"/T/Save/Site.7z",
+		"/T/Site010212.7z",
+		"/T/Lib/canvas/diagram-share.js",
+		"/C/sauvegarde_ae/bases/casewise_cm15022012.7z",
+		"/T/Lib/css.shared/shared.css",
+		"/T/Site/main/guide.html",
+		"/T/Site/webdesigner/handmade/entreprise/entreprise.css",
+		"/T/Site/js/home.js",
+		"/T/Lib/templates/reverse_drawing.js",
+		"/T/Site/webdesigner/handmade/vision_appli-process/_vision_appli-process.helper.json",
+		"/T/Site/webdesigner/generated/processus/json/processus45.json",
+		"/T/Site/webdesigner/generated/processus/json/processus131.json",
+		"/T/Site/webdesigner/generated/details_pos/json/details_pos18.json",
+		"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css",
+		"/T/Lib/canvas/CanvasCamera/canvas-camera.js",
+		"/T/Site/webdesigner/handmade/composantapplicatif/guide.html",
+		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.css",
+		"/T/Site/webdesigner/handmade/details_pos/details_pos.css",
+		"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css",
+		"/T/Site/main/vision_applicative.html",
+		"/T/Site/webdesigner/generated/vision_applicative/layouts/vision_applicative_list-only-name.js",
+		"/T/Site/webdesigner/generated/vision_applicative/vision_applicative.generated.js",
+		"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif2.js",
+		"/T/Site/webdesigner/handmade/vision_metier/vision_metier.css",
+		"/T/Lib/canvas/mousewheel.js",
+		"/T/Lib/canvas/DiagramCanvas.js",
+		"/T/Lib/canvas/save.camera.js",
+		"/T/Site/webdesigner/handmade/composantapplicatif/_composantapplicatif.helper.json",
+		"/T/Site/webdesigner/generated/composantapplicatif/layouts/composantapplicatif_standard-list.js",
+		"/C/Documents and Settings/ACM659/Bureau/corporate modeler/deb/license.cws",
+		"/S/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
+		"/T/Site/webdesigner/handmade/activité/activité.js",
+		"/C/wamp/www/LaPosteCourrier/css/main.css",
+		"/T/Site/webdesigner/handmade/contact/contact.css",
+		"/C/wamp/www/SiteUrba/Lib/css.shared/shared.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
+		"/C/wamp/www/SiteUrba/Site/main/diagram.html",
+		"/C/wamp/www/SiteUrba/Site/css/diagram.css",
+		"/C/wamp/www/SiteUrba/Site/css/theme/jquery-ui.custom.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js",
+		"/C/wamp/www/SiteUrba/Site/main/home.html",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/generated/composantapplicatif/layouts/composantapplicatif_standard-list.js",
+		"/C/wamp/www/SiteUrba/Site/main/contact.html",
+		"/C/wamp/www/SiteUrba/Site/js/articles.js",
+		"/C/wamp/www/SiteUrba/Site/js/home.js",
+		"/C/wamp/www/SiteUrba/Site/js/main.js",
+		"//cenvW010/site_dev/Site/index.html",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css",
+		"/C/wamp/www/SiteUrba/Site/main/articles.html",
+		"/C/wamp/www/SiteUrba/Site/main/aide.html",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/contact/contact.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/composantapplicatif/_composantapplicatif.helper.json",
+		"/C/wamp/www/SiteUrba/Site/css/main.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/macroprocessus/macroprocessus.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/Gouvernance/Gouvernance.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/contact/contact.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/processus/processus.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_applicative/vision_applicative.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_applicative/vision_applicative.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/articles/articles.js",
+		"/C/wamp/www/SiteUrba/Site/js/diagram.js",
+		"/C/wamp/www/SiteUrba/Lib/canvas/camera.js",
+		"/C/wamp/www/SiteUrba/Lib/canvas/diagram-share.js",
+		"/C/wamp/www/SiteUrba/Site/css/urba.local.css",
+		"/C/wamp/www/LaPosteCourrier/webeditor/handmade/composantapplicatif/composantapplicatif.js",
+		"/C/wamp/www/SiteUrba/Site/main/aide",
+		"/C/wamp/www/SiteUrba/Site/structure/inc.global_header.html",
+		"/C/wamp/www/SiteUrba/Site/structure/inc.top_header.html",
+		"/C/wamp/www/SiteUrba/Site/main/aidenew.html",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/articles/articlesold.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_metier/vision_metier.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_metier/vision_metier.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/generated/entreprise/json/entreprise21.json",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/menu/menu.js",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/menu/menu.css",
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/menu/_menu.helper.json",
+		"/C/wamp/www/SiteUrba/Site/js/aide.js"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 88.0,
+		"where_history":
+		[
+			"",
+			"T:\\Site",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"createDiagramTabContent",
+			"leaf",
+			"DiagramCanvas",
+			"Shapes",
+			"shapes",
+			"pos2",
+			"a.",
+			"icon1",
+			"\" + SITE_HOST + \"main/",
+			".border",
+			"border",
+			"\" + SITE_HOST + \"main",
+			"body",
+			"\" + SITE_HOST + \"main",
+			"SITE_HOST",
+			"HTTP_SERVER",
+			"SITE_HOST",
+			"ui-tabs-selected",
+			"ui-tabs-selected ",
+			"video-js.png",
+			"png",
+			"fluxBox",
+			"drawFluxBox",
+			"json",
+			"getScr",
+			"\n\n   \n",
+			"trimTrailingWhiteSpaceOnSave",
+			"title",
+			"187.0.18.131",
+			"urba.local.css",
+			"<<<<<<< HEAD",
+			"addMenuToOutPut",
+			"addMenuToOutPutaddMenuToOutPut",
+			"gère",
+			"tooltip-me",
+			"reverseNodesDraw",
+			"createBrowseNode",
+			"MP",
+			"browseShapesAndCallbackIfMouseOn",
+			"reverseNodesDraw",
+			"border",
+			"tabs-app",
+			"diagram-box",
+			"mousemove",
+			" buttonID",
+			"initDiagramShare(",
+			"Clipboard",
+			"setImageInCanvas",
+			"addTitle",
+			"page-object-name",
+			"createBrowseNode",
+			" createTextTab",
+			"initDiagramShare",
+			"diagramShare-diagram",
+			"ui-helper",
+			"ui-icon",
+			"ui-button-icon-primary",
+			"ui-icon-primary",
+			"ui-icon-zoomin",
+			"clipboard",
+			"help",
+			"cursor:help",
+			"paide",
+			"mpaide",
+			"li.sa",
+			"diagramsExploded",
+			"setF",
+			"\nli.pos2{\n         \n     border:1px solid rgb(173,199,119); \n    padding:0px !important;\n    text-align:center;\n    display:inline-block;\n    vertical-align:top;\n    width:100%;\n    height:100%\n\n    ;    \n    margin:8px;\n    font-size:0.9em;\n   \n    background-position: 0px 0px;    \n    background: #f8ffe8; \nbackground: -moz-linear-gradient(-45deg, #f8ffe8 0%, #e3f5ab 23%, #b7df2d 71%); \nbackground: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f8ffe8), color-stop(23%,#e3f5ab), color-stop(71%,#b7df2d)); \nbackground: -webkit-linear-gradient(-45deg, #f8ffe8 0%,#e3f5ab 23%,#b7df2d 71%); \nbackground: -o-linear-gradient(-45deg, #f8ffe8 0%,#e3f5ab 23%,#b7df2d 71%);\nbackground: -ms-linear-gradient(-45deg, #f8ffe8 0%,#e3f5ab 23%,#b7df2d 71%); \nbackground: linear-gradient(-45deg, #f8ffe8 0%,#e3f5ab 23%,#b7df2d 71%); \nfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=1 ); \n\n}",
+			"      /* _.each(one_quartier.app, function(one_app){\n          output.push(\"<li class='app'><div class='app'>\");\n          output.push(\"<a href='\",one_app.unique_page_link_id,\"'>\",one_app.name,\"</a>\");\n          output.push(\"</div>\");\n          output.push(\"</li>\");\n          });*/",
+			"li.quart{\n    \n    list-style:none;\n    /*background : none;*/\n    background-position: 0px 0px;    \n   background: #b4ddb4; /* Old browsers */\nbackground: -moz-linear-gradient(45deg, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 60%, #005700 91%); /* FF3.6+ */\nbackground: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#b4ddb4), color-stop(17%,#83c783), color-stop(33%,#52b152), color-stop(60%,#008a00), color-stop(91%,#005700)); /* Chrome,Safari4+ */\nbackground: -webkit-linear-gradient(45deg, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 60%,#005700 91%); /* Chrome10+,Safari5.1+ */\nbackground: -o-linear-gradient(45deg, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 60%,#005700 91%); /* Opera 11.10+ */\nbackground: -ms-linear-gradient(45deg, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 60%,#005700 91%); /* IE10+ */\nbackground: linear-gradient(45deg, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 60%,#005700 91%); /* W3C */\nfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#005700',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */\n    display:inline-block;\n    vertical-align:top;\n    width:140px;\n    text-align:center;\n    margin:8px;\n    height:55px;\n    font-size:0.9em;\n    padding:0px !important;\n    background-position:0px 0px;\n    border:1px solid #008A00; \n    \n\n}",
+			"mainScreen",
+			"camera.zoomFactor",
+			"draw",
+			"applyChanges",
+			"wheel",
+			"setImageInCanvas",
+			"metierTypeToCSS",
+			"menu_vision_metier_21",
+			"metierTypeToCSS",
+			"activ",
+			"nomderemplacement",
+			"LIB_SERVER",
+			"detailsTabs",
+			"jqdialog",
+			"dialog",
+			"   reverseNodesDraw",
+			"createBrowseNode",
+			"createTextTab",
+			"diagramShare",
+			"diagram",
+			"diagram-zone",
+			"diagramNavigation",
+			"ul id=\"diagramNavigation",
+			" ui-corner-all",
+			"diagramNavigation",
+			"ui-button-icon-primary",
+			"ui-button",
+			"ui-button-text",
+			"createDiagramTabContent",
+			"gouvernance",
+			"createDiagramShare",
+			"diagramShare",
+			"diagramImage",
+			"output",
+			"      ",
+			"function drawItem_vision_applicative_domaine_fonctionnel(output, domaine_fonctionnel){\n  output.push(\"<ul class='domaine_fonctionnel'>\");\n    _.each(domaine_fonctionnel, function(one_domaine_fonctionnel){\n      output.push(\"<li class='domaine_fonctionnel'><div class='domaine_fonctionnel'>\");\n      output.push(\"<a href='\",one_domaine_fonctionnel.unique_page_link_id,\"'>\",one_domaine_fonctionnel.name,\"</a>\");\n      output.push(\"</div>\");\n      output.push(\"<ul class='sa'>\");\n        _.each(one_domaine_fonctionnel.sa, function(one_sa){\n          output.push(\"<li class='sa'><div class='sa'>\");\n          output.push(\"<a href='\",one_sa.unique_page_link_id,\"'>\",one_sa.name,\"</a>\");\n          output.push(\"</div>\");\n          output.push(\"<ul class='app'>\");\n            _.each(one_sa.app, function(one_app){\n              output.push(\"<li class='app'><div class='app'>\");\n              output.push(\"<a href='\",one_app.unique_page_link_id,\"'>\",one_app.name,\"</a>\");\n              output.push(\"</div>\");\n              output.push(\"</li>\");\n            });\n          output.push(\"</ul>\");\n          output.push(\"</li>\");\n        });\n      output.push(\"</ul>\");\n      output.push(\"</li>\");\n    });\n  output.push(\"</ul>\");\n}",
+			"SITE_CONTENT_SELECTOR",
+			"createContent",
+			"doActionsForSingle",
+			"createPage",
+			"</li>',",
+			"'<li>",
+			"'<li>'",
+			"','",
+			"association-link",
+			"association-lik",
+			"help",
+			"wait",
+			"property-details",
+			"tooltip-me",
+			"Maîtriser les évolutions du SI en facilitant et fiabilisant les études d’impact et avant projet.','</li>',	\n	",
+			"class=\"active\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"../images/tv.gif",
+			"</li>",
+			"<li>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+					"settings":
+					{
+						"buffer_size": 3576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1269,
+								1269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 2167,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										150,
+										173
+									],
+									[
+										427,
+										450
+									],
+									[
+										620,
+										643
+									],
+									[
+										844,
+										867
+									],
+									[
+										1009,
+										1032
+									],
+									[
+										1247,
+										1270
+									],
+									[
+										1588,
+										1611
+									],
+									[
+										1871,
+										1894
+									],
+									[
+										1940,
+										1963
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 28.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"composant",
+				"Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js"
+			],
+			[
+				"composantapp",
+				"Site/webdesigner/handmade/composantapplicatif/composantapplicatif.css"
+			],
+			[
+				"main.",
+				"Site/js/main.js"
+			],
+			[
+				"visio",
+				"Site/webdesigner/handmade/vision_metier/vision_metier.js"
+			],
+			[
+				"",
+				"Site/webdesigner/handmade/vision_metier/vision_metier.js"
+			],
+			[
+				"contact",
+				"Site/webdesigner/handmade/contact/contact.js"
+			],
+			[
+				"processus.js",
+				"Site/webdesigner/handmade/processus/processus.js"
+			],
+			[
+				"men",
+				"/T/Site/webdesigner/handmade/menu/menu.js"
+			],
+			[
+				"ma",
+				"//Site/js/main.js"
+			],
+			[
+				"entre",
+				"//Site/webdesigner/handmade/entreprise/entreprise.css"
+			],
+			[
+				"guide.js",
+				"//Site/js/guide/guide.js"
+			],
+			[
+				"guid",
+				"//Site/main/guide.html"
+			],
+			[
+				"menu.js",
+				"//Site/webdesigner/handmade/menu/menu.js"
+			],
+			[
+				"home.js",
+				"/T/Site/js/home.js"
+			],
+			[
+				"guide.",
+				"//Site/main/guide.html"
+			],
+			[
+				"vision",
+				"//Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js"
+			],
+			[
+				"process",
+				"//Site/webdesigner/handmade/processus/processus.js"
+			],
+			[
+				"macro",
+				"//Site/webdesigner/handmade/macroprocessus/macroprocessus.js"
+			],
+			[
+				"entrepri",
+				"//Site/webdesigner/handmade/entreprise/entreprise.js"
+			],
+			[
+				"macroprocess",
+				"//Site/webdesigner/handmade/macroprocessus/macroprocessus.css"
+			],
+			[
+				"camera.js",
+				"//Lib/canvas/camera.js"
+			],
+			[
+				"dia",
+				"Site/js/diagram.js"
+			],
+			[
+				"composa",
+				"Site/webdesigner/handmade/composantapplicatif/composantapplicatif.css"
+			],
+			[
+				"share",
+				"Lib/css.shared/shared.css"
+			],
+			[
+				"domaine",
+				"Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.css"
+			],
+			[
+				"doma",
+				"Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js"
+			],
+			[
+				"dimainefon",
+				"Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js"
+			],
+			[
+				"shared",
+				"Lib/css.shared/shared.css"
+			],
+			[
+				"diagra",
+				"Site/js/diagram.js"
+			],
+			[
+				"enter",
+				"Site/webdesigner/handmade/entreprise/entreprise.js"
+			],
+			[
+				"me",
+				"Site/webdesigner/handmade/menu/menu.css"
+			],
+			[
+				"mac",
+				"Site/webdesigner/handmade/macroprocessus/macroprocessus.css"
+			],
+			[
+				"processus",
+				"Site/webdesigner/handmade/processus/processus.js"
+			],
+			[
+				"composantapplicatif.css",
+				"Site/webdesigner/handmade/composantapplicatif/composantapplicatif.css"
+			],
+			[
+				"artic",
+				"Site/webdesigner/handmade/articles/articles.js"
+			],
+			[
+				"main",
+				"Site/js/main.js"
+			],
+			[
+				"vision_app",
+				"Site/webdesigner/handmade/vision_applicative/vision_applicative.js"
+			],
+			[
+				"main.css",
+				"Site/css/main.css"
+			],
+			[
+				"domainefonctio",
+				"Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js"
+			],
+			[
+				"main.js",
+				"Site/js/main.js"
+			],
+			[
+				"macroprocessus.js",
+				"Site/webdesigner/generated/macroprocessus/layouts/macroprocessus_standard-list.js"
+			],
+			[
+				"marcoprocess.css",
+				"Site/webdesigner/handmade/macroprocessus/macroprocessus.css"
+			],
+			[
+				"macroprocess.js",
+				"Site/webdesigner/handmade/macroprocessus/macroprocessus.js"
+			],
+			[
+				"metier.css",
+				"Site/webdesigner/handmade/vision_metier/vision_metier.css"
+			],
+			[
+				"metier.js",
+				"Site/webdesigner/handmade/vision_metier/vision_metier.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}

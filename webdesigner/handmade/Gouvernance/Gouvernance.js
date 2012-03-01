@@ -7,7 +7,7 @@ function draw_Gouvernance(Gouvernance){
 		var menu = 'menu_savoir_plus';
 		openMenu(menu);
 		activeSubMenu(menu + "_Gouvernance" );
-		   var bc = "<a href='" + SITE_HOST + "main/aide.html'>En savoir plus</a>";
+		   var bc = "<a href='aide.html'>En savoir plus</a>";
     bc += ' > ' + "Gouvernance";
     updateBreadCrumbPage(bc);  
 

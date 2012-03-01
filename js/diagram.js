@@ -11,7 +11,7 @@ $(function(){
 		var menu = 'menu_accueil';
 		openMenu(menu);
 		activeSubMenu(menu + "_accueil" );
-		var bc = "<a href='" + SITE_HOST + "main/home.html'>Le référentiel du SI</a>";
+		var bc = "<a href='home.html'>Le référentiel du SI</a>";
         bc += ' > ' + "Diagramme";
     	updateBreadCrumbPage(bc);      
    		

@@ -6,7 +6,7 @@ $(function(){
 		openMenu(menu);
 		activeSubMenu(menu + "_guide");
 		
-		var bc = "<a href='" + SITE_HOST + "main/contact.html'>En savoir plus</a>";
+		var bc = "<a href='contact.html'>En savoir plus</a>";
         bc +=  " > Guide de modélisation";
     	updateBreadCrumbPage(bc); 
 		$(SITE_CONTENT_SELECTOR).html(content);		
