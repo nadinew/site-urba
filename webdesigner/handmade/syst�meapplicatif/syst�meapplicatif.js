@@ -6,6 +6,8 @@ function draw_systèmeapplicatif(systèmeapplicatif){
     var menu = 'menu_vision_applicative';
   openMenu(menu);
 
+
+  setFullScreen();
    var bc = "<a href='vision_applicative.html'>Vision Applicative</a>";
     bc += ' > Système Applicatif: ' + systèmeapplicatif.name;
     updateBreadCrumbPage(bc);    
@@ -13,24 +15,27 @@ function draw_systèmeapplicatif(systèmeapplicatif){
     var output = [];
     var savedDiagrams = {};
     
+    //console.log(systèmeapplicatif);
 
   output.push('<div id="detailsTabs">');  
       // création des titres
       output.push('<ul>');   
         createTextTab(output, 'tabs-details', 'Fiche Système Applicatif', 'info');
         createDiagramTab(output, systèmeapplicatif, "A1", savedDiagrams, "Echange Inter Système Applicatif", ["SYSTÈMEAPPLICATIF", "COMPOSANTAPPLICATIF"]);
-         createDiagramTab(output, systèmeapplicatif, "F2.2", savedDiagrams, "Architecture >>Systèmes Applicatifs par Domaine Fonctionnel", []);
+        createDiagramTab(output, systèmeapplicatif, "F2.2", savedDiagrams, "Architecture >>Systèmes Applicatifs par Domaine Fonctionnel", []);
        
       output.push('</ul>');
 
 
-createDiagramTabContent(output, systèmeapplicatif, "A1");    
-createDiagramTabContent(output, systèmeapplicatif, "F2.2");   
-   createTextTabContent(output, 'tabs-details', function(output){
-        createSADetailsContent(output, systèmeapplicatif)
+      createTextTabContent(output, 'tabs-details', function(output){
+        createSADetailsContent(output, systèmeapplicatif);
       }, null);
+      
 
-output.push('</div>');
+      createDiagramTabContent(output, systèmeapplicatif, "A1");    
+      createDiagramTabContent(output, systèmeapplicatif, "F2.2");   
+
+      output.push('</div>');
      
     $(SITE_CONTENT_SELECTOR).html(output.join(''));
     setToolTipsOnTitles();

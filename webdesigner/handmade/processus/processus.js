@@ -117,23 +117,23 @@ function createProcessusVisionContent(output, processus){
       output.push("<ul class=''>");
         _.each(processus.activite, function(activite){
         output.push("<li class='pos2 ui-corner-all'>");
-        output.push ('<span class="titleHelp tooltip-me" title="" style="cursor:help"> Activité </span>');
+        output.push ('<div class="titleHelp tooltip-me" title="" style="cursor:help"> Activité </div>');
         output.push(activite.nomderemplacement);
         output.push("<ul class=''>");
           _.each(activite.fonction, function(one_fonction){
             output.push("<li class='pos2 ui-corner-all'>");
-            output.push('<span class="titleHelp tooltip-me" title="',one_fonction.description,'"> Fonction </span>');
+            output.push('<div class="titleHelp tooltip-me" title="',one_fonction.description,'"> Fonction </div>');
             
             output.push(one_fonction.nomderemplacement);
                       output.push("<ul class=''>");
               _.each(one_fonction.appli, function(one_appli){
                 output.push("<li class='pos2 ui-corner-all'>");
-                 output.push ('<span class="titleHelp tooltip-me"> Application</span>');
+                 output.push ('<div class="titleHelp tooltip-me"> Application</div>');
                 output.push("<a href='",one_appli.unique_page_link_id,"'>",one_appli.name,"</a>");
                  output.push("<ul class=''>");
                   _.each(one_appli.quartier, function(one_quartier){
                     output.push("<li class='pos2 ui-corner-all'>");
-                     output.push ('<span class="titleHelp tooltip-me">Quartier</span>');
+                     output.push ('<div class="titleHelp tooltip-me">Quartier</div>');
                     output.push(one_quartier.nomderemplacement);
                     output.push("</li>");
                   });

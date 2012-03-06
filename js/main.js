@@ -24,9 +24,20 @@ function addHelpForPage(image){
 }
 
 
+function removeFullScreen(){
+  $.cookie('fullScreen', null);
+  window.location.reload(true);
+}
+
+
 // met plein ecran
 function setFullScreen(){
-    $('.main_container_frame').animate({"width": '100%'});
+    if ( $.cookie('fullScreen') == 'true'){
+      $('.main_container_frame').css("width",'100%');
+    } else {
+      $('.main_container_frame').animate({"width": '100%'});    
+    }
+    
     var width = $(window).width() - 250;        
     $('.main_container_frame #center').width(width + "px");
     $('.main_container_frame #center').css("padding", '5px');
@@ -110,7 +121,14 @@ function createPage(_path, _title, callback){
 	loadPageAndSetTagHTML('#top_header', _path + 'structure/inc.top_header.html', function(){
     $("#fullscreen").click(function(){
       setFullScreen();
+      $.cookie('fullScreen', 'true');
     });    
+    $("#removeFullScreen").click(function(){
+        removeFullScreen();
+    });    
+
+
+
   });
 	loadPageAndSetTagHTML('#global_header', _path + 'structure/inc.global_header.html', function(){
 
@@ -118,10 +136,14 @@ function createPage(_path, _title, callback){
 	loadPageAndSetTagHTML('#container', _path + 'structure/inc.container.html', function(){
 		$("#container #center h2").html(_title);
    		getMenu(function(){
+        if ( $.cookie('fullScreen') == 'true'){
+          setFullScreen();
+        }       
    			callback();	
    		});
 	});
 	loadPageAndSetTagHTML('#footer', _path + 'structure/inc.footer.html');
+
 
 
 }
@@ -134,6 +156,7 @@ function getMenu(callback){
 			var o = [];        
 			addMenuToOutPut(o, menu);
 			$('#block-menu_block-3 .content').html(o.join(''));
+      getGeneratedDate();
 			$('#block-menu_block-3 .content li.collapsed ul').css('display', 'none');
 			callback();
 		});

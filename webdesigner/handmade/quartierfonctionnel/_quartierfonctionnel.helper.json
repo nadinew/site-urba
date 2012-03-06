@@ -1,6 +1,7 @@
 /*
 quartierfonctionnel
  .quartierfonctionnel : name, nomderemplacement,  object_id, link_id, uuid
+ . : name,  object_id, link_id, uuid
   .zone : description, name, nomderemplacement,  object_id, link_id, uuid
   .app : description, name,  object_id, link_id, uuid
 */

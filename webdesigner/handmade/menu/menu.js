@@ -18,6 +18,12 @@ function drawItems_menu(all_items, searching)
 }
 
 
+function getGeneratedDate(){
+	//console.log('get file');
+	$.get("../date.txt", function(dateOfGeneration){
+		$('#generatedDateZone span').html(dateOfGeneration);
+	});	
+}
 
 function addMenuToOutPut(output, all_items){
 /*	output.push('<div id="sidebar-left">');
@@ -53,7 +59,7 @@ output.push('</li>');
 
 output.push('</ul>');	
 
-output.push("<p style='background-color:#EDF5FB;border:1px; border-style:solid;border-color: #AACEE9;padding:0.3em;margin:0.6em;position:relative;display : block ;text-align:center ;color:#AACEE9'>Dernière mise à jour le 02/03/2012</p>");
+output.push("<p id='generatedDateZone' style='background-color:#EDF5FB;border:1px; border-style:solid;border-color: #AACEE9;padding:0.3em;margin:0.6em;position:relative;display : block ;text-align:center ;color:#AACEE9'>Dernière mise à jour le <span></span></p>");
 
 
 output.push('<p style="padding-left:60px;width: 50px; height: 50px" ><a href="mailto:nadine.weiss@laposte.fr" target="_blank"><img src="../images/email.gif" title="Nous contacter"></a></p>');
@@ -92,7 +98,7 @@ function drawItem_menu_savoir_plus(output){
  	 output.push("<a href='aide.html'>Tutoriel</a></div></li>");
 
  	 output.push("<li class='domaine_metier leaf' id='menu_savoir_plus_Metamodele'><div class='domaine_metier'>");
- 	 output.push("<a href='../images/metamodele.jpg' target='_blank'>Méta-Modèle</a></div></li>");
+ 	 output.push("<a href='meta.html' >Méta-Modèle</a></div></li>");
 
  	 output.push("<li class='domaine_metier leaf' id='menu_savoir_plus_Gouvernance'><div class='domaine_metier'>");
  	 output.push("<a href='./entreprise.html?21'>Gouvernance</a></div></li>");

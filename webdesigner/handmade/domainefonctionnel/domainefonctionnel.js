@@ -60,7 +60,8 @@ function drawCouvertureApplicativeContent(output, domainefonctionnel){
 _.each(domainefonctionnel.zone, function(zone){
   output.push("<li class='zone pos2 ui-corner-all'>");
   //addTitle(output, zone.nomderemplacement);
-    output.push("<span class='titleHelp tooltip-me' style='cursor: help;'>Zone</span>");
+    output.push("<div class='titleHelp tooltip-me' style='cursor: help;'>Zone</div>");
+    output.push(zone.nomderemplacement);
     output.push("<ul class='quart'>");
       _.each(zone.quartier, function(one_quartier){
         output.push("<li class='quart pos2 ui-corner-all'><div class='tooltip-me quartier'>",one_quartier.nomderemplacement,"</div><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>");
@@ -88,8 +89,8 @@ function drawPOSContent(output, domainefonctionnel){
  _.each(domainefonctionnel.zone, function(zone){
     //addTitle(output, zone.nomderemplacement);
     output.push("<li class='zone pos2 ui-corner-all'>");
-    output.push("<span class='titleHelp tooltip-me' style='cursor: help;'>Zone</span>");
-      output.push('<a>',zone.nomderemplacement,'</a>');
+    output.push("<div class='titleHelp tooltip-me' style='cursor: help;'>Zone</div>");
+      output.push(zone.nomderemplacement);
       output.push("<ul class='quart'>");
         _.each(zone.quartier, function(one_quartier){
           output.push("<li class='quart pos2 ui-corner-all'><div title='",one_quartier.description,"' class='tooltip-me quartier'><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>");

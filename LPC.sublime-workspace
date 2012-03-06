@@ -84,21 +84,35 @@
 	"buffers":
 	[
 		{
-			"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+			"file": "js/meta.js",
 			"settings":
 			{
-				"buffer_size": 3576,
+				"buffer_size": 453,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 6014 files for \"createDiagramTabContent\"\n\nT:\\Lib\\templates\\tab_manager.js:\n   68  \n   69  // create the diagram tab content\n   70: function createDiagramTabContent(output, mainItem, diagramCategory){\n   71  	$.each(mainItem.diagramsExploded, function (abbr, diagrams){\n   72  		$.each(diagrams, function (dKey, d){								\n\nT:\\Site\\LPC.sublime-workspace:\n  449  			\"ui-button\",\n  450  			\"ui-button-text\",\n  451: 			\"createDiagramTabContent\",\n  452  			\"gouvernance\",\n  453  			\"createDiagramShare\",\n\nT:\\Site\\webdesigner\\handmade\\composantapplicatif\\composantapplicatif.js:\n   79  \n   80  	// contenus\n   81: 	createDiagramTabContent(output, composantapplicatif, \"A3\");    \n   82  \n   83  	createTextTabContent(output, 'tabs-app', function(output){\n   ..\n  155  \n  156  	$.each(composantapplicatif.sa, function(i, sa){      \n  157: 		createDiagramTabContent(output, sa, \"A1\");\n  158  	});\n  159  	\n\nT:\\Site\\webdesigner\\handmade\\domainefonctionnel\\domainefonctionnel.js:\n   43    \n   44    \n   45:   createDiagramTabContent(output, domainefonctionnel, \"F3\"); \n   46    createTextTabContent(output, 'tabs-couverture', function(output){\n   47      drawCouvertureApplicativeContent(output, domainefonctionnel);\n   48    }, null);  \n   49:   createDiagramTabContent(output, domainefonctionnel, \"F2.1\"); \n   50    createTextTabContent(output, 'tabs-pos', function(output){\n   51        drawPOSContent(output, domainefonctionnel);\n\nT:\\Site\\webdesigner\\handmade\\processus\\processus.js:\n   43          createProcessusDetailsContent(output, processus)\n   44        }, null);\n   45:       createDiagramTabContent(output, processus, \"M3.1\");\n   46        createTextTabContent(output, 'tabs-vision', function(output){\n   47          createProcessusVisionContent(output, processus)\n\nT:\\Site\\webdesigner\\handmade\\systèmeapplicatif\\systèmeapplicatif.js:\n   25  \n   26  \n   27: createDiagramTabContent(output, systèmeapplicatif, \"A1\");    \n   28: createDiagramTabContent(output, systèmeapplicatif, \"F2.2\");   \n   29     createTextTabContent(output, 'tabs-details', function(output){\n   30          createSADetailsContent(output, systèmeapplicatif)\n\n9 matches across 6 files\n",
+			"file": "webdesigner/handmade/menu/menu.js",
 			"settings":
 			{
-				"buffer_size": 2167,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
+				"buffer_size": 5642,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main/meta.html",
+			"settings":
+			{
+				"buffer_size": 856,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 14085,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -126,20 +140,29 @@
 	},
 	"file_history":
 	[
-		"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js",
+		"/T/Site/webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+		"/T/Site/webdesigner/handmade/contact/contact.js",
+		"/T/Site/webdesigner/handmade/processus/processus.js",
+		"/T/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
 		"/T/Site/js/main.js",
+		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.css",
 		"/T/Site/webdesigner/handmade/menu/menu.js",
+		"/T/Lib/jquery/jquery.cookie.js",
+		"/T/Site/structure/inc.top_header.html",
 		"/T/Site/css/main.css",
+		"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js",
+		"/T/Site/main/meta.html",
+		"/T/Site/main/articles.html",
+		"/T/Site/main/guide.html",
+		"/T/Site/main/home.html",
+		"/T/Site/main/aide.html",
 		"/T/Site/webdesigner/handmade/menu/menu.css",
 		"/T/Site/webdesigner/handmade/details_pos/details_pos.js",
 		"/T/Site/webdesigner/handmade/entreprise/entreprise.js",
 		"/T/Lib/canvas/camera.js",
-		"/T/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
-		"/T/Site/main/home.html",
 		"/T/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.css",
 		"/T/Site/webdesigner/handmade/processus/processus.css",
 		"/T/Site/webdesigner/handmade/fonction/fonction.js",
-		"/T/Site/webdesigner/handmade/processus/processus.js",
 		"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
 		"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.css",
 		"/T/Site/js/aide.js",
@@ -151,9 +174,7 @@
 		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.js",
 		"/T/Site/webdesigner/handmade/quartierfonctionnel/quartierfonctionnel.js",
 		"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.js",
-		"/T/Site/webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
 		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.jsold",
-		"/T/Site/webdesigner/handmade/contact/contact.js",
 		"/T/Site/LPC.sublime-project",
 		"/T/Site/js/presentation",
 		"/T/Site/index.html",
@@ -163,7 +184,6 @@
 		"/T/Site/js/presentation.js",
 		"/T/Site/main/presentation.html",
 		"/T/Site/css/video-js.css",
-		"/T/Site/main/aide.html",
 		"/T/Site/css/theme_lpc/jquery-ui.custom.css",
 		"/T/Site/css/theme/jquery-ui.custom.css",
 		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/User/Global.sublime-settings",
@@ -172,13 +192,11 @@
 		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/Default/Base File.sublime-settings",
 		"/C/Documents and Settings/ACM659/Application Data/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
-		"/T/Site/structure/inc.top_header.html",
 		"/T/Save/Site.7z",
 		"/T/Site010212.7z",
 		"/T/Lib/canvas/diagram-share.js",
 		"/C/sauvegarde_ae/bases/casewise_cm15022012.7z",
 		"/T/Lib/css.shared/shared.css",
-		"/T/Site/main/guide.html",
 		"/T/Site/webdesigner/handmade/entreprise/entreprise.css",
 		"/T/Site/js/home.js",
 		"/T/Lib/templates/reverse_drawing.js",
@@ -189,7 +207,6 @@
 		"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css",
 		"/T/Lib/canvas/CanvasCamera/canvas-camera.js",
 		"/T/Site/webdesigner/handmade/composantapplicatif/guide.html",
-		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.css",
 		"/T/Site/webdesigner/handmade/details_pos/details_pos.css",
 		"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css",
 		"/T/Site/main/vision_applicative.html",
@@ -250,10 +267,7 @@
 		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_metier/vision_metier.js",
 		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_metier/vision_metier.css",
 		"/C/wamp/www/SiteUrba/Site/webdesigner/generated/entreprise/json/entreprise21.json",
-		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/menu/menu.js",
-		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/menu/menu.css",
-		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/menu/_menu.helper.json",
-		"/C/wamp/www/SiteUrba/Site/js/aide.js"
+		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/menu/menu.js"
 	],
 	"find":
 	{
@@ -274,6 +288,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"setFullSc",
+			"setFu",
+			"setF",
+			"setFull",
+			"addMenuToOutPut",
+			"drawItems_menu",
+			"à jour",
+			"vali",
+			"validate",
+			"left top",
+			"icon",
+			"addTitle",
+			"h3",
+			"/site/dsi_c/files/dsi_c/fleche.jpg",
+			"fleche",
+			"/site/dsi_c/files/dsi_c/fleche.jpg",
+			"span",
+			"cons",
 			"createDiagramTabContent",
 			"leaf",
 			"DiagramCanvas",
@@ -383,19 +415,7 @@
 			"SITE_CONTENT_SELECTOR",
 			"createContent",
 			"doActionsForSingle",
-			"createPage",
-			"</li>',",
-			"'<li>",
-			"'<li>'",
-			"','",
-			"association-link",
-			"association-lik",
-			"help",
-			"wait",
-			"property-details",
-			"tooltip-me",
-			"Maîtriser les évolutions du SI en facilitant et fiabilisant les études d’impact et avant projet.','</li>',	\n	",
-			"class=\"active\""
+			"createPage"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -403,6 +423,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"left top\"",
 			"",
 			"../images/tv.gif",
 			"</li>",
@@ -418,29 +439,29 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+					"file": "js/meta.js",
 					"settings":
 					{
-						"buffer_size": 3576,
+						"buffer_size": 453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1269,
-								1269
+								453,
+								453
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 90.0,
@@ -450,72 +471,75 @@
 				},
 				{
 					"buffer": 1,
+					"file": "webdesigner/handmade/menu/menu.js",
 					"settings":
 					{
-						"buffer_size": 2167,
+						"buffer_size": 5642,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										150,
-										173
-									],
-									[
-										427,
-										450
-									],
-									[
-										620,
-										643
-									],
-									[
-										844,
-										867
-									],
-									[
-										1009,
-										1032
-									],
-									[
-										1247,
-										1270
-									],
-									[
-										1588,
-										1611
-									],
-									[
-										1871,
-										1894
-									],
-									[
-										1940,
-										1963
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5642,
+								5642
 							]
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main/meta.html",
+					"settings":
+					{
+						"buffer_size": 856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								824,
+								824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 14085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

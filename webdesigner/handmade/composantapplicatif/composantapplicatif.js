@@ -17,7 +17,7 @@ function draw_composantapplicatif(composantapplicatif){
 		
 		$(SITE_CONTENT_SELECTOR).html(output.join(''));
 		
-		$("h2").hide();
+		//$("h2").hide();
 		setToolTipsOnTitles();
 		doActionsForSingle();
 		activeTab('#detailsTabs', savedDiagrams);
@@ -83,7 +83,7 @@ function createContent(output, composantapplicatif, savedDiagrams){
 	createTextTabContent(output, 'tabs-app', function(output){
 		output.push('<ul class="border">');
 
-		output.push("<div class='title-center'  >",'Fiche applicative:' , composantapplicatif.name , "</div>");   
+		//output.push("<div class='title-center'  >",'Fiche applicative:' , composantapplicatif.name , "</div>");   
 		output.push('<li class="icone2">');  
 		output.push("<span class='title-h3'>",'Intitulé:   ',"</span>","<span class='text'>" + composantapplicatif.intitule ,"</span>");
 		output.push('</li>'); 
@@ -127,7 +127,7 @@ function createContent(output, composantapplicatif, savedDiagrams){
 
 	// création des détails
 	createTextTabContent(output, 'tabs-fonctions', function(output){
-		output.push("<div class='title-center'  >",'Vision Fonctionnelle:' , composantapplicatif.name , "</div>");   
+		//output.push("<div class='title-center'  >",'Vision Fonctionnelle:' , composantapplicatif.name , "</div>");   
 
 		var r_fonc_domainefonc = createBrowseNode('domainefonc', 'Domaine Fonctionnel', 'nomderemplacement', []);
 		var r_fonc_zone = createBrowseNode('zones', 'Zone', 'nomderemplacement', [r_fonc_domainefonc]);
@@ -140,7 +140,7 @@ function createContent(output, composantapplicatif, savedDiagrams){
 
 	createTextTabContent(output, 'tabs-metier', function(output){
 		
-		output.push("<div class='title-center'  >",'Vision Metier:' , composantapplicatif.name , "</div>"); 
+		//output.push("<div class='title-center'  >",'Vision Metier:' , composantapplicatif.name , "</div>"); 
 
 
 		var r_process_domainemetier = createBrowseNode('domainemetier', 'Domaine Métier', 'nomderemplacement', []);
