@@ -3,10 +3,12 @@ function doActionsForSingle_entreprise() {}
 
 function draw_entreprise(entreprise){
 
-	var pageName = "" + entreprise.nomderemplacement + " (MacroProcessus/Processus)";
+	var pageName = "" + entreprise.nomderemplacement ;
 	document.title = pageName;
 	createPage('../', pageName, function(){
-		
+	
+	setFullScreen();
+    var mp = entreprise.macroprocessus[0];	
 
 		if (entreprise.object_id != "21"){
 			var menu = 'menu_vision_metier';
@@ -26,22 +28,47 @@ function draw_entreprise(entreprise){
 
 		updateBreadCrumbPage(bc);  
 
-		var output = [];	
+		var output = [];
+		var savedDiagrams = {};	
 
 		output.push('<p>',entreprise.description, '</p>')
 
-		output.push('<ul class="macroprocessus ">');
+		
+
+
+    output.push('<div id="detailsTabs">');  
+      // création des titres
+      output.push('<ul>');   
+    
+        createDiagramTab(output, entreprise, "M1", savedDiagrams, "Vue d'ensemble du domaine Métier", []);
+        createTextTab(output, 'tabs-macro', 'Macro processus', 'info');
+         output.push('</ul>');
+
+      
+      createDiagramTabContent(output, entreprise, "M1");
+        
+      createTextTabContent(output, 'tabs-macro', function(output){
+        output.push('<ul class="macroprocessus ">');
 		_.each(entreprise.macroprocessus, function(mp){
 			output.push('<li class="macroprocessus ',mpTypeToCSS(mp.type) ,'  "><div class="macroprocessus mp-title-h3 tooltip-me" title="',mp.description,'" style="cursor:pointer"><a href="',mp.unique_page_link_id, '" >', mp.nomderemplacement, '</a></div>');
 				drawProcessus(output, mp);
 			output.push('</li>');
 		});
 		output.push('</ul>');
+         }, null);
+ 
+ 
 
 		$(SITE_CONTENT_SELECTOR).html(output.join(''));
 		setToolTipsOnTitles();
+		 activeTab('#detailsTabs', savedDiagrams);
+
+    $(".ui-tabs-nav span").removeClass('ui-icon');
+    $(".ui-tabs-nav span").addClass('ui-icon1');
+        addHelpForPage("entreprise");
 	});
 }
+
 
 
 function drawProcessus(output, mp){

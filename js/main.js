@@ -25,10 +25,10 @@ function createTextTab2(output, selector, name, icon){
  }    
 
 function addHelpForPage(image){
-  $('#container #center').children().first().before(' <a href="../images/aide/' +image + '.png" class="help-image" target="_blank">  <img class="clic" src="../images/help.gif" alt="Aide sur cette page" /></a>');  
+  $('#container #center').children().first().before(' <a href="../images/aide/' +image + '.png" class="help-image" target="_blank" title="Aide sur cette page" >  <img class="clic" src="../images/help.gif" alt="Aide sur cette page" /></a>');  
   $('.help-image').click(function(e){
     $('.help-zone').remove();
-    $('body').append('<div class="help-zone" title="Aide sur cette page" ><a href="#"><img src="../images/aide/close-2.png"/></a><br/><img src="../images/aide/' +image + '.png"/></div>');
+    $('body').append('<div class="help-zone" title="Aide sur cette page" ><a href="#"><img src="../images/aide/close-2.png" alt="Aide sur cette page" /></a><br/><img src="../images/aide/' +image + '.png"/></div>');
     $('.help-zone').css('position', 'absolute').css('top', 300).css('left', 50);
     $('.help-zone').draggable();
     $('.help-zone a').click(function(){

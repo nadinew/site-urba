@@ -87,7 +87,7 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 11312,
+				"buffer_size": 11368,
 				"line_ending": "Windows"
 			}
 		},
@@ -152,6 +152,41 @@
 			"settings":
 			{
 				"buffer_size": 2252,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "function draw_processus(processus){\n  var pageName = \"Processus: \" + processus.nomderemplacement;\n  document.title = pageName;\n  createPage('../', pageName, function(){\n\n    setFullScreen();\n    var mp = processus.macroprocessus[0];\n    var entreprise = mp.entreprise[0];\n\n    var menu = 'menu_vision_metier';\n    if (entreprise.object_id != '21'){\n      openMenu(menu);\n      var bc = \"<a href='vision_metier.html'>Vision Metier</a>\";\n      activeSubMenu(menu + '_' + entreprise.object_id);      \n    } else {\n      openMenu('menu_savoir_plus');\n      activeSubMenu('menu_savoir_plus_Gouvernance');\n      var bc = \"<a href='aide.html'>En savoir plus</a>\";\n      bc += ' > ' + \"<a href='entreprise.html?21'>Gouvernance</a>\";\n      \n    }\n\n    bc += ' > ' + \"Processus: \" + processus.nomderemplacement;  \n    updateBreadCrumbPage(bc);  \n    \n\n    var output = [];\n    var savedDiagrams = {};\n\n\n\n    output.push('<div id=\"detailsTabs\">');  \n      // création des titres\n      output.push('<ul>');   \n        createTextTab(output, 'tabs-details', 'Fiche Processus', 'info');\n        //\"ACTIVITÉ\"\n        createDiagramTab(output, processus, \"M3.1\", savedDiagrams, \"Décomposition en activités\", []);\n        /*createDiagramTab(output, mp, \"M2.1\", savedDiagrams, \"Diagramme du MacroProcessus\", []);*/\n        createTextTab(output, 'tabs-vision', 'Vision applicative des processus', 'info');\n         createTextTab(output, 'tab-contact', \"Contact\", 'pencil');\n      output.push('</ul>');\n\n      createTextTabContent(output, 'tabs-details', function(output){\n        createProcessusDetailsContent(output, processus)\n      }, null);\n      createDiagramTabContent(output, processus, \"M3.1\");\n          createDiagramTabContent(output, mp, \"M2.1\");\n      createTextTabContent(output, 'tabs-vision', function(output){\n        createProcessusVisionContent(output, processus)\n         }, null);\n      \n        createTextTabContent(output, 'tab-contact', function(output){\n        var domaine = processus.name;\n        var perimetre = domaine.substring (0,3);\n        if ( perimetre == 'MAC' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Annie Delbet</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:annie.delbet@laposte.fr'>annie.delbet@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'>01 34 52 80 03</span>\",\"</li>\");           \n        }   \n        if ( perimetre == 'IND' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Anne Sandrine Lapointe</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:anne-sandrine.lapointe@laposte.fr'>anne-sandrine.lapointe@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        } \n        if ( perimetre == 'FIN' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Bernard Baudin</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        if ( perimetre == 'REF' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Mireille Deligne</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:mireille.deligne@laposte.fr'>mireille.deligne@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        if ( perimetre == 'GOU' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Dominique Giordan</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:dominique.giordan@laposte.fr'>dominique.giordan@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        if ( perimetre == 'RH-' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Sebastien Lepage</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:sebastien.lepage@laposte.fr'>sebastien.lepage@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'>01 34 52 81 46</span>\",\"</li>\");           \n        }\n        if ( perimetre == 'GDM' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Bernard Baudin</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        else\n        {\n          output.push('non renseigné');\n        }\n         \n    });\n \n \n\n    output.push('</div>');\n     \n    $(SITE_CONTENT_SELECTOR).html(output.join(''));\n    setToolTipsOnTitles();\n    activeTab('#detailsTabs', savedDiagrams);\n\n    $(\".ui-tabs-nav span\").removeClass('ui-icon');\n    $(\".ui-tabs-nav span\").addClass('ui-icon1');\n  });\n}\n\nfunction createProcessusVisionContent(output, processus){\n  if (processus.activite.length > 0){\n      output.push(\"<ul class=''>\");\n        _.each(processus.activite, function(activite){\n        output.push(\"<li class='pos2 ui-corner-all'>\");\n        output.push ('<div class=\"titleHelp tooltip-me\" title=\"\" style=\"cursor:help\"> Activité </div>');\n        output.push(activite.nomderemplacement);\n        output.push(\"<ul class=''>\");\n          _.each(activite.fonction, function(one_fonction){\n            output.push(\"<li class='pos2 ui-corner-all'>\");\n            output.push('<div class=\"titleHelp tooltip-me\" title=\"',one_fonction.description,'\"> Fonction </div>');\n            \n            output.push(one_fonction.nomderemplacement);\n                      output.push(\"<ul class=''>\");\n              _.each(one_fonction.appli, function(one_appli){\n                output.push(\"<li class='pos2 ui-corner-all'>\");\n                 output.push ('<div class=\"titleHelp tooltip-me\"> Application</div>');\n                output.push(\"<a href='\",one_appli.unique_page_link_id,\"'>\",one_appli.name,\"</a>\");\n                 output.push(\"<ul class=''>\");\n                  _.each(one_appli.quartier, function(one_quartier){\n                    output.push(\"<li class='pos2 ui-corner-all'>\");\n                     output.push ('<div class=\"titleHelp tooltip-me\">Quartier</div>');\n                    output.push(one_quartier.nomderemplacement);\n                    output.push(\"</li>\");\n                  });\n                output.push(\"</ul>\");\n                output.push(\"</li>\");\n              });\n            output.push(\"</ul>\");\n            output.push(\"</li>\");\n          });\n        output.push(\"</ul>\");\n        output.push(\"</li>\");\n      });\n      output.push(\"</ul></li>\");\n      output.push(\"</ul>\");\n       }\n   if (processus.activite.length <= 0) {\n    output.push('non renseigné');\n  }\n}\n\nfunction createProcessusDetailsContent(output, processus){\n  if (processus.description.length > 0){\n    addTitle(output, 'Description');\n\n    output.push('<li>');\n      output.push('<div class=\"description \">',processus.description, '</div>');\n    output.push('</li>');\n  }\n\n  if (processus.activite.length >0){\n    addTitle(output, 'Activités');\n\n    output.push('<li class=\"activ\">');\n      output.push('<ul class=\"activ \">');\n        _.each(processus.activite, function(activite){\n          output.push('<li class=\"act ui-corner-all \"><div class=\"app tooltip-me \"  title=\"',activite.description,'\">',activite.nomderemplacement,'</div>');\n          output.push(\"</li>\");\n        });\n      output.push('</ul>');\n    output.push(\"</li>\");\n  }\n\n\n  if (processus.description.length <= 0 && processus.activite.length <= 0) {\n    output.push('non renseigné');\n  }\n\n\n  addDiagrams(output, processus);\n}",
+			"file": "webdesigner/handmade/processus/processus.js",
+			"file_size": 8754,
+			"file_write_time": 129762080692155348,
+			"settings":
+			{
+				"buffer_size": 8555,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webdesigner/handmade/entreprise/entreprise.js",
+			"settings":
+			{
+				"buffer_size": 2450,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webdesigner/generated/entreprise/json/entreprise20.json",
+			"settings":
+			{
+				"buffer_size": 2498,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
+			"settings":
+			{
+				"buffer_size": 4020,
 				"line_ending": "Windows"
 			}
 		}
@@ -479,7 +514,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 12,
 			"sheets":
 			[
 				{
@@ -487,15 +522,15 @@
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 11312,
+						"buffer_size": 11368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								705,
-								705
+								909,
+								909
 							]
 						],
 						"settings":
@@ -504,8 +539,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 308.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -522,8 +557,8 @@
 						"selection":
 						[
 							[
-								2323,
-								2337
+								2355,
+								2319
 							]
 						],
 						"settings":
@@ -533,7 +568,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -725,6 +760,114 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "webdesigner/handmade/processus/processus.js",
+					"settings":
+					{
+						"buffer_size": 8555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2078,
+								2078
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "webdesigner/handmade/entreprise/entreprise.js",
+					"settings":
+					{
+						"buffer_size": 2450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "webdesigner/generated/entreprise/json/entreprise20.json",
+					"settings":
+					{
+						"buffer_size": 2498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
+					"settings":
+					{
+						"buffer_size": 4020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1583,
+								1583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -968,6 +1111,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 254.0,
+	"side_bar_width": 360.0,
 	"status_bar_visible": true
 }
