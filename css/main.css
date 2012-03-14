@@ -5,6 +5,23 @@ body{
 }
 
 
+div.help-zone{
+	margin:5px;
+	background:white;
+	border:1px solid black;
+}
+
+div.help-zone a{
+	float:right;
+	padding:5px;
+}
+
+a.help-image{
+	float:right;
+	cursor:pointer;
+	border:none;
+}
+
 img.mm-image{
 	width:100%;
 	border:none;
@@ -527,11 +544,15 @@ ul.diagram-box{
 }
 
 
+
+
 .helpForPage{
 	padding:40px;
 	margin-top:10px;
 	text-align:center;
 }
+
+
 
 /*
 .domainemetier-title{

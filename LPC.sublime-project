@@ -6,6 +6,9 @@
 		},
 		{
 			"path": "/T/Site"
+		},
+		{
+			"path": "/C/wamp/www/nSite"
 		}
 	]
 }

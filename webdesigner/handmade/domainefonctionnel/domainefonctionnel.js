@@ -3,6 +3,8 @@ var savedDiagrams = {};
 
 
 function draw_domainefonctionnel(domainefonctionnel){
+
+
   createPage('../', "Domaine Fonctionnel : " + domainefonctionnel.name + " ", function(){
 
     var output = [];

@@ -56,9 +56,8 @@ function drawItems_vision_applicative(all_items, searching) {
     drawItem_vision_applicative_sa(output, all_items.sa);
     
     $(SITE_CONTENT_SELECTOR).html(output.join(''));
-    var acc_active = false;
-    if (searching) acc_active = 0;
-    $('a').tooltip({showURL: false, fade:250});
+
+    addHelpForPage('vision_applicative');
     setToolTipsOnTitles();
     doLayoutsSpecialActions();
   });
