@@ -34,6 +34,7 @@ function drawItems_vision_fonctionnelle(all_items, searching) {
     $('a').tooltip({showURL: false, fade:250});
     setToolTipsOnTitles();
     doLayoutsSpecialActions();
+     addHelpForPage("vision_fonctionnelle");
   });
 }
 

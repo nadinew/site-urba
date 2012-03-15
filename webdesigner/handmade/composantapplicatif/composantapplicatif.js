@@ -34,6 +34,7 @@ function draw_composantapplicatif(composantapplicatif){
 		$('li.activites').addClass("pos2");		
 		$("li.fonctions li.application").hide();
 		$("ul.border").addClass("ui-corner-all");
+		addHelpForPage("application");
 	});
 }
 
@@ -168,6 +169,7 @@ function createContent(output, composantapplicatif, savedDiagrams){
 	});
 
 }  
+
 
 
 function drawFluxBox(output, list, displayName, name){

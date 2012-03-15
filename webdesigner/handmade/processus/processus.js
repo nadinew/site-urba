@@ -35,7 +35,7 @@ function draw_processus(processus){
         createTextTab(output, 'tabs-details', 'Fiche Processus', 'info');
         //"ACTIVITÉ"
         createDiagramTab(output, processus, "M3.1", savedDiagrams, "Décomposition en activités", []);
-        createDiagramTab(output, mp, "M2.1", savedDiagrams, "Diagramme du MacroProcessus", []);
+        //createDiagramTab(output, mp, "M2.1", savedDiagrams, "Diagramme du MacroProcessus", []);
         createTextTab(output, 'tabs-vision', 'Vision applicative des processus', 'info');
          createTextTab(output, 'tab-contact', "Contact", 'pencil');
       output.push('</ul>');
@@ -44,7 +44,7 @@ function draw_processus(processus){
         createProcessusDetailsContent(output, processus)
       }, null);
       createDiagramTabContent(output, processus, "M3.1");
-          createDiagramTabContent(output, mp, "M2.1");
+         // createDiagramTabContent(output, mp, "M2.1");
       createTextTabContent(output, 'tabs-vision', function(output){
         createProcessusVisionContent(output, processus)
          }, null);
@@ -94,10 +94,7 @@ function draw_processus(processus){
           output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>","</span>","</li>");  
           output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
         }
-        else
-        {
-          output.push('non renseigné');
-        }
+        
          
     });
  
@@ -185,4 +182,5 @@ function createProcessusDetailsContent(output, processus){
 
 
   addDiagrams(output, processus);
+  addHelpForPage("processus");
 }

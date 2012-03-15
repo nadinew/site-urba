@@ -15,6 +15,7 @@ document.title = pageName;
   	
   	drawItem_fonction(output,fonction);	      
     $(SITE_CONTENT_SELECTOR).html(output.join(''));
+    addHelpForPage("fonction");
   }); 
 }
 

@@ -24,6 +24,7 @@ function draw_domainefonctionnel(domainefonctionnel){
     activeTab('#detailsTabs', savedDiagrams);
     setToolTipsOnTitles();
     doActionsForSingle();
+    addHelpForPage("domainef");
     //doActionsForSingle_domainefonctionnel();    
   })
 }

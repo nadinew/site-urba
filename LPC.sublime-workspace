@@ -84,58 +84,58 @@
 	"buffers":
 	[
 		{
-			"file": "js/main.js",
+			"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
 			"settings":
 			{
-				"buffer_size": 11368,
+				"buffer_size": 7172,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "webdesigner/handmade/vision_metier/vision_metier.js",
+			"file": "main/home.html",
 			"settings":
 			{
-				"buffer_size": 2429,
+				"buffer_size": 2269,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/main.css",
+			"file": "webdesigner/handmade/processus/processus.js",
 			"settings":
 			{
-				"buffer_size": 14274,
+				"buffer_size": 8522,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "webdesigner/handmade/vision_applicative/vision_applicative.js",
+			"file": "js/articles.js",
 			"settings":
 			{
-				"buffer_size": 2006,
+				"buffer_size": 1075,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/T/Lib/canvas/camera.js",
+			"file": "webdesigner/handmade/composantapplicatif/composantapplicatif.js",
 			"settings":
 			{
-				"buffer_size": 20654,
+				"buffer_size": 8187,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/T/Lib/canvas/CanvasCamera/canvas-camera.js",
+			"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
 			"settings":
 			{
-				"buffer_size": 5875,
+				"buffer_size": 3689,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/T/Lib/canvas/mousewheel.js",
+			"file": "webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
 			"settings":
 			{
-				"buffer_size": 1392,
+				"buffer_size": 2352,
 				"line_ending": "Windows"
 			}
 		},
@@ -143,50 +143,15 @@
 			"file": "webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
 			"settings":
 			{
-				"buffer_size": 4627,
+				"buffer_size": 4659,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/wamp/www/nSite/Lib/templates/tab_manager.js",
+			"file": "webdesigner/handmade/fonction/fonction.js",
 			"settings":
 			{
-				"buffer_size": 2252,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "function draw_processus(processus){\n  var pageName = \"Processus: \" + processus.nomderemplacement;\n  document.title = pageName;\n  createPage('../', pageName, function(){\n\n    setFullScreen();\n    var mp = processus.macroprocessus[0];\n    var entreprise = mp.entreprise[0];\n\n    var menu = 'menu_vision_metier';\n    if (entreprise.object_id != '21'){\n      openMenu(menu);\n      var bc = \"<a href='vision_metier.html'>Vision Metier</a>\";\n      activeSubMenu(menu + '_' + entreprise.object_id);      \n    } else {\n      openMenu('menu_savoir_plus');\n      activeSubMenu('menu_savoir_plus_Gouvernance');\n      var bc = \"<a href='aide.html'>En savoir plus</a>\";\n      bc += ' > ' + \"<a href='entreprise.html?21'>Gouvernance</a>\";\n      \n    }\n\n    bc += ' > ' + \"Processus: \" + processus.nomderemplacement;  \n    updateBreadCrumbPage(bc);  \n    \n\n    var output = [];\n    var savedDiagrams = {};\n\n\n\n    output.push('<div id=\"detailsTabs\">');  \n      // création des titres\n      output.push('<ul>');   \n        createTextTab(output, 'tabs-details', 'Fiche Processus', 'info');\n        //\"ACTIVITÉ\"\n        createDiagramTab(output, processus, \"M3.1\", savedDiagrams, \"Décomposition en activités\", []);\n        /*createDiagramTab(output, mp, \"M2.1\", savedDiagrams, \"Diagramme du MacroProcessus\", []);*/\n        createTextTab(output, 'tabs-vision', 'Vision applicative des processus', 'info');\n         createTextTab(output, 'tab-contact', \"Contact\", 'pencil');\n      output.push('</ul>');\n\n      createTextTabContent(output, 'tabs-details', function(output){\n        createProcessusDetailsContent(output, processus)\n      }, null);\n      createDiagramTabContent(output, processus, \"M3.1\");\n          createDiagramTabContent(output, mp, \"M2.1\");\n      createTextTabContent(output, 'tabs-vision', function(output){\n        createProcessusVisionContent(output, processus)\n         }, null);\n      \n        createTextTabContent(output, 'tab-contact', function(output){\n        var domaine = processus.name;\n        var perimetre = domaine.substring (0,3);\n        if ( perimetre == 'MAC' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Annie Delbet</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:annie.delbet@laposte.fr'>annie.delbet@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'>01 34 52 80 03</span>\",\"</li>\");           \n        }   \n        if ( perimetre == 'IND' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Anne Sandrine Lapointe</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:anne-sandrine.lapointe@laposte.fr'>anne-sandrine.lapointe@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        } \n        if ( perimetre == 'FIN' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Bernard Baudin</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        if ( perimetre == 'REF' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Mireille Deligne</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:mireille.deligne@laposte.fr'>mireille.deligne@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        if ( perimetre == 'GOU' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Dominique Giordan</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:dominique.giordan@laposte.fr'>dominique.giordan@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        if ( perimetre == 'RH-' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Sebastien Lepage</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:sebastien.lepage@laposte.fr'>sebastien.lepage@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'>01 34 52 81 46</span>\",\"</li>\");           \n        }\n        if ( perimetre == 'GDM' ){\n          \n          output.push(\"<li><span  class='title-h3'>\",'Nom: ',\"</span>\",\"<span class ='text'> Bernard Baudin</span>\",\"</li>\"); \n          output.push(\"<li><span  class='title-h3'>\",'Courriel:',\"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>\",\"</span>\",\"</li>\");  \n          output.push(\"<li><span  class='title-h3'>\",' Tél: ',\"</span>\",\"<span class ='text'></span>\",\"</li>\");           \n        }\n        else\n        {\n          output.push('non renseigné');\n        }\n         \n    });\n \n \n\n    output.push('</div>');\n     \n    $(SITE_CONTENT_SELECTOR).html(output.join(''));\n    setToolTipsOnTitles();\n    activeTab('#detailsTabs', savedDiagrams);\n\n    $(\".ui-tabs-nav span\").removeClass('ui-icon');\n    $(\".ui-tabs-nav span\").addClass('ui-icon1');\n  });\n}\n\nfunction createProcessusVisionContent(output, processus){\n  if (processus.activite.length > 0){\n      output.push(\"<ul class=''>\");\n        _.each(processus.activite, function(activite){\n        output.push(\"<li class='pos2 ui-corner-all'>\");\n        output.push ('<div class=\"titleHelp tooltip-me\" title=\"\" style=\"cursor:help\"> Activité </div>');\n        output.push(activite.nomderemplacement);\n        output.push(\"<ul class=''>\");\n          _.each(activite.fonction, function(one_fonction){\n            output.push(\"<li class='pos2 ui-corner-all'>\");\n            output.push('<div class=\"titleHelp tooltip-me\" title=\"',one_fonction.description,'\"> Fonction </div>');\n            \n            output.push(one_fonction.nomderemplacement);\n                      output.push(\"<ul class=''>\");\n              _.each(one_fonction.appli, function(one_appli){\n                output.push(\"<li class='pos2 ui-corner-all'>\");\n                 output.push ('<div class=\"titleHelp tooltip-me\"> Application</div>');\n                output.push(\"<a href='\",one_appli.unique_page_link_id,\"'>\",one_appli.name,\"</a>\");\n                 output.push(\"<ul class=''>\");\n                  _.each(one_appli.quartier, function(one_quartier){\n                    output.push(\"<li class='pos2 ui-corner-all'>\");\n                     output.push ('<div class=\"titleHelp tooltip-me\">Quartier</div>');\n                    output.push(one_quartier.nomderemplacement);\n                    output.push(\"</li>\");\n                  });\n                output.push(\"</ul>\");\n                output.push(\"</li>\");\n              });\n            output.push(\"</ul>\");\n            output.push(\"</li>\");\n          });\n        output.push(\"</ul>\");\n        output.push(\"</li>\");\n      });\n      output.push(\"</ul></li>\");\n      output.push(\"</ul>\");\n       }\n   if (processus.activite.length <= 0) {\n    output.push('non renseigné');\n  }\n}\n\nfunction createProcessusDetailsContent(output, processus){\n  if (processus.description.length > 0){\n    addTitle(output, 'Description');\n\n    output.push('<li>');\n      output.push('<div class=\"description \">',processus.description, '</div>');\n    output.push('</li>');\n  }\n\n  if (processus.activite.length >0){\n    addTitle(output, 'Activités');\n\n    output.push('<li class=\"activ\">');\n      output.push('<ul class=\"activ \">');\n        _.each(processus.activite, function(activite){\n          output.push('<li class=\"act ui-corner-all \"><div class=\"app tooltip-me \"  title=\"',activite.description,'\">',activite.nomderemplacement,'</div>');\n          output.push(\"</li>\");\n        });\n      output.push('</ul>');\n    output.push(\"</li>\");\n  }\n\n\n  if (processus.description.length <= 0 && processus.activite.length <= 0) {\n    output.push('non renseigné');\n  }\n\n\n  addDiagrams(output, processus);\n}",
-			"file": "webdesigner/handmade/processus/processus.js",
-			"file_size": 8754,
-			"file_write_time": 129762080692155348,
-			"settings":
-			{
-				"buffer_size": 8555,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "webdesigner/handmade/entreprise/entreprise.js",
-			"settings":
-			{
-				"buffer_size": 2450,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "webdesigner/generated/entreprise/json/entreprise20.json",
-			"settings":
-			{
-				"buffer_size": 2498,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
-			"settings":
-			{
-				"buffer_size": 4020,
+				"buffer_size": 1821,
 				"line_ending": "Windows"
 			}
 		}
@@ -215,11 +180,20 @@
 	},
 	"file_history":
 	[
+		"/T/Site/js/main.js",
+		"/T/Site/webdesigner/handmade/vision_metier/vision_metier.js",
+		"/T/Site/css/main.css",
+		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.js",
+		"/T/Lib/canvas/camera.js",
+		"/T/Lib/canvas/CanvasCamera/canvas-camera.js",
+		"/T/Lib/canvas/mousewheel.js",
 		"/T/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
+		"/C/wamp/www/nSite/Lib/templates/tab_manager.js",
+		"/T/Site/webdesigner/handmade/processus/processus.js",
+		"/T/Site/webdesigner/handmade/entreprise/entreprise.js",
+		"/T/Site/webdesigner/generated/entreprise/json/entreprise20.json",
 		"/C/DOCUME~1/ACM659/LOCALS~1/Temp/jquery-mousewheel-3.0.6/jquery.mousewheel.min.js",
 		"/C/wamp/www/nSite/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js",
-		"/T/Site/js/main.js",
-		"/T/Site/css/main.css",
 		"/T/Site/main/home.html",
 		"/C/wamp/www/nSite/Site/webdesigner/handmade/vision_metier/vision_metier.css",
 		"/C/wamp/www/nSite/Site/webdesigner/handmade/vision_metier/vision_metier.js",
@@ -233,7 +207,6 @@
 		"/T/Site/main/meta.html",
 		"/T/Site/webdesigner/handmade/contact/contact.js",
 		"/T/Site/webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
-		"/T/Site/webdesigner/handmade/processus/processus.js",
 		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.css",
 		"/T/Lib/jquery/jquery.cookie.js",
 		"/T/Site/structure/inc.top_header.html",
@@ -243,8 +216,6 @@
 		"/T/Site/main/aide.html",
 		"/T/Site/webdesigner/handmade/menu/menu.css",
 		"/T/Site/webdesigner/handmade/details_pos/details_pos.js",
-		"/T/Site/webdesigner/handmade/entreprise/entreprise.js",
-		"/T/Lib/canvas/camera.js",
 		"/T/Site/webdesigner/handmade/domainefonctionnel/domainefonctionnel.css",
 		"/T/Site/webdesigner/handmade/processus/processus.css",
 		"/T/Site/webdesigner/handmade/fonction/fonction.js",
@@ -255,8 +226,6 @@
 		"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js",
 		"/T/Site/js/diagram.js",
 		"/T/Site/js/guide/guide.js",
-		"/T/Site/webdesigner/handmade/vision_metier/vision_metier.js",
-		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.js",
 		"/T/Site/webdesigner/handmade/quartierfonctionnel/quartierfonctionnel.js",
 		"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.js",
 		"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.jsold",
@@ -290,7 +259,6 @@
 		"/T/Site/webdesigner/generated/processus/json/processus131.json",
 		"/T/Site/webdesigner/generated/details_pos/json/details_pos18.json",
 		"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css",
-		"/T/Lib/canvas/CanvasCamera/canvas-camera.js",
 		"/T/Site/webdesigner/handmade/composantapplicatif/guide.html",
 		"/T/Site/webdesigner/handmade/details_pos/details_pos.css",
 		"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css",
@@ -299,7 +267,6 @@
 		"/T/Site/webdesigner/generated/vision_applicative/vision_applicative.generated.js",
 		"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif2.js",
 		"/T/Site/webdesigner/handmade/vision_metier/vision_metier.css",
-		"/T/Lib/canvas/mousewheel.js",
 		"/T/Lib/canvas/DiagramCanvas.js",
 		"/T/Lib/canvas/save.camera.js",
 		"/T/Site/webdesigner/handmade/composantapplicatif/_composantapplicatif.helper.json",
@@ -340,9 +307,7 @@
 		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/vision_applicative/vision_applicative.css",
 		"/C/wamp/www/SiteUrba/Site/webdesigner/handmade/articles/articles.js",
 		"/C/wamp/www/SiteUrba/Site/js/diagram.js",
-		"/C/wamp/www/SiteUrba/Lib/canvas/camera.js",
-		"/C/wamp/www/SiteUrba/Lib/canvas/diagram-share.js",
-		"/C/wamp/www/SiteUrba/Site/css/urba.local.css"
+		"/C/wamp/www/SiteUrba/Lib/canvas/camera.js"
 	],
 	"find":
 	{
@@ -514,51 +479,186 @@
 	"groups":
 	[
 		{
-			"selected": 12,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/main.js",
+					"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
 					"settings":
 					{
-						"buffer_size": 11368,
+						"buffer_size": 7172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								909,
-								909
+								6094,
+								6118
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 308.0,
-						"translation.y": 135.0,
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "webdesigner/handmade/vision_metier/vision_metier.js",
+					"file": "main/home.html",
 					"settings":
 					{
-						"buffer_size": 2429,
+						"buffer_size": 2269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2355,
-								2319
+								2253,
+								2253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "webdesigner/handmade/processus/processus.js",
+					"settings":
+					{
+						"buffer_size": 8522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3706,
+								3706
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 937.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/articles.js",
+					"settings":
+					{
+						"buffer_size": 1075,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1065,
+								1065
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "webdesigner/handmade/composantapplicatif/composantapplicatif.js",
+					"settings":
+					{
+						"buffer_size": 8187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1244,
+								1274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
+					"settings":
+					{
+						"buffer_size": 3689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1514,
+								1536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
+					"settings":
+					{
+						"buffer_size": 2352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1278,
+								1278
 							]
 						],
 						"settings":
@@ -569,142 +669,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/main.css",
-					"settings":
-					{
-						"buffer_size": 14274,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "webdesigner/handmade/vision_applicative/vision_applicative.js",
-					"settings":
-					{
-						"buffer_size": 2006,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1933,
-								1933
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/T/Lib/canvas/camera.js",
-					"settings":
-					{
-						"buffer_size": 20654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19086,
-								19086
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 8298.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/T/Lib/canvas/CanvasCamera/canvas-camera.js",
-					"settings":
-					{
-						"buffer_size": 5875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								783,
-								783
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/T/Lib/canvas/mousewheel.js",
-					"settings":
-					{
-						"buffer_size": 1392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1392,
-								1392
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -714,15 +678,15 @@
 					"file": "webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
 					"settings":
 					{
-						"buffer_size": 4627,
+						"buffer_size": 4659,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								759,
-								759
+								732,
+								732
 							]
 						],
 						"settings":
@@ -739,45 +703,18 @@
 				},
 				{
 					"buffer": 8,
-					"file": "/C/wamp/www/nSite/Lib/templates/tab_manager.js",
+					"file": "webdesigner/handmade/fonction/fonction.js",
 					"settings":
 					{
-						"buffer_size": 2252,
+						"buffer_size": 1821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1516,
-								1516
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "webdesigner/handmade/processus/processus.js",
-					"settings":
-					{
-						"buffer_size": 8555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2078,
-								2078
+								569,
+								569
 							]
 						],
 						"settings":
@@ -788,86 +725,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "webdesigner/handmade/entreprise/entreprise.js",
-					"settings":
-					{
-						"buffer_size": 2450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								225,
-								209
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "webdesigner/generated/entreprise/json/entreprise20.json",
-					"settings":
-					{
-						"buffer_size": 2498,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
-					"settings":
-					{
-						"buffer_size": 4020,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1583,
-								1583
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
