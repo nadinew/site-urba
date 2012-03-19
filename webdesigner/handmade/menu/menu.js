@@ -66,11 +66,8 @@ output.push('<p style="padding-left:60px;width: 50px; height: 50px" ><a href="ma
 
 output.push('<p style="padding-left:40px;width: 50px; height: 50px" ><img src="../images/logo_dum1.png" title=""></p>');	
 
+ 
 
-
-/*	output.push('</div>');
-	output.push('</div>');
-	output.push('</div>');	*/
 }
 
 
@@ -93,6 +90,9 @@ function drawItem_menu_savoir_plus(output){
 
  	output.push("<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>");
  	 output.push("<a href='guide.html' >Guide de Modélisation</a></div></li>");
+
+ 	 output.push("<li class='domaine_metier leaf' id='menu_savoir_plus_guide2'><div class='domaine_metier'>");
+ 	 output.push("<a href='guide2.html' >Guide Utilisateurs</a></div></li>");
 
  	 output.push("<li class='domaine_metier leaf' id='menu_savoir_plus_aide'><div class='domaine_metier'>");
  	 output.push("<a href='aide.html'>Tutoriel</a></div></li>");

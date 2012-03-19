@@ -87,7 +87,7 @@
 			"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
 			"settings":
 			{
-				"buffer_size": 7172,
+				"buffer_size": 7174,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +95,7 @@
 			"file": "main/home.html",
 			"settings":
 			{
-				"buffer_size": 2269,
+				"buffer_size": 1967,
 				"line_ending": "Windows"
 			}
 		},
@@ -152,6 +152,75 @@
 			"settings":
 			{
 				"buffer_size": 1821,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/aide.js",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main/guide.html",
+			"settings":
+			{
+				"buffer_size": 1846,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 12266 files for \"Guide de modélisation\"\n\nT:\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    .\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\n\n\nSearching 12267 files for \"Guide\"\n\nT:\\Site\\LPC.sublime-workspace:\n  221  		\"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js\",\n  222  		\"/T/Site/main/articles.html\",\n  223: 		\"/T/Site/main/guide.html\",\n  224  		\"/T/Site/main/aide.html\",\n  225  		\"/T/Site/webdesigner/handmade/menu/menu.css\",\n  ...\n  234  		\"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js\",\n  235  		\"/T/Site/js/diagram.js\",\n  236: 		\"/T/Site/js/guide/guide.js\",\n  237  		\"/T/Site/webdesigner/handmade/quartierfonctionnel/quartierfonctionnel.js\",\n  238  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.js\",\n  ...\n  268  		\"/T/Site/webdesigner/generated/details_pos/json/details_pos18.json\",\n  269  		\"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css\",\n  270: 		\"/T/Site/webdesigner/handmade/composantapplicatif/guide.html\",\n  271  		\"/T/Site/webdesigner/handmade/details_pos/details_pos.css\",\n  272  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css\",\n  ...\n  853  			],\n  854  			[\n  855: 				\"guide.js\",\n  856: 				\"//Site/js/guide/guide.js\"\n  857  			],\n  858  			[\n  859  				\"guid\",\n  860: 				\"//Site/main/guide.html\"\n  861  			],\n  862  			[\n  ...\n  869  			],\n  870  			[\n  871: 				\"guide.\",\n  872: 				\"//Site/main/guide.html\"\n  873  			],\n  874  			[\n\nT:\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nT:\\Site\\js\\guide\\guide2.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide utilisateurs', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide2\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide utilisateurs\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nT:\\Site\\main\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide modélisateur.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide modélisateur.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nT:\\Site\\main\\guide2.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide utilisateurs.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide utilisateurs.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nT:\\Site\\webdesigner\\handmade\\composantapplicatif\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   12  </head>\n   13  <body>\n   ..\n   22  	<object id=\"presentation\" width=\"100%\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   23  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   24: 	<param name=\"movie\" value=\"../images/guide/Guide de Modélisation.swf\" />\n   25  	<param name=\"quality\" value=\"high\" />\n   26  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   27  	<param name=\"allowFullScreen\" value=\"true\" />\n   28: 	<embed src=\"../images/guide/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"100%\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   29  	</object>\n   30  	<!-- Use the following <object> tag to embed the Flash presentation into XHTML document --> \n   31  	<!--\n   32: 	<object id=\"presentation\" width=\"722\" height=\"577\" type=\"application/x-shockwave-flash\" data=\"Guide de Modélisation.swf\"> \n   33  	<param name=\"allowScriptAccess\" value=\"sameDomain\" /> \n   34: 	<param name=\"movie\" value=\"Guide de Modélisation.swf\" /> \n   35  	<param name=\"quality\" value=\"high\" /> \n   36  	<param name=\"bgcolor\" value=\"#ffffff\" /> \n   ..\n   45  	</tr>\n   46  	</table>\n   47: 	<script type=\"text/javascript\" src=\"../js/guide/fixprompt.js\"/>\n   48  </body>\n   49  </html>\n\nT:\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95:  	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97:  	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   98:  	 output.push(\"<a href='guide2.html' >Guide Utilisateurs</a></div></li>\");\n   99  \n  100   	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_aide'><div class='domaine_metier'>\");\n\nC:\\wamp\\www\\nSite\\Site\\LPC.sublime-workspace:\n  157  		\"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js\",\n  158  		\"/T/Site/main/articles.html\",\n  159: 		\"/T/Site/main/guide.html\",\n  160  		\"/T/Site/main/home.html\",\n  161  		\"/T/Site/main/aide.html\",\n  ...\n  173  		\"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js\",\n  174  		\"/T/Site/js/diagram.js\",\n  175: 		\"/T/Site/js/guide/guide.js\",\n  176  		\"/T/Site/webdesigner/handmade/vision_metier/vision_metier.js\",\n  177  		\"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.js\",\n  ...\n  210  		\"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css\",\n  211  		\"/T/Lib/canvas/CanvasCamera/canvas-camera.js\",\n  212: 		\"/T/Site/webdesigner/handmade/composantapplicatif/guide.html\",\n  213  		\"/T/Site/webdesigner/handmade/details_pos/details_pos.css\",\n  214  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css\",\n  ...\n  673  			],\n  674  			[\n  675: 				\"guide.js\",\n  676: 				\"//Site/js/guide/guide.js\"\n  677  			],\n  678  			[\n  679  				\"guid\",\n  680: 				\"//Site/main/guide.html\"\n  681  			],\n  682  			[\n  ...\n  689  			],\n  690  			[\n  691: 				\"guide.\",\n  692: 				\"//Site/main/guide.html\"\n  693  			],\n  694  			[\n\nC:\\wamp\\www\\nSite\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nC:\\wamp\\www\\nSite\\Site\\main\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide de Modélisation.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\composantapplicatif\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   12  </head>\n   13  <body>\n   ..\n   22  	<object id=\"presentation\" width=\"100%\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   23  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   24: 	<param name=\"movie\" value=\"../images/guide/Guide de Modélisation.swf\" />\n   25  	<param name=\"quality\" value=\"high\" />\n   26  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   27  	<param name=\"allowFullScreen\" value=\"true\" />\n   28: 	<embed src=\"../images/guide/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"100%\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   29  	</object>\n   30  	<!-- Use the following <object> tag to embed the Flash presentation into XHTML document --> \n   31  	<!--\n   32: 	<object id=\"presentation\" width=\"722\" height=\"577\" type=\"application/x-shockwave-flash\" data=\"Guide de Modélisation.swf\"> \n   33  	<param name=\"allowScriptAccess\" value=\"sameDomain\" /> \n   34: 	<param name=\"movie\" value=\"Guide de Modélisation.swf\" /> \n   35  	<param name=\"quality\" value=\"high\" /> \n   36  	<param name=\"bgcolor\" value=\"#ffffff\" /> \n   ..\n   45  	</tr>\n   46  	</table>\n   47: 	<script type=\"text/javascript\" src=\"../js/guide/fixprompt.js\"/>\n   48  </body>\n   49  </html>\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95:  	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97   	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_aide'><div class='domaine_metier'>\");\n\nT:\\Site\\main\\guide2:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide de Modélisation.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide utilisateurs.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\n78 matches across 13 files\n\n\nSearching 12267 files for \"_guide\"\n\nT:\\Site\\js\\guide\\guide.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nT:\\Site\\js\\guide\\guide2.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide2\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nT:\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95   	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97:  	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   98   	 output.push(\"<a href='guide2.html' >Guide Utilisateurs</a></div></li>\");\n   99  \n\nC:\\wamp\\www\\nSite\\Site\\js\\guide\\guide.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95   	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n\n6 matches across 5 files\n",
+			"settings":
+			{
+				"buffer_size": 17770,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>\n    <script type='text/javascript' src='../../Lib/jquery/jquery.js'></script>\n     <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n	<script type='text/javascript' src='../js/main.js'></script>\n	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n	<title>Guide / Le Référentiel du Système d'Information</title>\n</head>\n<body>\n	<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" height=\"577px\">\n	<tr>\n	<td align=\"center\" valign=\"middle\">\n\n	<!-- Use the following <object> tag to embed the Flash presentation into HTML document -->\n	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n	<param name=\"movie\" value=\"../swf/Guide de Modélisation.swf\" />\n	<param name=\"quality\" value=\"high\" />\n	<param name=\"bgcolor\" value=\"#ffffff\" />\n	<param name=\"allowFullScreen\" value=\"true\" />\n	<embed src=\"../swf/Guide utilisateurs.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n	</object>\n\n	</td>\n	</tr>\n	</table>\n\n	<script type=\"text/javascript\" src=\"../js/fixprompt.js\"/>\n</body>\n</html>",
+			"file": "main/guide2",
+			"file_size": 1887,
+			"file_write_time": 129766360925116679,
+			"settings":
+			{
+				"buffer_size": 1849,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webdesigner/handmade/menu/menu.js",
+			"settings":
+			{
+				"buffer_size": 5752,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main/guide2.html",
+			"settings":
+			{
+				"buffer_size": 1847,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/guide/guide2.js",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/home.js",
+			"settings":
+			{
+				"buffer_size": 803,
 				"line_ending": "Windows"
 			}
 		}
@@ -315,7 +384,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 88.0,
 		"where_history":
 		[
 			"",
@@ -328,6 +397,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_guide",
+			"Guide",
+			"Guide de modélisation",
 			"setMouseWheel",
 			"mainScre",
 			"setMouseWh",
@@ -452,9 +524,6 @@
 			"diagramShare",
 			"diagram",
 			"diagram-zone",
-			"diagramNavigation",
-			"ul id=\"diagramNavigation",
-			" ui-corner-all",
 			"diagramNavigation"
 		],
 		"highlight": true,
@@ -479,7 +548,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 13,
 			"sheets":
 			[
 				{
@@ -487,15 +556,15 @@
 					"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
 					"settings":
 					{
-						"buffer_size": 7172,
+						"buffer_size": 7174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6094,
-								6118
+								929,
+								929
 							]
 						],
 						"settings":
@@ -504,7 +573,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1350.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -514,15 +583,15 @@
 					"file": "main/home.html",
 					"settings":
 					{
-						"buffer_size": 2269,
+						"buffer_size": 1967,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2253,
-								2253
+								1248,
+								1248
 							]
 						],
 						"settings":
@@ -530,7 +599,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -722,6 +791,577 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "js/aide.js",
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "main/guide.html",
+					"settings":
+					{
+						"buffer_size": 1846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1403,
+								1403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"settings":
+					{
+						"buffer_size": 17770,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										166,
+										187
+									],
+									[
+										373,
+										394
+									],
+									[
+										702,
+										707
+									],
+									[
+										934,
+										939
+									],
+									[
+										940,
+										945
+									],
+									[
+										1339,
+										1344
+									],
+									[
+										1539,
+										1544
+									],
+									[
+										1572,
+										1577
+									],
+									[
+										1578,
+										1583
+									],
+									[
+										1656,
+										1661
+									],
+									[
+										1736,
+										1741
+									],
+									[
+										1769,
+										1774
+									],
+									[
+										1922,
+										1927
+									],
+									[
+										2081,
+										2086
+									],
+									[
+										2189,
+										2194
+									],
+									[
+										2420,
+										2425
+									],
+									[
+										2576,
+										2581
+									],
+									[
+										2685,
+										2690
+									],
+									[
+										3031,
+										3036
+									],
+									[
+										3037,
+										3042
+									],
+									[
+										3430,
+										3435
+									],
+									[
+										3848,
+										3853
+									],
+									[
+										4051,
+										4056
+									],
+									[
+										4577,
+										4582
+									],
+									[
+										4583,
+										4588
+									],
+									[
+										4976,
+										4981
+									],
+									[
+										5394,
+										5399
+									],
+									[
+										5597,
+										5602
+									],
+									[
+										6158,
+										6163
+									],
+									[
+										6164,
+										6169
+									],
+									[
+										6468,
+										6473
+									],
+									[
+										6890,
+										6895
+									],
+									[
+										6896,
+										6901
+									],
+									[
+										7105,
+										7110
+									],
+									[
+										7111,
+										7116
+									],
+									[
+										7613,
+										7618
+									],
+									[
+										7740,
+										7745
+									],
+									[
+										7955,
+										7960
+									],
+									[
+										8214,
+										8219
+									],
+									[
+										8285,
+										8290
+									],
+									[
+										8298,
+										8303
+									],
+									[
+										8422,
+										8427
+									],
+									[
+										8493,
+										8498
+									],
+									[
+										8507,
+										8512
+									],
+									[
+										8859,
+										8864
+									],
+									[
+										9071,
+										9076
+									],
+									[
+										9077,
+										9082
+									],
+									[
+										9450,
+										9455
+									],
+									[
+										9650,
+										9655
+									],
+									[
+										9683,
+										9688
+									],
+									[
+										9689,
+										9694
+									],
+									[
+										9767,
+										9772
+									],
+									[
+										9847,
+										9852
+									],
+									[
+										9880,
+										9885
+									],
+									[
+										10048,
+										10053
+									],
+									[
+										10207,
+										10212
+									],
+									[
+										10315,
+										10320
+									],
+									[
+										10679,
+										10684
+									],
+									[
+										10685,
+										10690
+									],
+									[
+										11078,
+										11083
+									],
+									[
+										11496,
+										11501
+									],
+									[
+										11702,
+										11707
+									],
+									[
+										12281,
+										12286
+									],
+									[
+										12287,
+										12292
+									],
+									[
+										12591,
+										12596
+									],
+									[
+										13013,
+										13018
+									],
+									[
+										13019,
+										13024
+									],
+									[
+										13228,
+										13233
+									],
+									[
+										13234,
+										13239
+									],
+									[
+										13736,
+										13741
+									],
+									[
+										13863,
+										13868
+									],
+									[
+										14078,
+										14083
+									],
+									[
+										14352,
+										14357
+									],
+									[
+										14423,
+										14428
+									],
+									[
+										14436,
+										14441
+									],
+									[
+										14829,
+										14834
+									],
+									[
+										14835,
+										14840
+									],
+									[
+										15228,
+										15233
+									],
+									[
+										15646,
+										15651
+									],
+									[
+										15852,
+										15857
+									],
+									[
+										16331,
+										16337
+									],
+									[
+										16539,
+										16545
+									],
+									[
+										16829,
+										16835
+									],
+									[
+										17037,
+										17043
+									],
+									[
+										17307,
+										17313
+									],
+									[
+										17611,
+										17617
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								16172,
+								16172
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5235.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "main/guide2",
+					"settings":
+					{
+						"buffer_size": 1849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1849,
+								1849
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "webdesigner/handmade/menu/menu.js",
+					"settings":
+					{
+						"buffer_size": 5752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2932,
+								2932
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 412.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "main/guide2.html",
+					"settings":
+					{
+						"buffer_size": 1847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1847,
+								1847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "js/guide/guide2.js",
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "js/home.js",
+					"settings":
+					{
+						"buffer_size": 803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

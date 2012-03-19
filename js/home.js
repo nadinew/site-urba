@@ -11,7 +11,7 @@
 	}
 	
 	var content = $('body').html();
-	createPage('../', 'Bienvenue sur le référentiel DSI', function(){
+	createPage('../', 'Une cartographie du SI Courrier:pourquoi?', function(){
 		var menu = 'menu_accueil';
 		openMenu(menu);
 				 var bc = "";

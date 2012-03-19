@@ -27,7 +27,7 @@ function draw_macroprocessus(macroprocessus){
 
 		var output = [];
 		var savedDiagrams = {};	
-	console.log(macroprocessus);	
+	//console.log(macroprocessus);	
 
  output.push('<div id="detailsTabs">');  
       // création des titres
