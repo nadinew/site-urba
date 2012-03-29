@@ -87,7 +87,15 @@
 			"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
 			"settings":
 			{
-				"buffer_size": 7174,
+				"buffer_size": 7385,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webdesigner/handmade/vision_metier/vision_metier.js",
+			"settings":
+			{
+				"buffer_size": 3542,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +103,7 @@
 			"file": "main/home.html",
 			"settings":
 			{
-				"buffer_size": 1967,
+				"buffer_size": 1982,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +111,7 @@
 			"file": "webdesigner/handmade/processus/processus.js",
 			"settings":
 			{
-				"buffer_size": 8522,
+				"buffer_size": 8573,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,7 +127,7 @@
 			"file": "webdesigner/handmade/composantapplicatif/composantapplicatif.js",
 			"settings":
 			{
-				"buffer_size": 8187,
+				"buffer_size": 8363,
 				"line_ending": "Windows"
 			}
 		},
@@ -127,7 +135,7 @@
 			"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
 			"settings":
 			{
-				"buffer_size": 3689,
+				"buffer_size": 3748,
 				"line_ending": "Windows"
 			}
 		},
@@ -151,7 +159,15 @@
 			"file": "webdesigner/handmade/fonction/fonction.js",
 			"settings":
 			{
-				"buffer_size": 1821,
+				"buffer_size": 1925,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 552,
 				"line_ending": "Windows"
 			}
 		},
@@ -172,10 +188,10 @@
 			}
 		},
 		{
-			"contents": "Searching 12266 files for \"Guide de modélisation\"\n\nT:\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    .\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\n\n\nSearching 12267 files for \"Guide\"\n\nT:\\Site\\LPC.sublime-workspace:\n  221  		\"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js\",\n  222  		\"/T/Site/main/articles.html\",\n  223: 		\"/T/Site/main/guide.html\",\n  224  		\"/T/Site/main/aide.html\",\n  225  		\"/T/Site/webdesigner/handmade/menu/menu.css\",\n  ...\n  234  		\"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js\",\n  235  		\"/T/Site/js/diagram.js\",\n  236: 		\"/T/Site/js/guide/guide.js\",\n  237  		\"/T/Site/webdesigner/handmade/quartierfonctionnel/quartierfonctionnel.js\",\n  238  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.js\",\n  ...\n  268  		\"/T/Site/webdesigner/generated/details_pos/json/details_pos18.json\",\n  269  		\"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css\",\n  270: 		\"/T/Site/webdesigner/handmade/composantapplicatif/guide.html\",\n  271  		\"/T/Site/webdesigner/handmade/details_pos/details_pos.css\",\n  272  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css\",\n  ...\n  853  			],\n  854  			[\n  855: 				\"guide.js\",\n  856: 				\"//Site/js/guide/guide.js\"\n  857  			],\n  858  			[\n  859  				\"guid\",\n  860: 				\"//Site/main/guide.html\"\n  861  			],\n  862  			[\n  ...\n  869  			],\n  870  			[\n  871: 				\"guide.\",\n  872: 				\"//Site/main/guide.html\"\n  873  			],\n  874  			[\n\nT:\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nT:\\Site\\js\\guide\\guide2.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide utilisateurs', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide2\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide utilisateurs\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nT:\\Site\\main\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide modélisateur.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide modélisateur.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nT:\\Site\\main\\guide2.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide utilisateurs.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide utilisateurs.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nT:\\Site\\webdesigner\\handmade\\composantapplicatif\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   12  </head>\n   13  <body>\n   ..\n   22  	<object id=\"presentation\" width=\"100%\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   23  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   24: 	<param name=\"movie\" value=\"../images/guide/Guide de Modélisation.swf\" />\n   25  	<param name=\"quality\" value=\"high\" />\n   26  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   27  	<param name=\"allowFullScreen\" value=\"true\" />\n   28: 	<embed src=\"../images/guide/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"100%\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   29  	</object>\n   30  	<!-- Use the following <object> tag to embed the Flash presentation into XHTML document --> \n   31  	<!--\n   32: 	<object id=\"presentation\" width=\"722\" height=\"577\" type=\"application/x-shockwave-flash\" data=\"Guide de Modélisation.swf\"> \n   33  	<param name=\"allowScriptAccess\" value=\"sameDomain\" /> \n   34: 	<param name=\"movie\" value=\"Guide de Modélisation.swf\" /> \n   35  	<param name=\"quality\" value=\"high\" /> \n   36  	<param name=\"bgcolor\" value=\"#ffffff\" /> \n   ..\n   45  	</tr>\n   46  	</table>\n   47: 	<script type=\"text/javascript\" src=\"../js/guide/fixprompt.js\"/>\n   48  </body>\n   49  </html>\n\nT:\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95:  	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97:  	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   98:  	 output.push(\"<a href='guide2.html' >Guide Utilisateurs</a></div></li>\");\n   99  \n  100   	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_aide'><div class='domaine_metier'>\");\n\nC:\\wamp\\www\\nSite\\Site\\LPC.sublime-workspace:\n  157  		\"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js\",\n  158  		\"/T/Site/main/articles.html\",\n  159: 		\"/T/Site/main/guide.html\",\n  160  		\"/T/Site/main/home.html\",\n  161  		\"/T/Site/main/aide.html\",\n  ...\n  173  		\"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js\",\n  174  		\"/T/Site/js/diagram.js\",\n  175: 		\"/T/Site/js/guide/guide.js\",\n  176  		\"/T/Site/webdesigner/handmade/vision_metier/vision_metier.js\",\n  177  		\"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.js\",\n  ...\n  210  		\"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css\",\n  211  		\"/T/Lib/canvas/CanvasCamera/canvas-camera.js\",\n  212: 		\"/T/Site/webdesigner/handmade/composantapplicatif/guide.html\",\n  213  		\"/T/Site/webdesigner/handmade/details_pos/details_pos.css\",\n  214  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css\",\n  ...\n  673  			],\n  674  			[\n  675: 				\"guide.js\",\n  676: 				\"//Site/js/guide/guide.js\"\n  677  			],\n  678  			[\n  679  				\"guid\",\n  680: 				\"//Site/main/guide.html\"\n  681  			],\n  682  			[\n  ...\n  689  			],\n  690  			[\n  691: 				\"guide.\",\n  692: 				\"//Site/main/guide.html\"\n  693  			],\n  694  			[\n\nC:\\wamp\\www\\nSite\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nC:\\wamp\\www\\nSite\\Site\\main\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide de Modélisation.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\composantapplicatif\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   12  </head>\n   13  <body>\n   ..\n   22  	<object id=\"presentation\" width=\"100%\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   23  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   24: 	<param name=\"movie\" value=\"../images/guide/Guide de Modélisation.swf\" />\n   25  	<param name=\"quality\" value=\"high\" />\n   26  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   27  	<param name=\"allowFullScreen\" value=\"true\" />\n   28: 	<embed src=\"../images/guide/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"100%\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   29  	</object>\n   30  	<!-- Use the following <object> tag to embed the Flash presentation into XHTML document --> \n   31  	<!--\n   32: 	<object id=\"presentation\" width=\"722\" height=\"577\" type=\"application/x-shockwave-flash\" data=\"Guide de Modélisation.swf\"> \n   33  	<param name=\"allowScriptAccess\" value=\"sameDomain\" /> \n   34: 	<param name=\"movie\" value=\"Guide de Modélisation.swf\" /> \n   35  	<param name=\"quality\" value=\"high\" /> \n   36  	<param name=\"bgcolor\" value=\"#ffffff\" /> \n   ..\n   45  	</tr>\n   46  	</table>\n   47: 	<script type=\"text/javascript\" src=\"../js/guide/fixprompt.js\"/>\n   48  </body>\n   49  </html>\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95:  	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97   	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_aide'><div class='domaine_metier'>\");\n\nT:\\Site\\main\\guide2:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide de Modélisation.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide utilisateurs.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\n78 matches across 13 files\n\n\nSearching 12267 files for \"_guide\"\n\nT:\\Site\\js\\guide\\guide.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nT:\\Site\\js\\guide\\guide2.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide2\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nT:\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95   	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97:  	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   98   	 output.push(\"<a href='guide2.html' >Guide Utilisateurs</a></div></li>\");\n   99  \n\nC:\\wamp\\www\\nSite\\Site\\js\\guide\\guide.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95   	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n\n6 matches across 5 files\n",
+			"contents": "Searching 12266 files for \"Guide de modélisation\"\n\nT:\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    .\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\n\n\nSearching 12267 files for \"Guide\"\n\nT:\\Site\\LPC.sublime-workspace:\n  221  		\"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js\",\n  222  		\"/T/Site/main/articles.html\",\n  223: 		\"/T/Site/main/guide.html\",\n  224  		\"/T/Site/main/aide.html\",\n  225  		\"/T/Site/webdesigner/handmade/menu/menu.css\",\n  ...\n  234  		\"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js\",\n  235  		\"/T/Site/js/diagram.js\",\n  236: 		\"/T/Site/js/guide/guide.js\",\n  237  		\"/T/Site/webdesigner/handmade/quartierfonctionnel/quartierfonctionnel.js\",\n  238  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.js\",\n  ...\n  268  		\"/T/Site/webdesigner/generated/details_pos/json/details_pos18.json\",\n  269  		\"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css\",\n  270: 		\"/T/Site/webdesigner/handmade/composantapplicatif/guide.html\",\n  271  		\"/T/Site/webdesigner/handmade/details_pos/details_pos.css\",\n  272  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css\",\n  ...\n  853  			],\n  854  			[\n  855: 				\"guide.js\",\n  856: 				\"//Site/js/guide/guide.js\"\n  857  			],\n  858  			[\n  859  				\"guid\",\n  860: 				\"//Site/main/guide.html\"\n  861  			],\n  862  			[\n  ...\n  869  			],\n  870  			[\n  871: 				\"guide.\",\n  872: 				\"//Site/main/guide.html\"\n  873  			],\n  874  			[\n\nT:\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nT:\\Site\\js\\guide\\guide2.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide utilisateurs', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide2\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide utilisateurs\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nT:\\Site\\main\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide modélisateur.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide modélisateur.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nT:\\Site\\main\\guide2.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide utilisateurs.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide utilisateurs.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nT:\\Site\\webdesigner\\handmade\\composantapplicatif\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   12  </head>\n   13  <body>\n   ..\n   22  	<object id=\"presentation\" width=\"100%\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   23  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   24: 	<param name=\"movie\" value=\"../images/guide/Guide de Modélisation.swf\" />\n   25  	<param name=\"quality\" value=\"high\" />\n   26  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   27  	<param name=\"allowFullScreen\" value=\"true\" />\n   28: 	<embed src=\"../images/guide/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"100%\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   29  	</object>\n   30  	<!-- Use the following <object> tag to embed the Flash presentation into XHTML document --> \n   31  	<!--\n   32: 	<object id=\"presentation\" width=\"722\" height=\"577\" type=\"application/x-shockwave-flash\" data=\"Guide de Modélisation.swf\"> \n   33  	<param name=\"allowScriptAccess\" value=\"sameDomain\" /> \n   34: 	<param name=\"movie\" value=\"Guide de Modélisation.swf\" /> \n   35  	<param name=\"quality\" value=\"high\" /> \n   36  	<param name=\"bgcolor\" value=\"#ffffff\" /> \n   ..\n   45  	</tr>\n   46  	</table>\n   47: 	<script type=\"text/javascript\" src=\"../js/guide/fixprompt.js\"/>\n   48  </body>\n   49  </html>\n\nT:\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95:  	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97:  	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   98:  	 output.push(\"<a href='guide2.html' >Guide Utilisateurs</a></div></li>\");\n   99  \n  100   	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_aide'><div class='domaine_metier'>\");\n\nC:\\wamp\\www\\nSite\\Site\\LPC.sublime-workspace:\n  157  		\"/T/Site/webdesigner/handmade/composantapplicatif/composantapplicatif.js\",\n  158  		\"/T/Site/main/articles.html\",\n  159: 		\"/T/Site/main/guide.html\",\n  160  		\"/T/Site/main/home.html\",\n  161  		\"/T/Site/main/aide.html\",\n  ...\n  173  		\"/T/Site/webdesigner/handmade/Gouvernance/Gouvernance.js\",\n  174  		\"/T/Site/js/diagram.js\",\n  175: 		\"/T/Site/js/guide/guide.js\",\n  176  		\"/T/Site/webdesigner/handmade/vision_metier/vision_metier.js\",\n  177  		\"/T/Site/webdesigner/handmade/vision_applicative/vision_applicative.js\",\n  ...\n  210  		\"/T/Site/webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.css\",\n  211  		\"/T/Lib/canvas/CanvasCamera/canvas-camera.js\",\n  212: 		\"/T/Site/webdesigner/handmade/composantapplicatif/guide.html\",\n  213  		\"/T/Site/webdesigner/handmade/details_pos/details_pos.css\",\n  214  		\"/T/Site/webdesigner/handmade/macroprocessus/macroprocessus.css\",\n  ...\n  673  			],\n  674  			[\n  675: 				\"guide.js\",\n  676: 				\"//Site/js/guide/guide.js\"\n  677  			],\n  678  			[\n  679  				\"guid\",\n  680: 				\"//Site/main/guide.html\"\n  681  			],\n  682  			[\n  ...\n  689  			],\n  690  			[\n  691: 				\"guide.\",\n  692: 				\"//Site/main/guide.html\"\n  693  			],\n  694  			[\n\nC:\\wamp\\www\\nSite\\Site\\js\\guide\\guide.js:\n    1  $(function(){\n    2  	var content = $('body').html();\n    3: 	createPage('../', 'Guide de modélisation', function(){\n    4  		setFullScreen();\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n   10:         bc +=  \" > Guide de modélisation\";\n   11      	updateBreadCrumbPage(bc); \n   12  		$(SITE_CONTENT_SELECTOR).html(content);		\n\nC:\\wamp\\www\\nSite\\Site\\main\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide de Modélisation.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\composantapplicatif\\guide.html:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   12  </head>\n   13  <body>\n   ..\n   22  	<object id=\"presentation\" width=\"100%\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   23  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   24: 	<param name=\"movie\" value=\"../images/guide/Guide de Modélisation.swf\" />\n   25  	<param name=\"quality\" value=\"high\" />\n   26  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   27  	<param name=\"allowFullScreen\" value=\"true\" />\n   28: 	<embed src=\"../images/guide/Guide de Modélisation.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"100%\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   29  	</object>\n   30  	<!-- Use the following <object> tag to embed the Flash presentation into XHTML document --> \n   31  	<!--\n   32: 	<object id=\"presentation\" width=\"722\" height=\"577\" type=\"application/x-shockwave-flash\" data=\"Guide de Modélisation.swf\"> \n   33  	<param name=\"allowScriptAccess\" value=\"sameDomain\" /> \n   34: 	<param name=\"movie\" value=\"Guide de Modélisation.swf\" /> \n   35  	<param name=\"quality\" value=\"high\" /> \n   36  	<param name=\"bgcolor\" value=\"#ffffff\" /> \n   ..\n   45  	</tr>\n   46  	</table>\n   47: 	<script type=\"text/javascript\" src=\"../js/guide/fixprompt.js\"/>\n   48  </body>\n   49  </html>\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95:  	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97   	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_aide'><div class='domaine_metier'>\");\n\nT:\\Site\\main\\guide2:\n    5       <script type='text/javascript' src='../../Lib/jqdialog/jqdialog.js'></script>\n    6  	<script type='text/javascript' src='../js/main.js'></script>\n    7: 	<script type='text/javascript' src='../js/guide/guide.js'></script>\n    8      <script type='text/javascript' src='../../Lib/templates/cwJSAPI.js'></script>\n    9      <script type='text/javascript' src='../../Lib/external/underscore.js'></script>    \n   10  	<link type='text/css' rel='stylesheet' media='all' href='../css/main.css' />\n   11  	<script type='text/javascript' src='../../Lib/jquery/jquery.cookie.js'></script>\n   12: 	<title>Guide / Le Référentiel du Système d'Information</title>\n   13  </head>\n   14  <body>\n   ..\n   20  	<object id=\"presentation\" width=\"722\" height=\"577\" classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" align=\"middle\">\n   21  	<param name=\"allowScriptAccess\" value=\"sameDomain\" />\n   22: 	<param name=\"movie\" value=\"../swf/Guide de Modélisation.swf\" />\n   23  	<param name=\"quality\" value=\"high\" />\n   24  	<param name=\"bgcolor\" value=\"#ffffff\" />\n   25  	<param name=\"allowFullScreen\" value=\"true\" />\n   26: 	<embed src=\"../swf/Guide utilisateurs.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"722\" height=\"577\" name=\"presentation\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.adobe.com/go/getflashplayer\" allowFullScreen=\"true\" />\n   27  	</object>\n   28  \n\n78 matches across 13 files\n\n\nSearching 12267 files for \"_guide\"\n\nT:\\Site\\js\\guide\\guide.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nT:\\Site\\js\\guide\\guide2.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide2\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nT:\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95   	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n   97:  	 output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   98   	 output.push(\"<a href='guide2.html' >Guide Utilisateurs</a></div></li>\");\n   99  \n\nC:\\wamp\\www\\nSite\\Site\\js\\guide\\guide.js:\n    5  		var menu = 'menu_savoir_plus';\n    6  		openMenu(menu);\n    7: 		activeSubMenu(menu + \"_guide\");\n    8  		\n    9  		var bc = \"<a href='contact.html'>En savoir plus</a>\";\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\menu\\menu.js:\n   92   	output.push(\"<a href='./contact.html'>Nous contacter</a></div></li>\");\n   93  \n   94:  	output.push(\"<li class='domaine_metier leaf' id='menu_savoir_plus_guide'><div class='domaine_metier'>\");\n   95   	 output.push(\"<a href='guide.html' >Guide de Modélisation</a></div></li>\");\n   96  \n\n6 matches across 5 files\n\n\nSearching 12325 files for \"impossible de charger\"\n\nT:\\Lib\\canvas\\camera.js:\n  117  		}, function(jqXHR, textStatus, errorThrown){\n  118  			console.log(textStatus);\n  119: 			alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\" );\n  120  		});		\n  121  	},\n  ...\n  132  					camera.ctx.drawImage(camera.bgImage, -14, -15, camera.bgImage.width, camera.bgImage.height);		\n  133  				}else{\n  134: 					alert('impossible de charger le diagramme : ' + camera.bgImage.src);\n  135  				}\n  136  				\n\nT:\\Lib\\templates\\tab_manager.js:\n   58  				\n   59  				d.diagramImage.onerror = function(e){\n   60: 					alert('Impossible de charger le diagramme [' + d.diagramImage.src + ']');\n   61  				}				\n   62  							\n\nT:\\Site\\js\\diagram.js:\n   36  \n   37  			}, \"error\" : function(){\n   38: 				alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\");\n   39  			}, dataType: \"text\"});\n   40  \n\n\n\nSearching 12337 files for \"Impossible de charger\"\n\nT:\\Lib\\canvas\\camera.js:\n  117  		}, function(jqXHR, textStatus, errorThrown){\n  118  			//console.log(textStatus);\n  119: 			alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\" );\n  120  		});		\n  121  	},\n  ...\n  132  					camera.ctx.drawImage(camera.bgImage, -14, -15, camera.bgImage.width, camera.bgImage.height);		\n  133  				}else{\n  134: 					alert('impossible de charger le diagramme : ' + camera.bgImage.src);\n  135  				}\n  136  				\n\nT:\\Lib\\templates\\tab_manager.js:\n   58  				\n   59  				d.diagramImage.onerror = function(e){\n   60: 					alert('Impossible de charger le diagramme [' + d.diagramImage.src + ']');\n   61  				}				\n   62  							\n\nT:\\Site\\js\\diagram.js:\n   36  \n   37  			}, \"error\" : function(){\n   38: 				alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\");\n   39  			}, dataType: \"text\"});\n   40  \n\n\n\nSearching 12337 files for \"Impossible de charger\"\n\nT:\\Lib\\canvas\\camera.js:\n  117  		}, function(jqXHR, textStatus, errorThrown){\n  118  			//console.log(textStatus);\n  119: 			alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\" );\n  120  		});		\n  121  	},\n  ...\n  132  					camera.ctx.drawImage(camera.bgImage, -14, -15, camera.bgImage.width, camera.bgImage.height);		\n  133  				}else{\n  134: 					alert('impossible de charger le diagramme : ' + camera.bgImage.src);\n  135  				}\n  136  				\n\nT:\\Lib\\templates\\tab_manager.js:\n   58  				\n   59  				d.diagramImage.onerror = function(e){\n   60: 					alert('Impossible de charger le diagramme [' + d.diagramImage.src + ']');\n   61  				}				\n   62  							\n\nT:\\Site\\js\\diagram.js:\n   36  \n   37  			}, \"error\" : function(){\n   38: 				alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\");\n   39  			}, dataType: \"text\"});\n   40  \n\n\n\nSearching 12337 files for \"Impossible de charger\"\n\nT:\\Lib\\canvas\\camera.js:\n  117  		}, function(jqXHR, textStatus, errorThrown){\n  118  			//console.log(textStatus);\n  119: 			alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\" );\n  120  		});		\n  121  	},\n  ...\n  132  					camera.ctx.drawImage(camera.bgImage, -14, -15, camera.bgImage.width, camera.bgImage.height);		\n  133  				}else{\n  134: 					alert('impossible de charger le diagramme : ' + camera.bgImage.src);\n  135  				}\n  136  				\n\nT:\\Lib\\templates\\tab_manager.js:\n   58  				\n   59  				d.diagramImage.onerror = function(e){\n   60: 					alert('Impossible de charger le diagramme [' + d.diagramImage.src + ']');\n   61  				}				\n   62  							\n\nT:\\Site\\js\\diagram.js:\n   36  \n   37  			}, \"error\" : function(){\n   38: 				alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\");\n   39  			}, dataType: \"text\"});\n   40  \n\nC:\\wamp\\www\\nSite\\Site\\js\\diagram.js:\n   36  \n   37  			}, \"error\" : function(){\n   38: 				alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\");\n   39  			}, dataType: \"text\"});\n   40  \n\n5 matches across 4 files\n\n\nSearching 12549 files for \"tooltip-me\"\n\nT:\\Lib\\css.shared\\shared.css:\n  112  }\n  113  \n  114: .tooltip-me{\n  115  	cursor:pointer!important;\n  116  }\n\nT:\\Lib\\templates\\cwJSAPI.js:\n  231  \n  232  function setToolTipsOnTitles(){\n  233: 	$('.tooltip-me').mouseover(function(){\n  234  		$(this).css('cursor', 'help');\n  235  	});\n  236  \n  237: 	$('.tooltip-me-left').mouseover(function(){\n  238  		$(this).css('cursor', 'help');\n  239  	});	\n  240  		\n  241: 	$('.tooltip-me-custom').mouseover(function(){\n  242  		$(this).css('cursor', 'help');\n  243  	});	\n  244  	\n  245: 	$('.tooltip-me').tooltip({showURL : false, fade : 250});\n  246: 	$('.tooltip-me-left').tooltip({showURL : false, fade : 250, extraClass:'tooltip-left'});\n  247: 	$('.tooltip-me-custom').tooltip({showURL : false, fade : 250, extraClass : 'tooltip-custom'});\n  248  }\n\nT:\\Lib\\templates\\reverse_drawing.js:\n   11  	if (node.hasChild == true){\n   12  		var descriptionTitle = (node.node.description != null) ? 'title=\"' + node.node.description + '\"' : '';\n   13: 		output.push('<div class=\"' + node.nodeID + '-title box-title tooltip-me ' + extra_classes + '\" ' + descriptionTitle + '>');\n   14  \n   15  		if (node.callback == null){\n\nT:\\Lib\\templates\\simple_drawing.js:\n   36  	if (levelNode.follow.length == 0){\n   37  		if (linkLastItem == true){\n   38: 			output.push('<a href=\"' + node.link_id + '.htm\" ' + descriptionTitle + ' class=\"tooltip-me\">' + displayName + '</a>');\n   39  		} else {\n   40  			if (typeof(levelNode.callback)== 'undefined'){\n   41: 				output.push('<span class=\"tooltip-me\" ' + descriptionTitle + '>', displayName, '</span>');\n   42  				//output.push(node[levelNode.displayProperty]);\n   43  			}else{\n   ..\n   50  	}else{\n   51  		\n   52: 		output.push('<div class=\"' + levelNode.nodeID + '-title box-title tooltip-me\" ' + descriptionTitle + '>', displayName, '<div class=\"titleHelp tooltip-me\">' + levelNode.nodeName + '</div>','</div>');\n   53  		\n   54  	}\n\nT:\\Site\\LPC.sublime-workspace:\n  497  			\"addMenuToOutPutaddMenuToOutPut\",\n  498  			\"gère\",\n  499: 			\"tooltip-me\",\n  500  			\"reverseNodesDraw\",\n  501  			\"createBrowseNode\",\n\nT:\\Site\\webdesigner\\generated\\menu\\layouts\\menu_standard-list.js:\n   10          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   11            output.push(\"<ul class='node-header'>\");\n   12:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_metier.description,\"\\\">\");\n   13              output.push(\"<a href='\",one_domaine_metier.unique_page_link_id,\"'>\",one_domaine_metier.name,\"</a>\");\n   14              output.push(\"</span></li>\");\n   15              output.push(\"<li class='node-header-info'><ul>\");\n   16:               output.push(\"<li class='navigation-helpers domaine_metier-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_metier.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_metier.name,\"\\\"></span></li>\");\n   17                output.push(\"<li class='object-groups-name domaine_metier-object-groups-name'>Object Groups</li>\");\n   18              output.push(\"</ul></li>\");\n   ..\n   33          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   34            output.push(\"<ul class='node-header'>\");\n   35:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_fonctionnel.description,\"\\\">\");\n   36              output.push(\"<a href='\",one_domaine_fonctionnel.unique_page_link_id,\"'>\",one_domaine_fonctionnel.name,\"</a>\");\n   37              output.push(\"</span></li>\");\n   38              output.push(\"<li class='node-header-info'><ul>\");\n   39:               output.push(\"<li class='navigation-helpers domaine_fonctionnel-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_fonctionnel.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_fonctionnel.name,\"\\\"></span></li>\");\n   40                output.push(\"<li class='object-groups-name domaine_fonctionnel-object-groups-name'>Object Groups</li>\");\n   41              output.push(\"</ul></li>\");\n   ..\n   56          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   57            output.push(\"<ul class='node-header'>\");\n   58:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_metier.description,\"\\\">\");\n   59              output.push(\"<a href='\",one_domaine_metier.unique_page_link_id,\"'>\",one_domaine_metier.name,\"</a>\");\n   60              output.push(\"</span></li>\");\n   61              output.push(\"<li class='node-header-info'><ul>\");\n   62:               output.push(\"<li class='navigation-helpers domaine_metier-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_metier.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_metier.name,\"\\\"></span></li>\");\n   63                output.push(\"<li class='object-groups-name domaine_metier-object-groups-name'>Object Groups</li>\");\n   64              output.push(\"</ul></li>\");\n   ..\n   79          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   80            output.push(\"<ul class='node-header'>\");\n   81:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_fonctionnel.description,\"\\\">\");\n   82              output.push(\"<a href='\",one_domaine_fonctionnel.unique_page_link_id,\"'>\",one_domaine_fonctionnel.name,\"</a>\");\n   83              output.push(\"</span></li>\");\n   84              output.push(\"<li class='node-header-info'><ul>\");\n   85:               output.push(\"<li class='navigation-helpers domaine_fonctionnel-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_fonctionnel.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_fonctionnel.name,\"\\\"></span></li>\");\n   86                output.push(\"<li class='object-groups-name domaine_fonctionnel-object-groups-name'>Object Groups</li>\");\n   87              output.push(\"</ul></li>\");\n\n\n\nSearching 12549 files for \"tooltip-me\"\n\nT:\\Lib\\css.shared\\shared.css:\n  112  }\n  113  \n  114: .tooltip-me{\n  115  	cursor:pointer!important;\n  116  }\n\nT:\\Lib\\templates\\cwJSAPI.js:\n  231  \n  232  function setToolTipsOnTitles(){\n  233: 	$('.tooltip-me').mouseover(function(){\n  234  		$(this).css('cursor', 'help');\n  235  	});\n  236  \n  237: 	$('.tooltip-me-left').mouseover(function(){\n  238  		$(this).css('cursor', 'help');\n  239  	});	\n  240  		\n  241: 	$('.tooltip-me-custom').mouseover(function(){\n  242  		$(this).css('cursor', 'help');\n  243  	});	\n  244  	\n  245: 	$('.tooltip-me').tooltip({showURL : false, fade : 250});\n  246: 	$('.tooltip-me-left').tooltip({showURL : false, fade : 250, extraClass:'tooltip-left'});\n  247: 	$('.tooltip-me-custom').tooltip({showURL : false, fade : 250, extraClass : 'tooltip-custom'});\n  248  }\n\nT:\\Lib\\templates\\reverse_drawing.js:\n   11  	if (node.hasChild == true){\n   12  		var descriptionTitle = (node.node.description != null) ? 'title=\"' + node.node.description + '\"' : '';\n   13: 		output.push('<div class=\"' + node.nodeID + '-title box-title tooltip-me ' + extra_classes + '\" ' + descriptionTitle + '>');\n   14  \n   15  		if (node.callback == null){\n\nT:\\Lib\\templates\\simple_drawing.js:\n   36  	if (levelNode.follow.length == 0){\n   37  		if (linkLastItem == true){\n   38: 			output.push('<a href=\"' + node.link_id + '.htm\" ' + descriptionTitle + ' class=\"tooltip-me\">' + displayName + '</a>');\n   39  		} else {\n   40  			if (typeof(levelNode.callback)== 'undefined'){\n   41: 				output.push('<span class=\"tooltip-me\" ' + descriptionTitle + '>', displayName, '</span>');\n   42  				//output.push(node[levelNode.displayProperty]);\n   43  			}else{\n   ..\n   50  	}else{\n   51  		\n   52: 		output.push('<div class=\"' + levelNode.nodeID + '-title box-title tooltip-me\" ' + descriptionTitle + '>', displayName, '<div class=\"titleHelp tooltip-me\">' + levelNode.nodeName + '</div>','</div>');\n   53  		\n   54  	}\n\nT:\\Site\\LPC.sublime-workspace:\n  497  			\"addMenuToOutPutaddMenuToOutPut\",\n  498  			\"gère\",\n  499: 			\"tooltip-me\",\n  500  			\"reverseNodesDraw\",\n  501  			\"createBrowseNode\",\n\nT:\\Site\\webdesigner\\generated\\menu\\layouts\\menu_standard-list.js:\n   10          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   11            output.push(\"<ul class='node-header'>\");\n   12:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_metier.description,\"\\\">\");\n   13              output.push(\"<a href='\",one_domaine_metier.unique_page_link_id,\"'>\",one_domaine_metier.name,\"</a>\");\n   14              output.push(\"</span></li>\");\n   15              output.push(\"<li class='node-header-info'><ul>\");\n   16:               output.push(\"<li class='navigation-helpers domaine_metier-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_metier.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_metier.name,\"\\\"></span></li>\");\n   17                output.push(\"<li class='object-groups-name domaine_metier-object-groups-name'>Object Groups</li>\");\n   18              output.push(\"</ul></li>\");\n   ..\n   33          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   34            output.push(\"<ul class='node-header'>\");\n   35:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_fonctionnel.description,\"\\\">\");\n   36              output.push(\"<a href='\",one_domaine_fonctionnel.unique_page_link_id,\"'>\",one_domaine_fonctionnel.name,\"</a>\");\n   37              output.push(\"</span></li>\");\n   38              output.push(\"<li class='node-header-info'><ul>\");\n   39:               output.push(\"<li class='navigation-helpers domaine_fonctionnel-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_fonctionnel.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_fonctionnel.name,\"\\\"></span></li>\");\n   40                output.push(\"<li class='object-groups-name domaine_fonctionnel-object-groups-name'>Object Groups</li>\");\n   41              output.push(\"</ul></li>\");\n   ..\n   56          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   57            output.push(\"<ul class='node-header'>\");\n   58:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_metier.description,\"\\\">\");\n   59              output.push(\"<a href='\",one_domaine_metier.unique_page_link_id,\"'>\",one_domaine_metier.name,\"</a>\");\n   60              output.push(\"</span></li>\");\n   61              output.push(\"<li class='node-header-info'><ul>\");\n   62:               output.push(\"<li class='navigation-helpers domaine_metier-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_metier.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_metier.name,\"\\\"></span></li>\");\n   63                output.push(\"<li class='object-groups-name domaine_metier-object-groups-name'>Object Groups</li>\");\n   64              output.push(\"</ul></li>\");\n   ..\n   79          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   80            output.push(\"<ul class='node-header'>\");\n   81:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_fonctionnel.description,\"\\\">\");\n   82              output.push(\"<a href='\",one_domaine_fonctionnel.unique_page_link_id,\"'>\",one_domaine_fonctionnel.name,\"</a>\");\n   83              output.push(\"</span></li>\");\n   84              output.push(\"<li class='node-header-info'><ul>\");\n   85:               output.push(\"<li class='navigation-helpers domaine_fonctionnel-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_fonctionnel.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_fonctionnel.name,\"\\\"></span></li>\");\n   86                output.push(\"<li class='object-groups-name domaine_fonctionnel-object-groups-name'>Object Groups</li>\");\n   87              output.push(\"</ul></li>\");\n\nT:\\Site\\webdesigner\\handmade\\details_pos\\details_pos.js:\n   56      _.each(details_pos.zone, function(zone){\n   57        	addTitle(output, zone.nomderemplacement);\n   58:              output.push(\"<span class='titleHelp tooltip-me' style='cursor: help;'>Zone</span>\");\n   59            output.push(\"<ul class='quart'>\");\n   60          _.each(zone.quartier, function(one_quartier){\n   61:           output.push(\"<li class='quart'><div class='tooltip-me quartier'>\",one_quartier.nomderemplacement,\"</div><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>\");\n   62            output.push(\"<ul class='app'>\");\n   63             	_.each(one_quartier.app, function(one_app){\n\nT:\\Site\\webdesigner\\handmade\\domainefonctionnel\\domainefonctionnel.js:\n   64    output.push(\"<li class='zone pos2 ui-corner-all'>\");\n   65    //addTitle(output, zone.nomderemplacement);\n   66:     output.push(\"<div class='titleHelp tooltip-me' style='cursor: help;'>Zone</div>\");\n   67      output.push(zone.nomderemplacement);\n   68      output.push(\"<ul class='quart'>\");\n   69        _.each(zone.quartier, function(one_quartier){\n   70:         output.push(\"<li class='quart pos2 ui-corner-all'><div class='tooltip-me quartier'>\",one_quartier.nomderemplacement,\"</div><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>\");\n   71            output.push(\"<ul class='app'>\");\n   72              _.each(one_quartier.app, function(one_app){\n   ..\n   93      //addTitle(output, zone.nomderemplacement);\n   94      output.push(\"<li class='zone pos2 ui-corner-all'>\");\n   95:     output.push(\"<div class='titleHelp tooltip-me' style='cursor: help;'>Zone</div>\");\n   96        output.push(zone.nomderemplacement);\n   97        output.push(\"<ul class='quart'>\");\n   98          _.each(zone.quartier, function(one_quartier){\n   99:           output.push(\"<li class='quart pos2 ui-corner-all'><div title='\",one_quartier.description,\"' class='tooltip-me quartier'><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>\");\n  100            output.push(one_quartier.nomderemplacement);\n  101            output.push(\"<ul class='ilot'>\");\n  102            _.each(one_quartier.ilot, function(ilot){\n  103:             output.push(\"<li class='ilot pos2 ui-corner-all'><div class='titleHelp tooltip-me' style='cursor: help;'>Ilôt</div>\");\n  104              output.push(ilot.nomderemplacement);\n  105                output.push(\"<ul class='fonction'>\");\n  106                _.each(ilot.fonction, function(fonction){\n  107:                 output.push(\"<li class='fonction pos2 ui-corner-all'><div class='titleHelp tooltip-me' style='cursor: help;'>Fonction</div>\");\n  108                  output.push(\"<a href='\",fonction.unique_page_link_id,\"'>\",fonction.nomderemplacement,\"</a>\");\n  109                  //output.push(fonction.nomderemplacement);\n\nT:\\Site\\webdesigner\\handmade\\entreprise\\entreprise.js:\n   51          output.push('<ul class=\"macroprocessus \">');\n   52  		_.each(entreprise.macroprocessus, function(mp){\n   53: 			output.push('<li class=\"macroprocessus ',mpTypeToCSS(mp.type) ,'  \"><div class=\"macroprocessus mp-title-h3 tooltip-me\" title=\"',mp.description,'\" style=\"cursor:pointer\"><a href=\"',mp.unique_page_link_id, '\" >', mp.nomderemplacement, '</a></div>');\n   54  				drawProcessus(output, mp);\n   55  			output.push('</li>');\n   ..\n   75  	output.push('<ul class=\"processus\">');\n   76  	_.each(mp.processus, function(p){\n   77: 		output.push('<li class=\"processus ',mpTypeToCSS(p.type), '  \"><div class=\"processus tooltip-me\" title=\"', p.description,'\"><a href=\"',p.unique_page_link_id, '\">', p.nomderemplacement, '</a></div>');\n   78  		output.push('</li>');\n   79  	});\n\nT:\\Site\\webdesigner\\handmade\\fonction\\fonction.js:\n   39          output.push (\"<li class='icone'><span  class='title-h3'>\",'Activités',\"</span></li>\");\n   40          _.each(fonction.activite, function(activite){\n   41:          output.push(\"<li class='act ui-corner-all '><div class='tooltip-me '>\"+activite.nomderemplacement,\"</div>\",\"</li>\");\n   42         });\n   43           output.push(\"</ul>\");\n\nT:\\Site\\webdesigner\\handmade\\Gouvernance\\Gouvernance.js:\n   18  		output.push('<ul class=\"macroprocessus \">');\n   19  		_.each(Gouvernance.macroprocessus, function(mp){\n   20: 			output.push('<li class=\"macroprocessus ',mpTypeToCSS(mp.type) ,' mpaide \"><div class=\"macroprocessus mp-title-h3 tooltip-me\" title=\"',mp.description,'\"><a href=\"',mp.unique_page_link_id, '\" >', mp.name, '</a></div>');\n   21  				drawProcessus(output, mp);\n   22  			output.push('</li>');\n   ..\n   33  	output.push('<ul class=\"processus\">');\n   34  	_.each(mp.processus, function(p){\n   35: 		output.push('<li class=\"processus ',mpTypeToCSS(p.type), ' paide \"><div class=\"processus tooltip-me\" title=\"', p.description,'\"><a href=\"',p.unique_page_link_id, '\">', p.nomderemplacement, '</a></div>');\n   36  		output.push('</li>');\n   37  	});\n\nT:\\Site\\webdesigner\\handmade\\macroprocessus\\macroprocessus.js:\n   59  			output.push('<ul class=\"macroprocessus ',mpTypeToCSS(macroprocessus.type), ' \">')\n   60  				_.each(macroprocessus.processus, function(p){\n   61: 				output.push('<li class=\"processus ',mpTypeToCSS(p.type), ' \"><div class=\"processus tooltip-me\" title=\"',p.description,'\"><a href=\"',p.unique_page_link_id, '\">', p.nomderemplacement, '</a></div>');\n   62  					//drawProcessus(output, mp);\n   63  				output.push('</li>');\n   ..\n  154  			output.push('<ul class=\"macroprocessus ',mpTypeToCSS(macroprocessus.type), ' \">')\n  155  				_.each(macroprocessus.processus, function(p){\n  156: 				output.push('<li class=\"processus ',mpTypeToCSS(p.type), ' \"><div class=\"processus tooltip-me\" title=\"',p.description,'\"><a href=\"',p.unique_page_link_id, '\">', p.nomderemplacement, '</a></div>');\n  157  					//drawProcessus(output, mp);\n  158  				output.push('</li>');\n\nT:\\Site\\webdesigner\\handmade\\processus\\processus.js:\n  121          _.each(processus.activite, function(activite){\n  122          output.push(\"<li class='pos2 ui-corner-all'>\");\n  123:         output.push ('<div class=\"titleHelp tooltip-me\" title=\"\" style=\"cursor:help\"> Activité </div>');\n  124          output.push(activite.nomderemplacement);\n  125          output.push(\"<ul class=''>\");\n  126            _.each(activite.fonction, function(one_fonction){\n  127              output.push(\"<li class='pos2 ui-corner-all'>\");\n  128:             output.push('<div class=\"titleHelp tooltip-me\" title=\"',one_fonction.description,'\"> Fonction </div>');\n  129              \n  130              output.push(one_fonction.nomderemplacement);\n  ...\n  132                _.each(one_fonction.appli, function(one_appli){\n  133                  output.push(\"<li class='pos2 ui-corner-all'>\");\n  134:                  output.push ('<div class=\"titleHelp tooltip-me\"> Application</div>');\n  135                  output.push(\"<a href='\",one_appli.unique_page_link_id,\"'>\",one_appli.name,\"</a>\");\n  136                   output.push(\"<ul class=''>\");\n  137                    _.each(one_appli.quartier, function(one_quartier){\n  138                      output.push(\"<li class='pos2 ui-corner-all'>\");\n  139:                      output.push ('<div class=\"titleHelp tooltip-me\">Quartier</div>');\n  140                      output.push(one_quartier.nomderemplacement);\n  141                      output.push(\"</li>\");\n  ...\n  173        output.push('<ul class=\"activ \">');\n  174          _.each(processus.activite, function(activite){\n  175:           output.push('<li class=\"act ui-corner-all \"><div class=\"app tooltip-me \"  title=\"',activite.description,'\">',activite.nomderemplacement,'</div>');\n  176            output.push(\"</li>\");\n  177          });\n\nT:\\Site\\webdesigner\\handmade\\vision_metier\\vision_metier.js:\n   19          _.each(one_domaine_metier.macroprocessus, function(one_macroprocessus){\n   20            output.push(\"<li class='macroprocessus  \", mpTypeToCSS(one_macroprocessus.type) ,\"'>\");\n   21:           output.push('<div class=\"macroprocessus tooltip-me\" title=\"',one_macroprocessus.description,'\">');\n   22            output.push(\"<a href='\",one_macroprocessus.unique_page_link_id,\"'>\",one_macroprocessus.nomderemplacement,\"</a>\");\n   23            output.push(\"</div>\");\n\nC:\\wamp\\www\\nSite\\Lib\\templates\\cwJSAPI.js:\n  233  \n  234  function setToolTipsOnTitles(){\n  235: 	$('.tooltip-me').mouseover(function(){\n  236  		$(this).css('cursor', 'help');\n  237  	});\n  238  \n  239: 	$('.tooltip-me-left').mouseover(function(){\n  240  		$(this).css('cursor', 'help');\n  241  	});	\n  242  		\n  243: 	$('.tooltip-me-custom').mouseover(function(){\n  244  		$(this).css('cursor', 'help');\n  245  	});	\n  246  	\n  247: 	$('.tooltip-me').tooltip({showURL : false, fade : 250});\n  248: 	$('.tooltip-me-left').tooltip({showURL : false, fade : 250, extraClass:'tooltip-left'});\n  249: 	$('.tooltip-me-custom').tooltip({showURL : false, fade : 250, extraClass : 'tooltip-custom'});\n  250  }\n  251  \n  ...\n  291         \n  292            output.push(\"<ul class='node-header'>\");\n  293:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_object.description,\"\\\">\");\n  294              output.push(\"<a href='\",one_object.link_id,\"'>\",one_object.name,\"</a>\");\n  295              output.push(\"</span></li>\");\n  296              output.push(\"<li class='node-header-info'><ul>\");\n  297:               output.push(\"<li class='navigation-helpers site-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_object.link_id,\"' title=\\\"Voir le détails de \", one_object.name,\"\\\"></span></li>\");\n  298                output.push(\"<li class='object-groups-name site-object-groups-name'>\" + this.ogsName + \"</li>\");\n  299              output.push(\"</ul></li>\");\n\nC:\\wamp\\www\\nSite\\Lib\\templates\\reverse_drawing.js:\n   11  	if (node.hasChild == true){\n   12  		var descriptionTitle = (node.node.description != null) ? 'title=\"' + node.node.description + '\"' : '';\n   13: 		output.push('<div class=\"' + node.nodeID + '-title box-title tooltip-me ' + extra_classes + '\" ' + descriptionTitle + '>');\n   14  \n   15  		if (node.callback == null){\n   ..\n   19  		}\n   20  		\n   21: 		output.push('<div class=\"titleHelp tooltip-me\" title=\"' + node.nodeName + '\">' + node.nodeName + '</div>', '</div>');\n   22  		output.push('<ul class=\"' + node.nodeID + '\">');\n   23  			for (var i in node.children){// node.children){\n\nC:\\wamp\\www\\nSite\\Lib\\templates\\simple_drawing.js:\n   36  	if (levelNode.follow.length == 0){\n   37  		if (linkLastItem == true){\n   38: 			output.push('<a href=\"' + node.link_id + '.htm\" ' + descriptionTitle + ' class=\"tooltip-me\">' + displayName + '</a>');\n   39  		} else {\n   40  			if (typeof(levelNode.callback)== 'undefined'){\n   41: 				output.push('<span class=\"tooltip-me\" ' + descriptionTitle + '>', displayName, '</span>');\n   42  				//output.push(node[levelNode.displayProperty]);\n   43  			}else{\n   ..\n   50  	}else{\n   51  		\n   52: 		output.push('<div class=\"' + levelNode.nodeID + '-title box-title tooltip-me\" ' + descriptionTitle + '>', displayName, '<div class=\"titleHelp tooltip-me\">' + levelNode.nodeName + '</div>','</div>');\n   53  		\n   54  	}\n\nC:\\wamp\\www\\nSite\\Site\\LPC.sublime-workspace:\n   85  	[\n   86  		{\n   87: 			\"contents\": \"Searching 6062 files for \\\"addHelpForPage\\\"\\n\\nT:\\\\Site\\\\js\\\\main.js:\\n   20       \\n   21  \\n   22: function addHelpForPage(image){\\n   23    $('#block-menu_block-3 div.content').append('<div class=\\\"helpForPage tooltip-me\\\" title=\\\"<img src=\\\\'../images/aide/' +image + '.png\\\\'/>\\\">Aide sur cette page</div>');  \\n   24  }\\n\\nT:\\\\Site\\\\webdesigner\\\\handmade\\\\vision_metier\\\\vision_metier.js:\\n   57      $('a').tooltip({showURL: false, fade:250});\\n   58      \\n   59:     addHelpForPage(\\\"vision_metier\\\");\\n   60      \\n   61      setToolTipsOnTitles();\\n\\n2 matches across 2 files\\n\\n\\nSearching 6062 files for \\\"helpForPage\\\"\\n\\nT:\\\\Site\\\\css\\\\main.css:\\n  528  \\n  529  \\n  530: .helpForPage{\\n  531  	padding:40px;\\n  532  	margin-top:10px;\\n\\nT:\\\\Site\\\\js\\\\main.js:\\n   20       \\n   21  \\n   22: function addHelpForPage(image){\\n   23:   $('#block-menu_block-3 div.content').append('<div class=\\\"helpForPage tooltip-me\\\" title=\\\"<img src=\\\\'../images/aide/' +image + '.png\\\\'/>\\\">Aide sur cette page</div>');  \\n   24  }\\n   25  \\n\\nT:\\\\Site\\\\webdesigner\\\\handmade\\\\vision_metier\\\\vision_metier.js:\\n   57      $('a').tooltip({showURL: false, fade:250});\\n   58      \\n   59:     addHelpForPage(\\\"vision_metier\\\");\\n   60      \\n   61      setToolTipsOnTitles();\\n\\n4 matches across 3 files\\n\",\n   88  			\"settings\":\n   89  			{\n   ..\n  346  			\"addMenuToOutPutaddMenuToOutPut\",\n  347  			\"gère\",\n  348: 			\"tooltip-me\",\n  349  			\"reverseNodesDraw\",\n  350  			\"createBrowseNode\",\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\generated\\menu\\layouts\\menu_standard-list.js:\n   10          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   11            output.push(\"<ul class='node-header'>\");\n   12:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_metier.description,\"\\\">\");\n   13              output.push(\"<a href='\",one_domaine_metier.unique_page_link_id,\"'>\",one_domaine_metier.name,\"</a>\");\n   14              output.push(\"</span></li>\");\n   15              output.push(\"<li class='node-header-info'><ul>\");\n   16:               output.push(\"<li class='navigation-helpers domaine_metier-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_metier.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_metier.name,\"\\\"></span></li>\");\n   17                output.push(\"<li class='object-groups-name domaine_metier-object-groups-name'>Object Groups</li>\");\n   18              output.push(\"</ul></li>\");\n   ..\n   33          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   34            output.push(\"<ul class='node-header'>\");\n   35:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_fonctionnel.description,\"\\\">\");\n   36              output.push(\"<a href='\",one_domaine_fonctionnel.unique_page_link_id,\"'>\",one_domaine_fonctionnel.name,\"</a>\");\n   37              output.push(\"</span></li>\");\n   38              output.push(\"<li class='node-header-info'><ul>\");\n   39:               output.push(\"<li class='navigation-helpers domaine_fonctionnel-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_fonctionnel.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_fonctionnel.name,\"\\\"></span></li>\");\n   40                output.push(\"<li class='object-groups-name domaine_fonctionnel-object-groups-name'>Object Groups</li>\");\n   41              output.push(\"</ul></li>\");\n   ..\n   56          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   57            output.push(\"<ul class='node-header'>\");\n   58:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_metier.description,\"\\\">\");\n   59              output.push(\"<a href='\",one_domaine_metier.unique_page_link_id,\"'>\",one_domaine_metier.name,\"</a>\");\n   60              output.push(\"</span></li>\");\n   61              output.push(\"<li class='node-header-info'><ul>\");\n   62:               output.push(\"<li class='navigation-helpers domaine_metier-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_metier.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_metier.name,\"\\\"></span></li>\");\n   63                output.push(\"<li class='object-groups-name domaine_metier-object-groups-name'>Object Groups</li>\");\n   64              output.push(\"</ul></li>\");\n   ..\n   79          output.push(\"<div class='\" + nameStyle.divNameStyle + \" node-header'>\");\n   80            output.push(\"<ul class='node-header'>\");\n   81:             output.push(\"<li class='node-header-title'><span class='node-header-title-name tooltip-me' title=\\\"\", one_domaine_fonctionnel.description,\"\\\">\");\n   82              output.push(\"<a href='\",one_domaine_fonctionnel.unique_page_link_id,\"'>\",one_domaine_fonctionnel.name,\"</a>\");\n   83              output.push(\"</span></li>\");\n   84              output.push(\"<li class='node-header-info'><ul>\");\n   85:               output.push(\"<li class='navigation-helpers domaine_fonctionnel-navigation-helpers'><span class='navigation-icon tooltip-me' href='\", one_domaine_fonctionnel.unique_page_link_id,\"' title=\\\"Voir le détails de \", one_domaine_fonctionnel.name,\"\\\"></span></li>\");\n   86                output.push(\"<li class='object-groups-name domaine_fonctionnel-object-groups-name'>Object Groups</li>\");\n   87              output.push(\"</ul></li>\");\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\details_pos\\details_pos.js:\n   56      _.each(details_pos.zone, function(zone){\n   57        	addTitle(output, zone.nomderemplacement);\n   58:              output.push(\"<span class='titleHelp tooltip-me' style='cursor: help;'>Zone</span>\");\n   59            output.push(\"<ul class='quart'>\");\n   60          _.each(zone.quartier, function(one_quartier){\n   61:           output.push(\"<li class='quart'><div class='tooltip-me quartier'>\",one_quartier.nomderemplacement,\"</div><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>\");\n   62            output.push(\"<ul class='app'>\");\n   63             	_.each(one_quartier.app, function(one_app){\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\domainefonctionnel\\domainefonctionnel.js:\n   61    output.push(\"<li class='zone pos2 ui-corner-all'>\");\n   62    //addTitle(output, zone.nomderemplacement);\n   63:     output.push(\"<div class='titleHelp tooltip-me' style='cursor: help;'>Zone</div>\");\n   64      output.push(zone.nomderemplacement);\n   65      output.push(\"<ul class='quart'>\");\n   66        _.each(zone.quartier, function(one_quartier){\n   67:         output.push(\"<li class='quart pos2 ui-corner-all'><div class='tooltip-me quartier'>\",one_quartier.nomderemplacement,\"</div><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>\");\n   68            output.push(\"<ul class='app'>\");\n   69              _.each(one_quartier.app, function(one_app){\n   ..\n   90      //addTitle(output, zone.nomderemplacement);\n   91      output.push(\"<li class='zone pos2 ui-corner-all'>\");\n   92:     output.push(\"<div class='titleHelp tooltip-me' style='cursor: help;'>Zone</div>\");\n   93        output.push(zone.nomderemplacement);\n   94        output.push(\"<ul class='quart'>\");\n   95          _.each(zone.quartier, function(one_quartier){\n   96:           output.push(\"<li class='quart pos2 ui-corner-all'><div title='\",one_quartier.description,\"' class='tooltip-me quartier'><div class='titleHelp tooltip-me' style='cursor: help;'>Quartier</div>\");\n   97            output.push(one_quartier.nomderemplacement);\n   98            output.push(\"<ul class='ilot'>\");\n   99            _.each(one_quartier.ilot, function(ilot){\n  100:             output.push(\"<li class='ilot pos2 ui-corner-all'><div class='titleHelp tooltip-me' style='cursor: help;'>Ilôt</div>\");\n  101              output.push(ilot.nomderemplacement);\n  102                output.push(\"<ul class='fonction'>\");\n  103                _.each(ilot.fonction, function(fonction){\n  104:                 output.push(\"<li class='fonction pos2 ui-corner-all'><div class='titleHelp tooltip-me' style='cursor: help;'>Fonction</div>\");\n  105                  output.push(\"<a href='\",fonction.unique_page_link_id,\"'>\",fonction.nomderemplacement,\"</a>\");\n  106                  //output.push(fonction.nomderemplacement);\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\entreprise\\entreprise.js:\n   33  		output.push('<ul class=\"macroprocessus \">');\n   34  		_.each(entreprise.macroprocessus, function(mp){\n   35: 			output.push('<li class=\"macroprocessus ',mpTypeToCSS(mp.type) ,'  \"><div class=\"macroprocessus mp-title-h3 tooltip-me\" title=\"',mp.description,'\" style=\"cursor:pointer\"><a href=\"',mp.unique_page_link_id, '\" >', mp.nomderemplacement, '</a></div>');\n   36  				drawProcessus(output, mp);\n   37  			output.push('</li>');\n   ..\n   48  	output.push('<ul class=\"processus\">');\n   49  	_.each(mp.processus, function(p){\n   50: 		output.push('<li class=\"processus ',mpTypeToCSS(p.type), '  \"><div class=\"processus tooltip-me\" title=\"', p.description,'\"><a href=\"',p.unique_page_link_id, '\">', p.nomderemplacement, '</a></div>');\n   51  		output.push('</li>');\n   52  	});\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\Gouvernance\\Gouvernance.js:\n   18  		output.push('<ul class=\"macroprocessus \">');\n   19  		_.each(Gouvernance.macroprocessus, function(mp){\n   20: 			output.push('<li class=\"macroprocessus ',mpTypeToCSS(mp.type) ,' mpaide \"><div class=\"macroprocessus mp-title-h3 tooltip-me\" title=\"',mp.description,'\"><a href=\"',mp.unique_page_link_id, '\" >', mp.name, '</a></div>');\n   21  				drawProcessus(output, mp);\n   22  			output.push('</li>');\n   ..\n   33  	output.push('<ul class=\"processus\">');\n   34  	_.each(mp.processus, function(p){\n   35: 		output.push('<li class=\"processus ',mpTypeToCSS(p.type), ' paide \"><div class=\"processus tooltip-me\" title=\"', p.description,'\"><a href=\"',p.unique_page_link_id, '\">', p.nomderemplacement, '</a></div>');\n   36  		output.push('</li>');\n   37  	});\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\macroprocessus\\macroprocessus.js:\n   36  			output.push('<ul class=\"macroprocessus ',mpTypeToCSS(macroprocessus.type), ' \">')\n   37  				_.each(macroprocessus.processus, function(p){\n   38: 				output.push('<li class=\"processus ',mpTypeToCSS(p.type), ' \"><div class=\"processus tooltip-me\" title=\"',p.description,'\"><a href=\"',p.unique_page_link_id, '\">', p.nomderemplacement, '</a></div>');\n   39  					//drawProcessus(output, mp);\n   40  				output.push('</li>');\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\processus\\processus.js:\n  118          _.each(processus.activite, function(activite){\n  119          output.push(\"<li class='pos2 ui-corner-all'>\");\n  120:         output.push ('<div class=\"titleHelp tooltip-me\" title=\"\" style=\"cursor:help\"> Activité </div>');\n  121          output.push(activite.nomderemplacement);\n  122          output.push(\"<ul class=''>\");\n  123            _.each(activite.fonction, function(one_fonction){\n  124              output.push(\"<li class='pos2 ui-corner-all'>\");\n  125:             output.push('<div class=\"titleHelp tooltip-me\" title=\"',one_fonction.description,'\"> Fonction </div>');\n  126              \n  127              output.push(one_fonction.nomderemplacement);\n  ...\n  129                _.each(one_fonction.appli, function(one_appli){\n  130                  output.push(\"<li class='pos2 ui-corner-all'>\");\n  131:                  output.push ('<div class=\"titleHelp tooltip-me\"> Application</div>');\n  132                  output.push(\"<a href='\",one_appli.unique_page_link_id,\"'>\",one_appli.name,\"</a>\");\n  133                   output.push(\"<ul class=''>\");\n  134                    _.each(one_appli.quartier, function(one_quartier){\n  135                      output.push(\"<li class='pos2 ui-corner-all'>\");\n  136:                      output.push ('<div class=\"titleHelp tooltip-me\">Quartier</div>');\n  137                      output.push(one_quartier.nomderemplacement);\n  138                      output.push(\"</li>\");\n  ...\n  170        output.push('<ul class=\"activ \">');\n  171          _.each(processus.activite, function(activite){\n  172:           output.push('<li class=\"act ui-corner-all \"><div class=\"app tooltip-me \"  title=\"',activite.description,'\">',activite.nomderemplacement,'</div>');\n  173            output.push(\"</li>\");\n  174          });\n\nC:\\wamp\\www\\nSite\\Site\\webdesigner\\handmade\\vision_metier\\vision_metier.js:\n   23      _.each(domaine_metier.macroprocessus, function(one_macroprocessus){\n   24        output.push(\"<li class='macroprocessus  \", mpTypeToCSS(one_macroprocessus.type) ,\"'>\");\n   25:       output.push('<div class=\"macroprocessus tooltip-me\" title=\"',one_macroprocessus.description,'\">');\n   26        output.push(\"<a href='\",one_macroprocessus.link_id,\"'>\",one_macroprocessus.nomderemplacement,\"</a>\");\n   27        output.push(\"</div>\");\n\n92 matches across 26 files\n",
 			"settings":
 			{
-				"buffer_size": 17770,
+				"buffer_size": 58547,
 				"line_ending": "Windows",
 				"name": "Find Results",
 				"scratch": true
@@ -221,6 +237,25 @@
 			"settings":
 			{
 				"buffer_size": 803,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*\n* Canvas Camera v0.2, \n*\n* Copyright (c) 2011 Pouya MOHTACHAM (pouya.name)\n* Dual licensed under the MIT and GPL licenses:\n* http://www.opensource.org/licenses/mit-license.php\n* http://www.gnu.org/licenses/gpl.html\n*\n* v0.2 2011/09/22 / add of function setImageInCanvas\n*/\n\n$(function(){\n	$(window).resize(function() {\n  		//$('#log').append('<div>Handler for .resize() called.</div>');\n  		if (camera.bgImage != null)\n  		{\n  			\n  			$('.diagram-zone').width('100%');\n  			$('.diagram-zone').height('100%');\n  			$('.diagram-canvas').width('100%');\n  			$('.diagram-canvas').height('100%');\n  			camera.fitInScreen();\n  			camera.applyChanges();\n\n  		}\n	});\n})\n\nvar camera = {\n	// level of the zoom in main Screen\n	'worldZoomLevel':1,\n	'zoomFactorLimit' : {'min' : 0, 'max' : 10},\n	'translationFactor' : 1,\n//	'worldScreenMinX':0,\n//	'worldScreenMinY':0,\n//	'worldScreenMaxX':800,\n//	'worldScreenMaxY':400,\n	// inital canvas size in the user client\n	'worldInitX': 0,\n	'worldInitY': 0,\n	// current mainScreen size depending on the zoom & translation\n	'ScreenSize': {'w' : 0, 'h' : 0},\n	// the translation of the left top corner of the mainScreen from the bigMap, represents also the position of the miniMap\n	'translateX' : 0,\n	'translateY' : 0,\n	// used only for canvas chages\n	'traX' : 0,\n	'traY' : 0,\n	'bgImage' : null,\n	'mousePourcentagePosition' : {},\n	// the zoom box initial size\n	'zoomSize' : 20,\n	'zoomFactor' : 1,\n	'mouseX' : 0,\n	'mouseY' : 0,\n	// the mini map size\n	'miniMapSize' : 256,\n	'ctx' : null,\n	'canvasTag' : null,\n	'canvasID' : null,\n	'diagram' : null,\n	'diagramShapes' : null,\n	'diagramKin' : null,\n	'diagramClickOT' : null,\n	'fadingShare' : false,\n	'clip' : null,\n	'relativeMousePos' : {'x' : 0, 'y' : 0},\n	// the size of the bigMap\n	'worldMaxSize' : {'x' : 0, 'y' : 0},\n	'init' : function (diagram, _diagramClickOT) {\n		//console.log('init the camera');\n		\n		// init the camera\n		camera.mainScreen = $(\"#diagram-\" + diagram.id);\n		//console.log(mainScreen);\n		camera.canvasTag = camera.mainScreen;\n		camera.diagram = diagram;\n		camera.canvasID = 'diagram-' + diagram.id;//mainScreenTag.replace(\"#\", '');\n		camera.bgImage = diagram.diagramImage;\n		camera.worldInitX = camera.mainScreen.width();\n		camera.worldInitY = camera.mainScreen.height();\n		camera.ScreenSize.w = camera.mainScreen.width();\n		camera.ScreenSize.h = camera.mainScreen.height();\n		camera.diagramClickOT = _diagramClickOT;\n		// camera.diagramKin = new Kinetic_2d(\"diagram-\" + diagram.id);\n		\n		// init the canvas\n		if (isUnderIE9()){\n			G_vmlCanvasManager.initElement(camera.canvasTag[0]);	\n		}		\n		camera.ctx = camera.mainScreen[0].getContext('2d');\n		camera.ctx.canvas.width = camera.mainScreen.width();\n		camera.ctx.canvas.height = camera.mainScreen.height();\n		\n		// console.log(mainScreen.width() + ', ' + mainScreen.height());\n		// console.log(bgImage.width + ', ' + bgImage.height);\n		// init the zoom using the image size\n		\n		//camera.fitInScreen();\n\n		setMouseWheel(camera.mainScreen);\n		setMouseMove(camera.mainScreen);\n		if (!isUnderIE9()){\n			setMouseDown(camera.mainScreen);			\n			setMouseUp(camera.mainScreen);			\n		}\n\n\n		//camera.initClipboard(camera.diagram.id);\n		\n\n		var jsonFile = \"../webdesigner/generated/diagram/json/diagram\" + diagram.id + \".json\";\n		$.getJSON(jsonFile, function(data){\n			//eval(data);\n			//console.log(\"data:\", data);\n			camera.diagramShapes = data;\n		}, function(jqXHR, textStatus, errorThrown){\n			//console.log(textStatus);\n			alert('impossible de charger le fichier :' + jsonFile + \", le fichier n'existe pas\" );\n		});		\n	},\n	'drawImage' : function(){\n		camera.canvasTag.css('cursor', 'default');\n		if (!isUnderIE9()){\n			camera.ctx.canvas.width = camera.worldInitX;\n			camera.ctx.canvas.height = camera.worldInitY;\n			//camera.ctx.clearRect(0, 0, camera.ctx.canvas.width, camera.ctx.canvas.height);\n			camera.ctx.scale(1 / camera.worldZoomLevel, 1 / camera.worldZoomLevel);			\n			camera.ctx.translate(-camera.translateX, -camera.translateY);\n			if (camera.bgImage.complete){\n				if (camera.bgImage.width > 0){\n					camera.ctx.drawImage(camera.bgImage, -14, -15, camera.bgImage.width, camera.bgImage.height);		\n				}else{\n					alert('impossible de charger le diagramme : ' + camera.bgImage.src);\n				}\n				\n			}\n		}\n		else {\n			//G_vmlCanvasManager.initElement(camera.canvasTag[0]);\n			//console.log(c);\n			//camera.ctx = c[0].getContext('2D');\n			//alert(1 / camera.worldZoomLevel);\n			//camera.ctx.canvas.width = camera.worldInitX;\n			//camera.ctx.canvas.height = camera.worldInitY;\n			//var foo = document.getElementById(\"foo\");\n			//var canvas = document.getElementById(camera.canvasID);\n			//canvas.setAttribute(\"width\", camera.worldInitX);\n			//canvas.setAttribute(\"height\", camera.worldInitY);\n\n\n			camera.ctx.clearRect(0, 0, camera.ctx.canvas.width, camera.ctx.canvas.height);\n			if (camera.bgImage.complete){\n				var prop = camera.getRatio();\n				camera.ctx.drawImage(camera.bgImage, 0, 0, camera.bgImage.width * prop, camera.bgImage.height * prop);\n				//camera.ctx.drawImage(camera.bgImage, 0, 0, camera.ctx.canvas.width, camera.ctx.canvas.height);	\n			}\n			//camera.canvasTag.setAttribute(\"width\", camera.worldInitX);\n			//camera.canvasTag.setAttribute(\"height\", camera.worldInitY);\n			//camera.ctx.scale(2,2);\n			//console.log('translate', camera.translateX);\n			//camera.ctx.scale(1 / camera.worldZoomLevel, 1 / camera.worldZoomLevel);	\n//			camera.ctx.translate(-camera.translateX, -camera.translateY);\n		}\n		\n		\n\n\n\n		browseShapesAndCallbackIfMouseOn(function(shape){\n			camera.canvasTag.css('cursor', 'pointer');\n			camera.ctx.strokeRect(shape.X,  shape.Y , shape.W, shape.H);\n		});	\n		\n		//camera.ctx.strokeStyle = '#00f'; // blue\n		//camera.ctx.strokeRect(0,  0, camera.bgImage.width, camera.bgImage.height);\n		// console.log(camera.diagramShapes);\n		//camera.ctx.strokeStyle = '#00F'; // blue\n\n		//camera.canvasTag.html();\n		// if (camera.diagramShapes != null){\n			// $.each(camera.diagramShapes.shapes, function (i, shape){\n				// camera.ctx.strokeRect(shape.X, shape.Y , shape.W, shape.H);\n			// });\n		// }		\n	},\n	'draw' : function (){\n			var diagramShare = $('#diagramShare-' + camera.canvasID);\n			if (camera.relativeMousePos.x < 100){\n				 if (diagramShare.css(\"display\") == \"none\"){\n					diagramShare.fadeIn(500);\n					//camera.initClipboard(camera.diagram.id);\n				} \n			}\n			else{\n				if (diagramShare.css(\"display\") != \"none\" && camera.fadingShare != true){\n					camera.fadingShare = true;\n					// diagramShare.css(\"z-index\", 200);\n					\n					diagramShare.fadeOut(500, function(){						\n						camera.fadingShare = false;\n					});  \n					\n				}\n			}\n			var cameraHelper = Array();\n			cameraHelper.push('<li>', 'CanvasSize : ' + getSimpleValue(camera.worldInitX) + ', ' + getSimpleValue(camera.worldInitY), '</li>');\n			cameraHelper.push('<li>', 'Translate : ' + getSimpleValue(camera.translateX) + ', ' + getSimpleValue(camera.translateY), '</li>');\n			cameraHelper.push('<li>', 'Zoom : ' + getSimpleValue( 1/ camera.worldZoomLevel), '</li>');\n			cameraHelper.push('<li>', 'MousePos% : ' + getSimpleValue(camera.mousePourcentagePosition.x) + ', ' + getSimpleValue(camera.mousePourcentagePosition.y), '</li>');\n			cameraHelper.push('<li>', 'ContextSize : ' + getSimpleValue(camera.ScreenSize.w) + ', ' + getSimpleValue(camera.ScreenSize.h), '</li>');\n			cameraHelper.push('<li>', 'MousePos : ' + getSimpleValue(camera.mouseX) + ', ' + getSimpleValue(camera.mouseY), '</li>');\n			cameraHelper.push('<li>', 'RelativeMP : ' + getSimpleValue(camera.relativeMousePos.x) + ', ' + getSimpleValue(camera.relativeMousePos.y), '</li>');\n			\n			$(\"#cameraHelper-\" + camera.canvasID).html(cameraHelper.join(''));\n			\n		\n				\n	},\n	'initClipboard' : function(dID) {\n		return;\n		if (isUnderIE9()) return;\n\n		\n		// Enable Rich HTML support (Flash Player 10 Only)\n		ZeroClipboard.setMoviePath( LIB_SERVER + 'zeroclipboard/ZeroClipboard10.swf' );\n		var buttonID = 'copy-diagram-' + dID;\n		// Create our clipboard object as per usual\n		camera.clip = new ZeroClipboard.Client();\n		camera.clip.setHandCursor( true );\n		var contentHTML = \"<img src='\" + HTTP_SERVER + \"images/print/diagram\" + dID + \".png'/>\";\n		camera.clip.setText( contentHTML );\n		//console.log(contentHTML);\n		\n		camera.clip.addEventListener('load', function (client) {\n			//debugstr(\"Flash movie loaded and ready.\");\n			 //console.log(\"loading flash\");\n			camera.clip.setText( contentHTML );\n		});\n		camera.clip.addEventListener( 'mouseOver', function(client) {\n			//console.log(\"mouse over\"); \n			//$('#' + buttonID).addClass(\"ui-state-hover\");\n			$('#' + buttonID).mouseover();\n		} );\n		\n		camera.clip.addEventListener( 'mouseOut', function(client) { \n			// console.log(\"mouse out\"); \n			$('#' + buttonID).mouseout();\n			//$('#' + buttonID).removeClass(\"ui-state-hover\");\n		} );				\n		/*\n		camera.clip.addEventListener('mouseOver', function (client) {\n			// update the text on mouse over\n			\n		});\n		*/\n		camera.clip.addEventListener('complete', function (client, text) {\n			// console.log(\"Copied text to clipboard: \" + text );\n		});\n		\n		camera.clip.glue(buttonID);\n	},\n	\n	'applyChanges' : function (){\n	\n		//if (camera.canvasTag == null) return;\n//	console.log(camera);\n		// check if the canvas real size didn't change\n\n		camera.canvasTag = $('#' + camera.canvasID);\n		camera.worldInitX = camera.canvasTag.width();\n		camera.worldInitY = camera.canvasTag.height();		\n\n		// update worldZoom\n		camera.worldZoomLevel *= camera.zoomFactor;\n		\n	\n\n		// update worldSize\n		camera.ScreenSize.w = camera.worldInitX * camera.worldZoomLevel;			\n		camera.ScreenSize.h = camera.worldInitY * camera.worldZoomLevel;	\n	\n//		// update translations\n		camera.translateX += camera.traX;\n		camera.translateY += camera.traY;\n		\n			\n		/*\n		\n		// limit the translate to don't go more than the max size\n		if (camera.translateX + camera.ScreenSize.w > camera.worldMaxSize.x){\n			camera.translateX -= camera.translateX + camera.ScreenSize.w - camera.worldMaxSize.x;\n		}\n		if (camera.translateY + camera.ScreenSize.h > camera.worldMaxSize.y){\n			camera.translateY -= camera.translateY + camera.ScreenSize.h - camera.worldMaxSize.y;\n		}	\n		*/		\n		//if (camera.translateX < -60) camera.translateX = -60;\n		//if (camera.translateY < 0) camera.translateY = 0;		\n		\n		// update miniMap\n		//camera.updateMiniMap();\n		//camera.draw(camera);\n		//camera.ctx.scale(camera.zoomFactor, camera.zoomFactor);			\n		//camera.ctx.translate(10, 20);\n		\n\n		// reset variables\n		camera.zoomFactor = 1;\n		camera.traX = 0;\n		camera.traY = 0;		\n		\n		return;\n	\n	},\n	getRatio : function(){\n		var propW = camera.canvasTag.width() / camera.diagram.diagramImage.width ;\n		var propH = camera.canvasTag.height() / camera.diagram.diagramImage.height;\n		var prop = propW;\n		if (propH < propW) prop = propH;\n		if (1 / prop < 1) prop = 1;\n		return prop;		\n	},\n	fitInScreen : function(){\n		camera.canvasTag = $('#'+ camera.canvasID);\n		if (camera.diagram.diagramImage.width <= camera.canvasTag.width() &&  camera.diagram.diagramImage.height < camera.canvasTag.height()){\n			camera.worldZoomLevel = 1;\n		} else {\n			var prop = camera.getRatio();\n			camera.worldZoomLevel = 1 / prop;\n		}		\n/*		if (isUnderIE9()){\n			//camera.ctx.scale(camera.worldZoomLevel, camera.worldZoomLevel);\n		}\n*/\n		camera.translateX = 0;\n		camera.translateY = 0;\n	}\n};\n\nfunction tickCanvas2D(){\n	requestAnimFrame(tickCanvas2D);\n	camera.draw();\n/*	if (isUnderIE9()){\n		camera.ctx.scale(1 / camera.zoomFactor, 1 / camera.zoomFactor);	\n		camera.ctx.translate(camera.traX, camera.traY);		\n	}	*/	\n	camera.drawImage();	\n	\n}\n\n\n// browse the shapes and call a callback if the mouse is on the shape\nfunction browseShapesAndCallbackIfMouseOn(callback){\n	\n	if (camera.diagramClickOT !=  null && camera.diagramShapes != null){\n		$.each(camera.diagramShapes.shapes, function (i, shape){\n			if (mouseOnShape(shape) == false) return;\n			callback(shape);\n			return false;	\n		});\n	}\n}\n\n// check if the mouse is on a shape\nfunction mouseOnShape(shape){	\n	if ($.inArray(shape.objectTypeName, camera.diagramClickOT) == -1) return false;\n	if (camera.relativeMousePos.x < shape.X) return false;\n	if (camera.relativeMousePos.x > shape.X + shape.W) return false;\n	if (camera.relativeMousePos.y < shape.Y) return false;\n	if (camera.relativeMousePos.y > shape.Y + shape.H) return false;\n	return true;\n}\n\n\nfunction debugstr(msg) {\n	var p = document.createElement('p');\n	p.innerHTML = msg;\n	get('d_debug').appendChild(p);\n}\n\nfunction get(id) { return document.getElementById(id); }\n\nfunction initCamera(diagram, _diagramClickOT){\n		camera.init(diagram, _diagramClickOT);\n		//camera.draw();\n		$('#diagram-' +diagram.id).fadeIn(500);\n}\n\n\nfunction createNavigationBar(diagram, corner){\n\n	var output = Array();\n\n	output.push(\"<ul id='diagramNavigation-diagram-\" + diagram.id + \"' class='diagramNavigation \" + corner + \"'>\");	\n	output.push(\"<li><a class='diagram-zoomin \" + corner + \"' title='<div class=\\\"simpleText\\\">Zoomer sur le diagramme</div>'>Zoomer sur le diagramme</a></li>\");\n	output.push(\"<li><a class='diagram-zoomout \" + corner + \"' title='<div class=\\\"simpleText\\\">Dézoomer sur le diagramme</div>'>Dézoomer sur le diagramme</a></li>\");	\n	output.push(\"</ul>\");\n	\n	return output.join('');\n}\n\nfunction initDiagramNavigation(mainSelector){\n	$(mainSelector + ' a.diagram-zoomin').button({icons :  {primary : 'ui-icon-zoomin'}, text : false});\n	$(mainSelector + ' a.diagram-zoomout').button({icons :  {primary : 'ui-icon-zoomout'}, text : false});\n	$(mainSelector + ' a').tooltip({delay:250, showURL:false});\n\n	$(mainSelector + ' a.diagram-zoomin').click(function(){\n		camera.worldZoomLevel *= 0.9;\n		camera.applyChanges();\n	});\n	$(mainSelector + ' a.diagram-zoomout').click(function(){\n		camera.worldZoomLevel *= 1.1;\n		camera.applyChanges();\n	});	\n\n}\n\nfunction getLayerMousePos(event){\n	var offsetTop = $('#' + event.currentTarget.id).offset().top;\n	var offsetLeft = $('#' + event.currentTarget.id).offset().left;\n\n\n	var relMPX = event.pageX - offsetLeft;\n	var relMPY = event.pageY - offsetTop;\n	return {'x' : relMPX, 'y' : relMPY};	\n}\n\n// add an image in the canvas\nfunction setImageInCanvas(selector, diagram, _diagramClickOT){\n//ui-widget-content \n\n	var diagramID = diagram.id;\n//	console.log(diagramID);\n	//$(selector).height('99');\n	//console.log('before setting canvas : ', camera.worldZoomLevel, ',', bgImage.width, ',',bgImage.height, ' screen:', $(selector).width(), ', ', $(selector).height());\n	\n	var html = '<div class=\"diagram-zone\">';\n	html += createNavigationBar(diagram, \"ui-corner-all\");\n	html += \"<canvas class='ui-corner-all diagram-canvas' id='diagram-\" + diagramID + \"'></canvas><ul class='cameraHelper' id='cameraHelper-diagram-\" + diagramID + \"'></ul>\";\n	html += createDiagramShare(diagram, diagram.diagramImage.src, \"ui-corner-right\");	\n	html += '</div>';\n\n	$(selector).html(html);\n\n\n	$('.diagram-zone').width($(selector).width());\n	$('.diagram-zone').height($(selector).height());\n\n	$(\"#diagram-\" + diagramID).width($('.diagram-zone').width());\n	$(\"#diagram-\" + diagramID).height($('.diagram-zone').height());\n\n\n\n\n	if (diagram.diagramImage.complete == false)	{\n		diagram.diagramImage.onload = function (){\n			loadDiagram(diagram, _diagramClickOT);\n		}		\n	} else {\n		loadDiagram(diagram, _diagramClickOT);\n	}\n}\n\n/**\n* Provides requestAnimationFrame in a cross browser way.\n*/\nwindow.requestAnimFrame = (function() {\n  return window.requestAnimationFrame ||\n          window.webkitRequestAnimationFrame ||\n          window.mozRequestAnimationFrame ||\n          window.oRequestAnimationFrame ||\n          window.msRequestAnimationFrame ||\n          function(callback, element) {\n            window.setTimeout(callback, 1000/60);\n          };\n})();\n\n\nfunction loadDiagram(diagram, _diagramClickOT){\n	initCamera(diagram, _diagramClickOT);		\n	initDiagramShare('.diagramShare');\n	initDiagramNavigation('.diagramNavigation');\n	\n	var diagramShare = $('#diagramShare-diagram-' + diagram.id);\n	diagramShare.fadeOut();\n	camera.fitInScreen();\n	camera.applyChanges();\n	camera.initClipboard(diagram.id);\n	tickCanvas2D();\n/*	if (isUnderIE9()){\n		camera.ctx.scale(1 / camera.worldZoomLevel, 1/ camera.worldZoomLevel);\n	}*/\n	//console.log('image Loaded');\n}\n\n\n\n// define when mouse is down\nfunction setMouseDown(mainScreen){\n	mainScreen.mousedown( function (event) {\n\n		browseShapesAndCallbackIfMouseOn(function(shape){\n			location.href = shape.objectTypeName.toLowerCase() + \".html?\" + shape.objectID;// + \".htm\";\n		});\n	\n		// if (camera.diagramClickOT !=  null && camera.diagramShapes != null){\n			// $.each(camera.diagramShapes.shapes, function (i, shape){\n				// if (mouseOnShape(shape) == false) return;\n				// location.href = shape.link + \".htm\";\n			// });\n		// }\n		\n		// console.log(\"mouse down\");\n		var mouseRelativePositionOnScreen = {'x' : event.pageX, 'y' : event.pageY};\n		camera.mousePourcentagePosition = {'x' : mouseRelativePositionOnScreen.x / camera.worldInitX,\n		 'y' : mouseRelativePositionOnScreen.y / camera.worldInitY};\n		\n		// camera.initClipboard(diagram.id);\n\n		// console.log(camera.mousePourcentagePosition);\n\n		// left click\n		$(this).css('cursor', 'move');\n		//console.log(\"mouse down\");\n		if (event.which == 1){\n			camera.pageX = event.pageX;\n			camera.pageY = event.pageY;\n		}\n		camera.mouseDown = true;		\n	});	\n}\n\n\n// set mouse move\nfunction setMouseMove(mainScreen){\n		// mouse event for translation\n	mainScreen.mousemove(function(event) {	\n		// set the mouse\n		var relMP = getLayerMousePos(event);\n		var x = (relMP.x ) * camera.worldZoomLevel + camera.translateX;\n		var y = (relMP.y ) * camera.worldZoomLevel + camera.translateY;\n		camera.relativeMousePos = {'x' : x, 'y' : y};	\n		\n					\n		//var x = event.layerX * camera.worldZoomLevel + camera.translateX;\n		//var y = event.layerY * camera.worldZoomLevel + camera.translateY;\n		//camera.relativeMousePos = {'x' : x, 'y' : y};\n\n		//camera.drawImage();			\n		\n	\n		var mouseRelativePositionOnScreen = {'x' : event.pageX, 'y' : event.pageY};\n		camera.mousePourcentagePosition = {'x' : mouseRelativePositionOnScreen.x / camera.worldInitX,\n		 'y' : mouseRelativePositionOnScreen.y / camera.worldInitY};\n		camera.mouseX = event.pageX;\n		camera.mouseY = event.pageY;\n		if (camera.mouseDown) {				\n			var moveOnX = camera.pageX - event.pageX;\n			var moveOnY = camera.pageY - event.pageY;		\n			var traX = 0;\n			var traY = 0;\n			var traMove = camera.translationFactor * camera.worldZoomLevel;\n//				console.log(\"down : \" + moveOnX + \", \" + moveOnY + '|| pageX : ' + camera.pageX + ', ' + camera.pageY + '||' + event.pageX + ', ' + event.pageY);\n			if (moveOnX != 0) (moveOnX > 0) ? traX = traMove : traX = -traMove;\n			if (moveOnY != 0)	(moveOnY > 0) ? traY = traMove : traY = -traMove;	\n			camera.traX = moveOnX * camera.worldZoomLevel;//traX;\n			camera.traY = moveOnY * camera.worldZoomLevel;//traY;		\n			camera.applyChanges();	\n			camera.pageX = event.pageX;				\n			camera.pageY = event.pageY;				\n			// camera.draw(camera);				\n		}\n		\n		camera.draw();\n	});			\n}\n\n// set mouse wheel\nfunction setMouseWheel(mainScreen){\n	// on mouse wheel\n	mainScreen.bind('mousewheel', function(event, delta) {		\n		//console.log('delta', delta, event);\n		// setInterval(function (){\n		if (delta > 0) {\n			camera.zoomFactor = 0.90;\n		} \n		else {\n			camera.zoomFactor = 1.10;\n		};\n		// limit the zoom\n		if (camera.worldZoomLevel * camera.zoomFactor <= camera.zoomFactorLimit.min){\n			camera.zoomFactor = 1;\n			camera.worldZoomLevel = camera.zoomFactorLimit.min;\n		}			\n		if (camera.worldZoomLevel * camera.zoomFactor >= camera.zoomFactorLimit.max){\n			camera.zoomFactor = 1;\n			camera.worldZoomLevel = camera.zoomFactorLimit.max;\n			if (camera.translateX > 0) camera.traX -= 100;\n			if (camera.translateY > 0) camera.traY -= 100;\n		}\n		// get the latest project zoom\n		var projectionZoom = camera.worldZoomLevel * camera.zoomFactor;\n		var newScaledWidthX = projectionZoom * camera.worldInitX * camera.mousePourcentagePosition.x;\n		var newScaledWidthY = projectionZoom * camera.worldInitY * camera.mousePourcentagePosition.y;\n		// calcul the new size and prepare translation in order to focus on the mouse pointer\n		var tX = newScaledWidthX - camera.mousePourcentagePosition.x *  camera.worldZoomLevel * camera.worldInitX;\n		var tY = newScaledWidthY - camera.mousePourcentagePosition.y *  camera.worldZoomLevel * camera.worldInitY;\n		camera.traX -= tX;\n		camera.traY -= tY;\n		camera.applyChanges();\n		return false;\n	});		\n}\n\n// set mouse up\nfunction setMouseUp(mainScreen){\n	// when mouse click in released\n	mainScreen.mouseup( function (event) {\n		camera.mouseDown = false;\n		$(this).css('cursor', 'default');\n	});	\n}\n\n\nfunction getSimpleValue(v){\n	return (v + \"\").substring(0, 8);\n}\n\n",
+			"file": "/T/Lib/canvas/camera.js",
+			"file_size": 21285,
+			"file_write_time": 129761234943920000,
+			"settings":
+			{
+				"buffer_size": 20656,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "webdesigner/handmade/entreprise/entreprise.js",
+			"settings":
+			{
+				"buffer_size": 2466,
 				"line_ending": "Windows"
 			}
 		}
@@ -397,6 +432,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tooltip-me",
+			"Impossible de charger",
+			"impossible de charger",
 			"_guide",
 			"Guide",
 			"Guide de modélisation",
@@ -521,10 +559,7 @@
 			"   reverseNodesDraw",
 			"createBrowseNode",
 			"createTextTab",
-			"diagramShare",
-			"diagram",
-			"diagram-zone",
-			"diagramNavigation"
+			"diagramShare"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -548,7 +583,7 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -556,15 +591,15 @@
 					"file": "webdesigner/handmade/macroprocessus/macroprocessus.js",
 					"settings":
 					{
-						"buffer_size": 7174,
+						"buffer_size": 7385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								929,
-								929
+								6045,
+								6045
 							]
 						],
 						"settings":
@@ -573,25 +608,53 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1485.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "main/home.html",
+					"file": "webdesigner/handmade/vision_metier/vision_metier.js",
 					"settings":
 					{
-						"buffer_size": 1967,
+						"buffer_size": 3542,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1248,
-								1248
+								1003,
+								1013
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main/home.html",
+					"settings":
+					{
+						"buffer_size": 1982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -605,19 +668,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "webdesigner/handmade/processus/processus.js",
 					"settings":
 					{
-						"buffer_size": 8522,
+						"buffer_size": 8573,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3706,
-								3706
+								5455,
+								5496
 							]
 						],
 						"settings":
@@ -627,13 +690,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 937.0,
+						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "js/articles.js",
 					"settings":
 					{
@@ -660,19 +723,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "webdesigner/handmade/composantapplicatif/composantapplicatif.js",
 					"settings":
 					{
-						"buffer_size": 8187,
+						"buffer_size": 8363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1244,
-								1274
+								8277,
+								8277
 							]
 						],
 						"settings":
@@ -681,25 +744,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2385.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
 					"settings":
 					{
-						"buffer_size": 3689,
+						"buffer_size": 3748,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1514,
-								1536
+								2334,
+								2334
 							]
 						],
 						"settings":
@@ -709,13 +772,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
 					"settings":
 					{
@@ -743,7 +806,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
 					"settings":
 					{
@@ -771,19 +834,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "webdesigner/handmade/fonction/fonction.js",
 					"settings":
 					{
-						"buffer_size": 1821,
+						"buffer_size": 1925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								569,
-								569
+								1550,
+								1550
 							]
 						],
 						"settings":
@@ -799,7 +862,35 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
 					"file": "js/aide.js",
 					"settings":
 					{
@@ -826,7 +917,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "main/guide.html",
 					"settings":
 					{
@@ -853,10 +944,10 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"settings":
 					{
-						"buffer_size": 17770,
+						"buffer_size": 58547,
 						"regions":
 						{
 							"match":
@@ -1207,6 +1298,526 @@
 									[
 										17611,
 										17617
+									],
+									[
+										17954,
+										17975
+									],
+									[
+										18210,
+										18231
+									],
+									[
+										18411,
+										18432
+									],
+									[
+										18595,
+										18616
+									],
+									[
+										18902,
+										18923
+									],
+									[
+										19158,
+										19179
+									],
+									[
+										19359,
+										19380
+									],
+									[
+										19543,
+										19564
+									],
+									[
+										19850,
+										19871
+									],
+									[
+										20106,
+										20127
+									],
+									[
+										20307,
+										20328
+									],
+									[
+										20491,
+										20512
+									],
+									[
+										20798,
+										20819
+									],
+									[
+										21054,
+										21075
+									],
+									[
+										21255,
+										21276
+									],
+									[
+										21439,
+										21460
+									],
+									[
+										21659,
+										21680
+									],
+									[
+										21902,
+										21912
+									],
+									[
+										22046,
+										22056
+									],
+									[
+										22153,
+										22163
+									],
+									[
+										22268,
+										22278
+									],
+									[
+										22384,
+										22394
+									],
+									[
+										22449,
+										22459
+									],
+									[
+										22546,
+										22556
+									],
+									[
+										22902,
+										22912
+									],
+									[
+										23216,
+										23226
+									],
+									[
+										23367,
+										23377
+									],
+									[
+										23614,
+										23624
+									],
+									[
+										23690,
+										23700
+									],
+									[
+										23872,
+										23882
+									],
+									[
+										24256,
+										24266
+									],
+									[
+										24683,
+										24693
+									],
+									[
+										25237,
+										25247
+									],
+									[
+										25684,
+										25694
+									],
+									[
+										26253,
+										26263
+									],
+									[
+										26680,
+										26690
+									],
+									[
+										27234,
+										27244
+									],
+									[
+										27681,
+										27691
+									],
+									[
+										28098,
+										28108
+									],
+									[
+										28242,
+										28252
+									],
+									[
+										28349,
+										28359
+									],
+									[
+										28464,
+										28474
+									],
+									[
+										28580,
+										28590
+									],
+									[
+										28645,
+										28655
+									],
+									[
+										28742,
+										28752
+									],
+									[
+										29098,
+										29108
+									],
+									[
+										29412,
+										29422
+									],
+									[
+										29563,
+										29573
+									],
+									[
+										29810,
+										29820
+									],
+									[
+										29886,
+										29896
+									],
+									[
+										30068,
+										30078
+									],
+									[
+										30452,
+										30462
+									],
+									[
+										30879,
+										30889
+									],
+									[
+										31433,
+										31443
+									],
+									[
+										31880,
+										31890
+									],
+									[
+										32449,
+										32459
+									],
+									[
+										32876,
+										32886
+									],
+									[
+										33430,
+										33440
+									],
+									[
+										33877,
+										33887
+									],
+									[
+										34418,
+										34428
+									],
+									[
+										34640,
+										34650
+									],
+									[
+										34723,
+										34733
+									],
+									[
+										35121,
+										35131
+									],
+									[
+										35399,
+										35409
+									],
+									[
+										35482,
+										35492
+									],
+									[
+										35818,
+										35828
+									],
+									[
+										36141,
+										36151
+									],
+									[
+										36184,
+										36194
+									],
+									[
+										36498,
+										36508
+									],
+									[
+										36822,
+										36832
+									],
+									[
+										37347,
+										37357
+									],
+									[
+										37746,
+										37756
+									],
+									[
+										38191,
+										38201
+									],
+									[
+										38601,
+										38611
+									],
+									[
+										38969,
+										38979
+									],
+									[
+										39434,
+										39444
+									],
+									[
+										39871,
+										39881
+									],
+									[
+										40289,
+										40299
+									],
+									[
+										40639,
+										40649
+									],
+									[
+										40998,
+										41008
+									],
+									[
+										41407,
+										41417
+									],
+									[
+										41752,
+										41762
+									],
+									[
+										42208,
+										42218
+									],
+									[
+										42542,
+										42552
+									],
+									[
+										42649,
+										42659
+									],
+									[
+										42764,
+										42774
+									],
+									[
+										42880,
+										42890
+									],
+									[
+										42945,
+										42955
+									],
+									[
+										43042,
+										43052
+									],
+									[
+										43327,
+										43337
+									],
+									[
+										43708,
+										43718
+									],
+									[
+										44252,
+										44262
+									],
+									[
+										44431,
+										44441
+									],
+									[
+										44851,
+										44861
+									],
+									[
+										45002,
+										45012
+									],
+									[
+										45249,
+										45259
+									],
+									[
+										45325,
+										45335
+									],
+									[
+										45706,
+										45716
+									],
+									[
+										46412,
+										46422
+									],
+									[
+										46912,
+										46922
+									],
+									[
+										47311,
+										47321
+									],
+									[
+										47738,
+										47748
+									],
+									[
+										48292,
+										48302
+									],
+									[
+										48739,
+										48749
+									],
+									[
+										49308,
+										49318
+									],
+									[
+										49735,
+										49745
+									],
+									[
+										50289,
+										50299
+									],
+									[
+										50736,
+										50746
+									],
+									[
+										51292,
+										51302
+									],
+									[
+										51514,
+										51524
+									],
+									[
+										51597,
+										51607
+									],
+									[
+										52010,
+										52020
+									],
+									[
+										52288,
+										52298
+									],
+									[
+										52371,
+										52381
+									],
+									[
+										52707,
+										52717
+									],
+									[
+										53030,
+										53040
+									],
+									[
+										53073,
+										53083
+									],
+									[
+										53387,
+										53397
+									],
+									[
+										53711,
+										53721
+									],
+									[
+										54245,
+										54255
+									],
+									[
+										54644,
+										54654
+									],
+									[
+										55110,
+										55120
+									],
+									[
+										55478,
+										55488
+									],
+									[
+										55958,
+										55968
+									],
+									[
+										56391,
+										56401
+									],
+									[
+										56741,
+										56751
+									],
+									[
+										57100,
+										57110
+									],
+									[
+										57509,
+										57519
+									],
+									[
+										57854,
+										57864
+									],
+									[
+										58309,
+										58319
 									]
 								],
 								"scope": ""
@@ -1215,14 +1826,14 @@
 						"selection":
 						[
 							[
-								16172,
-								16172
+								28003,
+								28003
 							]
 						],
 						"settings":
 						{
 							"detect_indentation": false,
-							"output_tag": 3,
+							"output_tag": 9,
 							"result_base_dir": "",
 							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
 							"result_line_regex": "^ +([0-9]+):",
@@ -1230,13 +1841,13 @@
 							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5235.0,
+						"translation.y": 10875.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "main/guide2",
 					"settings":
 					{
@@ -1263,7 +1874,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "webdesigner/handmade/menu/menu.js",
 					"settings":
 					{
@@ -1283,13 +1894,13 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 412.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "main/guide2.html",
 					"settings":
 					{
@@ -1316,7 +1927,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "js/guide/guide2.js",
 					"settings":
 					{
@@ -1343,7 +1954,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 18,
 					"file": "js/home.js",
 					"settings":
 					{
@@ -1365,6 +1976,59 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/T/Lib/canvas/camera.js",
+					"settings":
+					{
+						"buffer_size": 20656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3438,
+								3438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1936.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "webdesigner/handmade/entreprise/entreprise.js",
+					"settings":
+					{
+						"buffer_size": 2466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1225,
+								1225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -38,7 +38,7 @@ function drawItem_fonction(output, fonction){
          output.push ("<ul class=''>");
         output.push ("<li class='icone'><span  class='title-h3'>",'Activités',"</span></li>");
         _.each(fonction.activite, function(activite){
-         output.push("<li class='act ui-corner-all'><span class ='text'>"+activite.nomderemplacement,"</span>","</li>");
+         output.push('<li class="act ui-corner-all "><div class=" tooltip-me " title="',activite.description,'">'+activite.nomderemplacement,'</div>','</li>');
        });
          output.push("</ul>");
 
@@ -46,7 +46,11 @@ function drawItem_fonction(output, fonction){
 	output.push("<ul class=''>");
 	output.push ("<li class='icone'><span  class='title-h3'>",'Applications',"</span></li>");      			
 		_.each(fonction.app, function(app){		
-        output.push("<li class='app ui-corner-all'><span class='text'>"+app.name,"</span>","</li>");
+
+        output.push("<li class='app ui-corner-all'>");
+        output.push("<a href='",app.unique_page_link_id,"'>",app.name,"</a>");
+
+        output.push("</li>");
 	});
 	output.push("</ul>");
     

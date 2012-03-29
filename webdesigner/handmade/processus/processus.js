@@ -13,12 +13,14 @@ function draw_processus(processus){
       var bc = "<a href='vision_metier.html'>Vision Metier</a>";
       activeSubMenu(menu + '_' + entreprise.object_id);      
     } else {
-      openMenu('menu_savoir_plus');
+      if(entreprise.object_id == '22')
+           openMenu('menu_savoir_plus');
       activeSubMenu('menu_savoir_plus_Gouvernance');
       var bc = "<a href='aide.html'>En savoir plus</a>";
       bc += ' > ' + "<a href='entreprise.html?21'>Gouvernance</a>";
       
     }
+
 
     bc += ' > ' + "Processus: " + processus.nomderemplacement;  
     updateBreadCrumbPage(bc);  
@@ -34,7 +36,7 @@ function draw_processus(processus){
       output.push('<ul>');   
         createTextTab(output, 'tabs-details', 'Fiche Processus', 'info');
         //"ACTIVITÉ"
-        createDiagramTab(output, processus, "M3.1", savedDiagrams, "Décomposition en activités", []);
+        createDiagramTab(output, processus, "M3.1", savedDiagrams, "Décomposition en activités", ["PROCESSUS"]);
         //createDiagramTab(output, mp, "M2.1", savedDiagrams, "Diagramme du MacroProcessus", []);
         createTextTab(output, 'tabs-vision', 'Vision applicative des processus', 'info');
          createTextTab(output, 'tab-contact', "Contact", 'pencil');
@@ -94,7 +96,9 @@ function draw_processus(processus){
           output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>","</span>","</li>");  
           output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
         }
-        
+         else {
+    output.push('non renseigné');
+  }
          
     });
  
@@ -148,7 +152,7 @@ function createProcessusVisionContent(output, processus){
       output.push("</ul></li>");
       output.push("</ul>");
        }
-   if (processus.activite.length <= 0) {
+       else {
     output.push('non renseigné');
   }
 }
@@ -168,9 +172,9 @@ function createProcessusDetailsContent(output, processus){
     output.push('<li class="activ">');
       output.push('<ul class="activ ">');
         _.each(processus.activite, function(activite){
-          output.push('<li class="act ui-corner-all "><div class="app tooltip-me "  title="',activite.description,'">',activite.nomderemplacement,'</div>');
-          output.push("</li>");
-        });
+      output.push('<li class="act ui-corner-all "><div class=" tooltip-me " title="',activite.description,'">'+activite.nomderemplacement,'</div>','</li>');
+       });
+         
       output.push('</ul>');
     output.push("</li>");
   }

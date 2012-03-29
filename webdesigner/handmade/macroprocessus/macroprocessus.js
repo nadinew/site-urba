@@ -36,7 +36,7 @@ function draw_macroprocessus(macroprocessus){
 
        
         createTextTab(output, 'tabs-macro', 'Macro processus', 'info');
-         createDiagramTab(output, macroprocessus, "M2.1", savedDiagrams, "Diagramme du Macro Processus", []);
+         createDiagramTab(output, macroprocessus, "M2.1", savedDiagrams, "Diagramme du Macro Processus", ["PROCESSUS","MACROPROCESSUS"]);
           createTextTab(output, 'tab-contact', "Contact", 'pencil');
                output.push('</ul>');
 
@@ -48,10 +48,12 @@ function draw_macroprocessus(macroprocessus){
 		addTitle(output, 'Description');
 		output.push("<li>");	
 		output.push('<div class="description">',macroprocessus.description, '</div>')
-		output.push("</li>");
+		output.push("</li>");}
+		else{
+			output.push('non renseigné')
+			output.push('</br>')
+		}
 		 	
-}
-
 			if (macroprocessus.processus.length > 0){
 			addTitle(output, 'Processus');
 			output.push('<ul class="macroprocessus ',mpTypeToCSS(macroprocessus.type), ' ">')
@@ -64,8 +66,14 @@ function draw_macroprocessus(macroprocessus){
 			output.push('</ul>');
 		
 			}
+			else{
+			output.push('non renseigné')
+			output.push('</br>')
+		}
 		
 		         }, null);
+
+
 		         createDiagramTabContent(output, macroprocessus, "M2.1");
          
 
@@ -114,6 +122,9 @@ function draw_macroprocessus(macroprocessus){
           output.push("<li><span  class='title-h3'>",'Courriel:',"<a href='mailto:bernard.baudin@laposte.fr'>bernard.baudin@laposte.fr</a>","</span>","</li>");  
           output.push("<li><span  class='title-h3'>",' Tél: ',"</span>","<span class ='text'></span>","</li>");           
         }
+      else{
+		output.push('non renseigné')
+	}
 
         }, null);
          

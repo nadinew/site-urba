@@ -129,7 +129,7 @@ function createContent(output, composantapplicatif, savedDiagrams){
 	// création des détails
 	createTextTabContent(output, 'tabs-fonctions', function(output){
 		//output.push("<div class='title-center'  >",'Vision Fonctionnelle:' , composantapplicatif.name , "</div>");   
-
+if (composantapplicatif.fonctions.length > 0){
 		var r_fonc_domainefonc = createBrowseNode('domainefonc', 'Domaine Fonctionnel', 'nomderemplacement', []);
 		var r_fonc_zone = createBrowseNode('zones', 'Zone', 'nomderemplacement', [r_fonc_domainefonc]);
 		var r_fonc_quartier = createBrowseNode('quartiers', 'Quartier', 'nomderemplacement', [r_fonc_zone]);
@@ -137,13 +137,16 @@ function createContent(output, composantapplicatif, savedDiagrams){
 		var r_fonc_fonctions = createBrowseNode('fonctions', 'Fonction', 'nomderemplacement', [r_fonc_ilot]);
 		var r_fonc_view_app_rule = createBrowseNode('application', 'Application', 'nomderemplacement', [r_fonc_fonctions]);
 		reverseNodesDraw(output, composantapplicatif, r_fonc_view_app_rule);
+	}
+	else
+	{output.push('non renseigné')}
 	}, null);
 
 	createTextTabContent(output, 'tabs-metier', function(output){
 		
 		//output.push("<div class='title-center'  >",'Vision Metier:' , composantapplicatif.name , "</div>"); 
 
-
+if (composantapplicatif.fonctions.length > 0){
 		var r_process_domainemetier = createBrowseNode('domainemetier', 'Domaine Métier', 'nomderemplacement', []);
 		var r_process_mp = createBrowseNode('macroprocessus', 'Macro Processus', 'nomderemplacement', [r_process_domainemetier]);
 		var r_process_p = createBrowseNode('processus_app', 'Processus', 'nomderemplacement', [r_process_mp]);
@@ -152,7 +155,12 @@ function createContent(output, composantapplicatif, savedDiagrams){
 		var r_process_view_app_rule = createBrowseNode('application', 'Application', 'nomderemplacement', [r_process_fonctions]);
 		reverseNodesDraw(output, composantapplicatif, r_process_view_app_rule);
 
-	}, null);
+	}
+else
+	{output.push('non renseigné')}
+	}
+
+	, null);
 
 	$.each(composantapplicatif.sa, function(i, sa){      
 		createDiagramTabContent(output, sa, "A1");

@@ -21,8 +21,9 @@ function draw_systèmeapplicatif(systèmeapplicatif){
       // création des titres
       output.push('<ul>');   
         createTextTab(output, 'tabs-details', 'Fiche Système Applicatif', 'info');
-        createDiagramTab(output, systèmeapplicatif, "A1", savedDiagrams, "Echange Inter Système Applicatif", ["SYSTÈMEAPPLICATIF", "COMPOSANTAPPLICATIF"]);
-        createDiagramTab(output, systèmeapplicatif, "F2.2", savedDiagrams, "Architecture >>Systèmes Applicatifs par Domaine Fonctionnel", []);
+        //["SYSTÈMEAPPLICATIF", "COMPOSANTAPPLICATIF"]
+        createDiagramTab(output, systèmeapplicatif, "A1", savedDiagrams, "Echange Inter Système Applicatif", ["COMPOSANTAPPLICATIF", "SYSTÈMEAPPLICATIF"]);
+        //createDiagramTab(output, systèmeapplicatif, "F2.2", savedDiagrams, "Architecture >>Systèmes Applicatifs par Domaine Fonctionnel", []);
        
       output.push('</ul>');
 
@@ -33,7 +34,7 @@ function draw_systèmeapplicatif(systèmeapplicatif){
       
 
       createDiagramTabContent(output, systèmeapplicatif, "A1");    
-      createDiagramTabContent(output, systèmeapplicatif, "F2.2");   
+      //createDiagramTabContent(output, systèmeapplicatif, "F2.2");   
 
       output.push('</div>');
      

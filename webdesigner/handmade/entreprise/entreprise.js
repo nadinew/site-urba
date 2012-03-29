@@ -40,7 +40,7 @@ function draw_entreprise(entreprise){
       // création des titres
       output.push('<ul>');   
     
-        createDiagramTab(output, entreprise, "M1", savedDiagrams, "Vue d'ensemble du domaine Métier", []);
+        createDiagramTab(output, entreprise, "M1", savedDiagrams, "Vue d'ensemble du domaine Métier", ["MACROPROCESSUS"]);
         createTextTab(output, 'tabs-macro', 'Macro processus', 'info');
          output.push('</ul>');
 
