@@ -187,4 +187,5 @@ function createProcessusDetailsContent(output, processus){
 
   addDiagrams(output, processus);
   addHelpForPage("processus");
+ 
 }

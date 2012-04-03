@@ -137,6 +137,7 @@ function draw_macroprocessus(macroprocessus){
     $(".ui-tabs-nav span").removeClass('ui-icon');
     $(".ui-tabs-nav span").addClass('ui-icon1');
         addHelpForPage("macro");
+
 	});
 }
 

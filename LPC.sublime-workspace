@@ -95,7 +95,23 @@
 			"file": "webdesigner/handmade/vision_metier/vision_metier.js",
 			"settings":
 			{
-				"buffer_size": 3542,
+				"buffer_size": 3532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/W/SiteUrba/webdesigner/handmade/vision_metier/vision_metier.js",
+			"settings":
+			{
+				"buffer_size": 3506,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/W/SiteUrba/webdesigner/handmade/composantapplicatif/composantapplicatif.js",
+			"settings":
+			{
+				"buffer_size": 8393,
 				"line_ending": "Windows"
 			}
 		},
@@ -127,7 +143,7 @@
 			"file": "webdesigner/handmade/composantapplicatif/composantapplicatif.js",
 			"settings":
 			{
-				"buffer_size": 8363,
+				"buffer_size": 8393,
 				"line_ending": "Windows"
 			}
 		},
@@ -256,6 +272,22 @@
 			"settings":
 			{
 				"buffer_size": 2466,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 12207,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/W/SiteUrba/js/main.js",
+			"settings":
+			{
+				"buffer_size": 12206,
 				"line_ending": "Windows"
 			}
 		}
@@ -419,7 +451,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 88.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"",
@@ -583,7 +615,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 23,
 			"sheets":
 			[
 				{
@@ -618,15 +650,15 @@
 					"file": "webdesigner/handmade/vision_metier/vision_metier.js",
 					"settings":
 					{
-						"buffer_size": 3542,
+						"buffer_size": 3532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1003,
-								1013
+								3409,
+								3409
 							]
 						],
 						"settings":
@@ -636,13 +668,68 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "/W/SiteUrba/webdesigner/handmade/vision_metier/vision_metier.js",
+					"settings":
+					{
+						"buffer_size": 3506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2734,
+								2734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/W/SiteUrba/webdesigner/handmade/composantapplicatif/composantapplicatif.js",
+					"settings":
+					{
+						"buffer_size": 8393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1292,
+								1292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "main/home.html",
 					"settings":
 					{
@@ -668,7 +755,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "webdesigner/handmade/processus/processus.js",
 					"settings":
 					{
@@ -696,7 +783,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "js/articles.js",
 					"settings":
 					{
@@ -723,19 +810,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "webdesigner/handmade/composantapplicatif/composantapplicatif.js",
 					"settings":
 					{
-						"buffer_size": 8363,
+						"buffer_size": 8393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8277,
-								8277
+								1301,
+								1301
 							]
 						],
 						"settings":
@@ -744,13 +831,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2385.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "webdesigner/handmade/systèmeapplicatif/systèmeapplicatif.js",
 					"settings":
 					{
@@ -778,7 +865,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "webdesigner/handmade/vision_fonctionnelle/vision_fonctionnelle.js",
 					"settings":
 					{
@@ -806,7 +893,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "webdesigner/handmade/domainefonctionnel/domainefonctionnel.js",
 					"settings":
 					{
@@ -834,7 +921,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "webdesigner/handmade/fonction/fonction.js",
 					"settings":
 					{
@@ -862,7 +949,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "index.html",
 					"settings":
 					{
@@ -890,7 +977,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "js/aide.js",
 					"settings":
 					{
@@ -917,7 +1004,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "main/guide.html",
 					"settings":
 					{
@@ -944,7 +1031,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"settings":
 					{
 						"buffer_size": 58547,
@@ -1847,7 +1934,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "main/guide2",
 					"settings":
 					{
@@ -1874,7 +1961,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "webdesigner/handmade/menu/menu.js",
 					"settings":
 					{
@@ -1900,7 +1987,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 18,
 					"file": "main/guide2.html",
 					"settings":
 					{
@@ -1927,7 +2014,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 19,
 					"file": "js/guide/guide2.js",
 					"settings":
 					{
@@ -1954,7 +2041,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 20,
 					"file": "js/home.js",
 					"settings":
 					{
@@ -1981,7 +2068,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 21,
 					"file": "/T/Lib/canvas/camera.js",
 					"settings":
 					{
@@ -2008,7 +2095,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 22,
 					"file": "webdesigner/handmade/entreprise/entreprise.js",
 					"settings":
 					{
@@ -2029,6 +2116,62 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 12207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2355,
+								2355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 559.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/W/SiteUrba/js/main.js",
+					"settings":
+					{
+						"buffer_size": 12206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2344,
+								2344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

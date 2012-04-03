@@ -66,6 +66,7 @@ function draw_entreprise(entreprise){
     $(".ui-tabs-nav span").removeClass('ui-icon');
     $(".ui-tabs-nav span").addClass('ui-icon1');
         addHelpForPage("entreprise");
+ 
 	});
 }
 

@@ -35,6 +35,7 @@ function draw_composantapplicatif(composantapplicatif){
 		$("li.fonctions li.application").hide();
 		$("ul.border").addClass("ui-corner-all");
 		addHelpForPage("application");
+		addHelpForPage1("echange");
 	});
 }
 
